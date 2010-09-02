@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="482.46582"
+   height="383.91797"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/rob/dev-git/rules/images"
+   sodipodi:docname="zone.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/rob/zone.png"
+   inkscape:export-xdpi="231"
+   inkscape:export-ydpi="231">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path4171"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4168"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="206.5782"
+     inkscape:cy="282.1466"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="723"
+     inkscape:window-x="0"
+     inkscape:window-y="27">
+    <sodipodi:guide
+       orientation="vertical"
+       position="498.30357"
+       id="guide3134" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="316.68282"
+       id="guide3136" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="214.28571"
+       id="guide3138" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="580.71429"
+       id="guide3140" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="450"
+       id="guide3142" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="362.14286"
+       id="guide3144" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="178.797"
+       id="guide3166" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="160.61425"
+       id="guide3168" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-90.993156,-426.61414)">
+    <g
+       id="g8307">
+      <path
+         id="path2160"
+         d="M 536.61439,469.31919 L 212.67129,469.31919 L 212.67129,791.83372"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccccc"
+         id="path3146"
+         d="M 214.28571,735.67936 C 214.28571,735.67936 214.28571,754.36718 214.28571,754.36718 L 498.30357,754.36718 L 498.30357,471.64789 L 450,471.64789 L 450,709.50503 L 214.28571,708.79075 L 214.28571,735.67936"
+         style="fill:#5655ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         id="text5344"
+         y="554.86218"
+         x="342.14288"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="554.86218"
+           x="342.14288"
+           id="tspan5346"
+           sodipodi:role="line">45mm</tspan><tspan
+           id="tspan5352"
+           y="569.86218"
+           x="342.14288"
+           sodipodi:role="line">(1x token width)</tspan></text>
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="M 214.5059,655.37752 L 214.516,630.06748 L 373.02825,471.55523 L 398.30696,471.57646 L 214.5059,655.37752 z "
+         style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path3181" />
+      <path
+         sodipodi:nodetypes="ccc"
+         id="path3194"
+         d="M 203.23458,556.30127 L 181.01424,452.99749 L 231.11781,463.94832"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend);stroke-opacity:1" />
+      <text
+         id="text4365"
+         y="453.0387"
+         x="104.93567"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="453.0387"
+           x="104.93567"
+           id="tspan4367"
+           sodipodi:role="line">Arena Walls</tspan></text>
+      <path
+         id="path4369"
+         d="M 342.56079,787.82129 L 329.04636,735.56029"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path4371"
+         d="M 199.40115,754.36718 L 199.40115,709.92047"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lend);marker-end:url(#Arrow1Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path4373"
+         d="M 324.10714,544.86218 L 312.05357,532.80861"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lend);marker-end:url(#Arrow1Lstart);stroke-opacity:1" />
+      <text
+         id="text5348"
+         y="727.09735"
+         x="194.79962"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="727.09735"
+           x="194.79962"
+           id="tspan5350"
+           sodipodi:role="line">135mm</tspan><tspan
+           id="tspan6339"
+           y="742.09735"
+           x="194.79962"
+           sodipodi:role="line">(3x token width)</tspan></text>
+      <text
+         id="text5354"
+         y="801.08673"
+         x="342.69424"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="801.08673"
+           x="342.69424"
+           id="tspan5356"
+           sodipodi:role="line">Zone Border</tspan></text>
+      <path
+         id="path5358"
+         d="M 160.61425,624.0575 L 247.48737,547.28591"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Lend);stroke-opacity:1" />
+      <text
+         id="text5360"
+         y="637.36218"
+         x="89.815422"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="637.36218"
+           x="89.815422"
+           id="tspan5362"
+           sodipodi:role="line">Bonus Zone</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         id="path5364"
+         d="M 198.61359,709.01133 L 215.53135,709.01133"
+         style="fill:none;fill-rule:evenodd;stroke:#b1b1b1;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.6, 1.2;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path5366"
+         d="M 198.30357,754.1399 L 214.68535,754.1399"
+         style="fill:none;fill-rule:evenodd;stroke:#a2a2a2;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.6, 1.2;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path5368"
+         d="M 214.5753,446.37167 L 496.59978,446.37167"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.99338162;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:url(#Arrow1Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path7310"
+         d="M 553,752.42279 L 553,472.64085"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.98590505;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:url(#Arrow1Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text7324"
+         y="435.36218"
+         x="342"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="435.36218"
+           x="342"
+           id="tspan7326"
+           sodipodi:role="line">1.5m</tspan></text>
+      <text
+         transform="matrix(0,1,-1,0,0,0)"
+         id="text7328"
+         y="-564.71094"
+         x="594.82898"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="-564.71094"
+           x="594.82898"
+           id="tspan7330"
+           sodipodi:role="line">1.5m</tspan></text>
+      <path
+         id="path7332"
+         d="M 498.30357,803.36218 L 400,656.36218"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Lend);stroke-opacity:1" />
+      <text
+         id="text8303"
+         y="810.36218"
+         x="508"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="810.36218"
+           x="508"
+           id="tspan8305"
+           sodipodi:role="line">Main Zone</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       d="M 217.99316,478.53211 L 363.49316,478.53211"
+       id="path2201" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="274.4718"
+       y="491.84927"
+       id="text3174"><tspan
+         sodipodi:role="line"
+         id="tspan3176"
+         x="274.4718"
+         y="491.84927">1m</tspan></text>
+  </g>
+</svg>

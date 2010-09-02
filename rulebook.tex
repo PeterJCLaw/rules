@@ -1,0 +1,35 @@
+\documentclass[a4paper, 12pt]{article}
+
+%\usepackage{savetrees}
+\usepackage{graphicx}
+
+\title {Student Robotics 2010\\ Rulebook}
+\date{\today}
+\setcounter{tocdepth}{1}
+
+
+\begin {document}
+
+\maketitle
+
+\noindent The following defines the rules and regulations of the Student Robotics 2010 competition.
+
+\newcounter{rule}[section]
+\newcommand{\rcn}{\stepcounter{rule}\arabic{section}.\arabic{rule}}
+\renewcommand{\labelenumi}{\rcn}
+
+\input {game-rules}
+\newpage
+\input {regs}
+\newpage
+\input {specs}
+
+\section{Change log}
+The following changes have been made to the rules since their initial release:
+\begin{description}
+\item [2010/03/20] Figure \ref{fig:ramp-dim} was changed to a more accurate image, with more sizes on it.
+ Change the width of the gaffer tape in Rule 3.2.1 to $60mm$ to match the diagram.
+\item [2009/10/06] Rule 2.10 was changed from ``Robots must have a flagpole attached'' to ``Robots \emph{may} have a flagpole attached''.
+\end{description}
+
+\end {document}
