@@ -2,19 +2,34 @@
 \label{game-rules}
 
 \begin{enumerate}
-\item The game that will be played is called \textbf{QuacMan}.  The aim of the game is for robots to collect as many tokens and ducks as possible.
-\item The arena will contain 46 tokens.  They will be arranged in a grid, as shown in figure~\ref{fig:token-arrangement}.  8 of these tokens will be blue\footnote{In the event of tie-breaks (or if the judges get bored), the number of blue tokens in the arena may be increased (and the number of red reduced).}, and the rest will be red.  The arrangement of token colours will be random.
-\item There will be a ramp in the middle of the arena.  There is a plastic duck at the top of the ramp.
+\item The game that will be played is called \textbf{Supermarket Sweep}.
+\item The arena will contain 9 tokens (8 around the track, and 1 on the ramp).  They will be arranged randomly, with 2 on each side as shown in figure~\ref{fig:arena-dim}.  The token on the ramp --- also know as the ``\textbf{super token}'' --- will be distiguishable by a human only (by some marking on top).
 \item Teams will be assigned a corner of the arena that their robot will start the game in.  The robot must be placed within 100mm of both of the arena walls.
-\item At the end of a match, after all tokens have settled, a team's ``\textbf{game points}'' will be counted.
+\item At the end of a match, after all tokens have settled, a team's ``\textbf{game points}'' will be calculated.
  These are used to rank teams before competition league points are awarded.
-\item A token or duck will be considered to have been collected by a robot if, at the end of the game, that token or duck is supported by a robot.  Tokens or ducks touching the floor or walls of the arena or ramp will not be counted.
+\item A token will be considered to have been collected by a robot if, at the end of the game, that token is supported by a robot.  Tokens touching the floor or walls of the arena or ramp will not be counted.
+
+\item The arena is considered to be split into quadrants, with the boudary lines going from corner to corner (see figure~\ref{fig:quadrants}).
+
+\begin{figure}
+\begin{center}
+  \includegraphics[keepaspectratio, clip, width=0.5\textwidth]{./images/quadrants.pdf}
+  \caption{\label{fig:quadrants}The arena split into quadrants. Note that the lines won't actually exist, they are just there to illustrate.}
+\end{center}
+\end{figure}
+
+\item Robots must travel in an anti-clockwise direction to gain any points.
 
 \item Game points are awarded as follows:
+
 \begin{itemize}
-\item Red tokens collected are worth 1 game point.
-\item Blue tokens collected are worth -5 game points.
-\item The duck is worth 100 game points.
+\item When a robot moves from its starting position, \textbf{1 point} is awarded.
+\item When a robot enters a new quadrant\footnote{The back of the robot be beyond the imaginary quadrant line.}, \textbf{2 points} are awarded.
+\item When a robot carries any token (that includes the super token) over a quadrant boundary, \textbf{1 point} is awarded.
+\item When the back of a robot passes the top of the upward-sloping section of the ramp, \textbf{3 points} are awarded.
+\item When the back of a robot passed the bottom of the downward-sloping section of the ramp, \textbf{3 points} are awarded.
+\item When a robot ends the game holding\footnote{To find out if a robot is holding a token, it will be lifted clear of any arena surfaces that may be holding it in.} a normal token, \textbf{2 points} are awarded.
+\item When a robot ends the game holding the super token, the \textbf{total score} for that game will be \textbf{doubled}.
 \end{itemize}
 
 \item At the end of a game, the team with the \emph{most} game points is awarded 4 points towards the competition league.
@@ -24,7 +39,6 @@
 
 \item There will be a maximum of 4 robots in a match.
 \item A match lasts 180 seconds.
-\item Matches are started and stopped by the Student Robotics radio system\footnote{The Student Robotics radio system is supplied as part of the kit.
- It is part of the power board, and is used for safety cut-off, start-match and stop-match signals.}.
+\item Matches are started and stopped by the Student Robotics Infrared system\footnote{The Student Robotics Infrared system is supplied as part of the kit. It is part of the power board, and is used for safety cut-off, start-match and stop-match signals.}.
 \item Teams that do not present their robot promptly for a match will forfeit that match.
 \end{enumerate}
