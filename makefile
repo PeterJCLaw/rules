@@ -4,7 +4,7 @@ TARGETS :=
 CLEAN :=
 include */include.mk
 
-rulebook.pdf: rulebook.tex game-rules.tex regs.tex specs.tex $(TARGETS)
+rulebook.pdf: rulebook.tex game-rules.tex regs.tex specs.tex kit-return.tex $(TARGETS)
 	pdflatex rulebook.tex
 	pdflatex rulebook.tex
 
