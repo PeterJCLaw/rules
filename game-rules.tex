@@ -11,24 +11,14 @@
 \item A token will be considered to have been collected by a robot if, at the end of the game, that token is supported by a robot.
  Tokens touching the floor or walls of the arena or ramp will not be counted.
 
-\item The arena is considered to be split into quadrants, with the boundary lines going from corner to corner (see \autoref{fig:quadrants}).
-
-\begin{figure}
-\begin{center}
-  \includegraphics[keepaspectratio, clip, width=0.5\textwidth]{./images/quadrants.pdf}
-  \caption{\label{fig:quadrants}The arena split into quadrants.
-           Note that the lines won't actually exist, they are just here to illustrate.}
-\end{center}
-\end{figure}
-
 \item Robots must travel in an anti-clockwise direction to gain any points.
 
 \item Game points are awarded as follows:
 
 \begin{itemize}
 \item When a robot moves from its starting position, \textbf{1 point} is awarded.
-\item When a robot enters a new quadrant\footnote{The back of the robot must be beyond the imaginary quadrant line.}, \textbf{2 points} are awarded.
-\item When a robot carries any token (that includes the super token) over a quadrant boundary, \textbf{1 point} is awarded.
+\item When the back of a robot passes a quadrant boundary defined in \autoref{sub:arena}, \textbf{2 points} are awarded.
+\item When a robot carries a token (including the super token) over a quadrant boundary, \textbf{1 point} is awarded.
 \item When the back of a robot passes the top of the upward-sloping section of the ramp, \textbf{3 points} are awarded.
 \item When the back of a robot passes the bottom of the downward-sloping section of the ramp, \textbf{3 points} are awarded.
 \item When a robot ends the game holding\footnote{To find out if a robot is holding a token, it will be lifted clear of any arena surfaces that may be supporting a token.} a normal token, \textbf{2 points} are awarded.
