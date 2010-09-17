@@ -22,6 +22,14 @@
      id="defs4">
     <inkscape:path-effect
        effect="spiro"
+       id="path-effect3058"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3054"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
        id="path-effect10290"
        is_visible="true" />
     <inkscape:path-effect
@@ -616,16 +624,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="301.11473"
-     inkscape:cy="149.16552"
+     inkscape:zoom="2"
+     inkscape:cx="330.47819"
+     inkscape:cy="110.83252"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="976"
+     inkscape:window-width="1280"
+     inkscape:window-height="950"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="24"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -943,6 +951,12 @@
          d="m 109,262.5 c 0,1.38071 -2.68629,2.5 -6,2.5 -3.313708,0 -6,-1.11929 -6,-2.5 0,-1.38071 2.686292,-2.5 6,-2.5 3.31371,0 6,1.11929 6,2.5 z"
          transform="matrix(0.61698383,0,0,0.57573593,341.28445,77.713161)" />
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.90400004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 444.16757,172.54155 51.08467,-22.62362"
+       id="path3052"
+       inkscape:path-effect="#path-effect3054"
+       inkscape:original-d="m 444.16757,172.54155 51.08467,-22.62362" />
     <path
        style="fill:#c8c8c8;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 343.54105,157.54062 -28.58758,0.11899 -42.89622,7.04998 0,0.0892 -57.97832,0 -37.83912,15.70632 0.47597,9.99493 37.12517,-17.13417 230.84238,-0.23796 37.12516,17.37213 -0.0544,-9.72976 -36.83282,-15.8822 -57.71059,-0.0892 -43.66967,-7.25823 0,-3e-5 z"
@@ -1295,11 +1309,11 @@
          id="tspan6034"
          sodipodi:role="line">8m</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.49999985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.49999999, 0.49999999;stroke-dashoffset:0"
-       d="m 482.24898,180.3654 0,-29.66963"
+       style="fill:none;stroke:#000000;stroke-width:0.56596196;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.56596209, 0.56596209;stroke-dashoffset:0"
+       d="m 482.24898,180.29509 0,-38.01429"
        id="path6060"
        inkscape:path-effect="#path-effect6062"
-       inkscape:original-d="m 482.24898,180.3654 0,-29.66963" />
+       inkscape:original-d="m 482.24898,180.29509 0,-38.01429" />
     <path
        inkscape:original-d="m 329.71101,244.79857 0,-9.53981"
        inkscape:path-effect="#path-effect6066"
@@ -1325,26 +1339,26 @@
          y="201.29799"
          style="font-size:7.61530066px">4m</tspan></text>
     <path
-       inkscape:original-d="m 534.29492,138.34209 0,-8.32264"
+       inkscape:original-d="m 534.29492,138.15675 0,-14.4927"
        inkscape:path-effect="#path-effect6822"
        id="path6820"
-       d="m 534.29492,138.34209 0,-8.32264"
-       style="fill:none;stroke:#000000;stroke-width:0.49999991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.49999999, 0.49999999;stroke-dashoffset:0" />
+       d="m 534.29492,138.15675 0,-14.4927"
+       style="fill:none;stroke:#000000;stroke-width:0.65980256;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.65980268, 0.65980268;stroke-dashoffset:0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
-       d="m 483.0408,153.22986 50.39281,-21.00581"
+       d="m 483.0408,147.22986 50.39281,-21.00581"
        id="path6832"
        inkscape:path-effect="#path-effect6834"
-       inkscape:original-d="m 483.0408,153.22986 50.39281,-21.00581" />
+       inkscape:original-d="m 483.0408,147.22986 50.39281,-21.00581" />
     <text
        id="text7580"
-       y="139.651"
+       y="133.65091"
        x="493.99966"
        style="font-size:38.07650375px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        xml:space="preserve"
        transform="scale(1.0000154,0.99998461)"><tspan
          style="font-size:7.61530066px"
-         y="139.651"
+         y="133.65091"
          x="493.99966"
          id="tspan7582"
          sodipodi:role="line">2m</tspan></text>
