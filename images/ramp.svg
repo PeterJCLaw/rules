@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.47 r22583"
-   sodipodi:docname="ramp-2011.pdf"
+   sodipodi:docname="ramp.svg"
    style="display:inline">
   <defs
      id="defs4">
@@ -382,13 +382,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="238.43731"
-     inkscape:cy="311.3547"
+     inkscape:cx="239.93731"
+     inkscape:cy="389.3547"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
-     inkscape:window-height="950"
+     inkscape:window-height="951"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1" />
@@ -400,7 +400,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -634,7 +634,7 @@
          sodipodi:role="line"
          id="tspan6631"
          x="698.34741"
-         y="333.43109">20mm</tspan></text>
+         y="333.43109">200mm</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.30499983px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 382.53747,746.46351 358.87494,0"
