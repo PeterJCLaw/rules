@@ -19,6 +19,14 @@
   <defs
      id="defs4">
     <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3773"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3769"
+       is_visible="true" />
+    <inkscape:path-effect
        effect="spiro"
        id="path-effect8854"
        is_visible="true" />
@@ -373,6 +381,20 @@
          stdDeviation="0.49470992"
          id="feGaussianBlur3700" />
     </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3869">
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:0.16403785;stroke-miterlimit:4;stroke-dasharray:0.49211356, 0.16403785;stroke-dashoffset:0"
+         id="path3871"
+         sodipodi:cx="219.75"
+         sodipodi:cy="492.25"
+         sodipodi:rx="13"
+         sodipodi:ry="13"
+         d="m 232.75,492.25 a 13,13 0 1 1 -26,0 13,13 0 1 1 26,0 z"
+         transform="matrix(6.0961539,0,0,6.0961539,-1070.3798,-2309.9903)" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -381,16 +403,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="239.93731"
-     inkscape:cy="389.3547"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="232.34578"
+     inkscape:cy="131.0411"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
-     inkscape:window-height="951"
+     inkscape:window-height="729"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="25"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -817,6 +839,78 @@
          x="623.30994"
          y="646.63104"
          style="font-weight:bold">Side View</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.76271188;stroke-miterlimit:4;stroke-dasharray:5.2881356, 1.76271187;stroke-dashoffset:0"
+       id="path2969"
+       sodipodi:cx="219.75"
+       sodipodi:cy="492.25"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 232.75,492.25 a 13,13 0 1 1 -26,0 13,13 0 1 1 26,0 z"
+       transform="matrix(0.56730769,0,0,0.56730769,258.95913,465.95922)" />
+    <g
+       id="g3807"
+       clip-path="url(#clipPath3869)">
+      <path
+         transform="translate(163,253.84143)"
+         id="path3761"
+         d="m 20.152543,465.41064 c 1.414214,0.70711 172.180497,0 172.180497,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <rect
+         transform="matrix(0.98540822,-0.17020765,0.17020765,0.98540822,0,0)"
+         y="733.52106"
+         x="154.11739"
+         height="22.324907"
+         width="97.934288"
+         id="rect3765"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         inkscape:original-d="m 263.63212,696.6377 12.72375,0"
+         inkscape:path-effect="#path-effect3769"
+         id="path3767"
+         d="m 263.63212,696.6377 12.72375,0"
+         style="fill:none;stroke:#000000;stroke-width:1.30499983;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.3049998, 1.3049998;stroke-dashoffset:0;marker-start:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#000000;stroke-width:0.65249997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+         d="m 264.41244,718.03212 0.09,-19.65714"
+         id="path3771"
+         inkscape:path-effect="#path-effect3773"
+         inkscape:original-d="m 264.41244,718.03212 0.09,-19.65714" />
+      <text
+         xml:space="preserve"
+         style="font-size:15.65999794px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="208.45074"
+         y="712.59259"
+         id="text3775"><tspan
+           sodipodi:role="line"
+           id="tspan3777"
+           x="208.45074"
+           y="712.59259">12mm</tspan></text>
+    </g>
+    <path
+       transform="matrix(6.0961539,0,0,6.0961539,-1070.3798,-2309.9903)"
+       d="m 232.75,492.25 a 13,13 0 1 1 -26,0 13,13 0 1 1 26,0 z"
+       sodipodi:ry="13"
+       sodipodi:rx="13"
+       sodipodi:cy="492.25"
+       sodipodi:cx="219.75"
+       id="path3755"
+       style="fill:none;stroke:#000000;stroke-width:0.16403785;stroke-miterlimit:4;stroke-dasharray:0.49211356, 0.16403785;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0"
+       d="M 115.75,515.75758 222.28531,498.57387"
+       id="path3757"
+       transform="translate(163,253.84143)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,1;stroke-dashoffset:0"
+       d="M 174.75,397.25 227.5,488.5"
+       id="path3759"
+       transform="translate(163,253.84143)"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:groupmode="layer"
