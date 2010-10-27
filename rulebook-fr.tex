@@ -1,0 +1,46 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage{graphicx}
+\usepackage{appendix}
+
+% hyperref and nameref so that we can have sane internal refs
+% hyperref also helps with pdf index creation
+\usepackage[linkcolor={blue},citecolor={blue},urlcolor={red}]{hyperref}
+\usepackage{nameref}
+
+% Set to false for black/white printing
+\hypersetup{colorlinks=true}
+
+\title {Student Robotics 2011\\ Règlement}
+\date{\today}
+\setcounter{tocdepth}{1}
+
+\begin {document}
+\maketitle
+
+\noindent Ce qui suit définit les règles du concours 2011 de Student Robotics.
+
+\newcounter{rule}[section]
+\newcommand{\rcn}{\stepcounter{rule}\arabic{section}.\arabic{rule}}
+\renewcommand{\labelenumi}{\rcn}
+
+\input {game-rules}
+\newpage
+\input {regs}
+\newpage
+\input {specs}
+\newpage
+\input {awards}
+
+\renewcommand{\labelenumi}{\rcn}
+
+\section{Clarifications}
+Requêtes de clarification des règles peuvent être envoyées à \href{mailto:info@studentrobotics.org}{\nolinkurl{info@studentrobotics.org}}. Requêtes qui sont reçues en moins d'un mois avant le concours sont peu probables d'être adressées.
+Les modifications suivantes ont été apportées aux règles depuis leurs diffusion initiale.
+
+\newpage
+\appendix
+\appendixpage
+\addappheadtotoc
+\input {kit-return}
+
+\end {document}
