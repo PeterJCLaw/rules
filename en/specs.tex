@@ -5,6 +5,29 @@
 \newcommand{\rcnii}{\stepcounter{rulei}\arabic{section}.\arabic{subsection}.\arabic{rulei}}
 \renewcommand{\labelenumi}{\rcnii}
 
+\subsection{Markers}
+\label{sub:markers}
+The arena, tokens, buckets, and robots involved in the game are labelled with \textit{libkoki} markers.  Each marker pattern encodes a number.  Each marker number is associated with a particular feature within the arena, and also has an associated size.  The marker numbers and sizes are as follows:
+
+\begin{center}
+  \begin{tabular}{lll}
+    \toprule
+    \textbf{Item} & \textbf{Marker Numbers} & \textbf{Marker Size (mm)} \\
+    \midrule
+    Arena boundary & 0 -- 27 & TODO \\
+    Robots & 28 -- 31 & TODO \\
+    Tokens & 32 -- 71 & TODO \\
+    Bucket side & 72 -- 75 & TODO \\
+    Bucket end & 76 -- 79 & TODO \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+The markers can be printed on a black-and-white printer.  It is important to ensure that 
+Marker designs can be downloaded from the Student Robotics website.
+
+
+
 \subsection{Arena}
 \label{sub:arena}
 \begin{enumerate}
@@ -12,8 +35,8 @@
  The tolerance of these two dimensions is $\pm0.25m$.
 
 \begin{figure}
-  \includegraphics[keepaspectratio, clip, width=\textwidth]{./images/arena.pdf}
-  \caption{\label{fig:arena-dim}An overview of the arena, including baked bean tin tokens.}
+  TODO: Arena diagram
+  \caption{\label{fig:arena-dim}A bird's-eye view of the arena.}
 \end{figure}
 
 \item The width of the track is $2\pm0.1m$.
@@ -28,5 +51,7 @@
 \emph{Each team's kit contains four of these.}
 \item Tokens have a mass of $475\pm30g$.
 \end {enumerate}
+
+
 
 \clearpage
