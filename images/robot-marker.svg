@@ -53,15 +53,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="182.20211"
-     inkscape:cy="100.64995"
+     inkscape:zoom="5.6"
+     inkscape:cx="236.96393"
+     inkscape:cy="93.131797"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="715"
-     inkscape:window-x="0"
+     inkscape:window-width="2048"
+     inkscape:window-height="1099"
+     inkscape:window-x="1280"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -227,10 +227,11 @@
            id="tspan202">libkoki marker #28 (v0.5) 'ROBOT'</tspan>
       </text>
       <path
-         d="M 321.38259,226.33687 275.4801,117.39657 c 0,2.07653 -3.11427,2.07653 -3.11427,0 0,-2.07601 3.11427,-2.07601 3.11427,0"
+         d="m 275.4801,117.39657 c 0,2.07653 -3.11427,2.07653 -3.11427,0 0,-2.07601 3.11427,-2.07601 3.11427,0"
          style="fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path204"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csc" />
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
