@@ -1,4 +1,4 @@
-all: en/rulebook.pdf fr/rulebook.pdf
+all: en/rulebook.pdf
 
 TARGETS :=
 CLEAN :=
