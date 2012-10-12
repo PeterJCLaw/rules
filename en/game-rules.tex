@@ -2,24 +2,21 @@
 \label{game-rules}
 
 \begin{enumerate}
-\item The game, called \textbf{Pirate Plunder}, will be played in the arena defined in section~\ref{sub:arena}.
-      The objective of this game is to achieve as many points as possible by collecting tokens,
-       placing them in buckets, and moving buckets and tokens into the team's zone.
+\item The game, called \textbf{???}, will be played in the arena defined in section~\ref{sub:arena}.
+      The objective of this game is to achieve as many points as possible by collecting team-associated tokens,
+       and placing them in squares and pedestals to capture them for points.
 
 \item Before a match starts, the teams participating in that match will be given some time to set their robot up in the arena.
       During this time, they:
 \begin{enumerate}
-  \item Must place their robot in the zone that they are assigned.
-        The robot must be placed such that it is entirely within this zone, with no parts overhanging its boundary.
-
-  \item May position the bucket associated with their zone to be in any legal location within their zone.
-        The bucket must be placed such that it is entirely within the allocated zone.
+  \item Must place their robot in the starting zone that they are assigned.
+        The robot must be placed such that it is entirely within this starting zone, with no parts overhanging its boundary.
 
   \item Must ensure their robot has four robot badges attached it.
         These will be provided by Student Robotics officials at the beginning of the set-up time.
         Section~\ref{sec:robot-badges} provides more information about these markers, as well as their dimensions and mounting requirements.
 \end{enumerate}
-      Once all robots and buckets have been arranged, 20 tokens will be placed in the area bounded by the bucket barrier.
+      Once all robots been arranged, 6 tokens per robot will be placed adjecent to their respective starting zones.
 
 \item A match lasts 180 seconds.
 
@@ -27,17 +24,19 @@
       These are used to rank teams before competition league points are awarded.
       Game points will be awarded as follows:
 \begin{itemize}
-  \item \textbf{1 point} will be awarded for each token that the robot is carrying.
-  \item For each token that is entirely within, and in contact with the floor of the team's zone, \textbf{2 points} will be awarded.
-  \item \textbf{5 points} will be awarded for each token that is inside a bucket that is entirely within the team's zone.
-
-  \item If there are any buckets within the team's zone, the team's \textbf{total score} from this match will be multiplied by the number of buckets within their zone.
-        Buckets that span two adjacent zones will not be counted.
-
+  \item \textbf{1 point} will be awarded for initial movement outside the starting zone, defined as when the back of the robot passes over the boundary.
+  \item For each row of squares, \textbf{1 point} will be awarded if one square is captured, \textbf{3 points} will be awarded if two squares are captured, and \textbf{6 points} will be awarded if all squares are captured.
+  \item For each column of squares, \textbf{1 point} will be awarded if one square is captured, \textbf{3 points} will be awarded if two squares are captured, and \textbf{6 points} will be awarded if all squares are captured.
+  \item For each collision with another robot where clearly at fault, \textbf{1 point} will be deducted.
+  \item At the end of the round, points will be clamped to zero if negative.
 \end{itemize}
 
-\item A robot will be considered to be carrying a token if the token's weight is fully supported by the robot, and the token is not in contact with any part of the arena (walls, floor, etc.).
-      The judge may ask a member of the robot's team to lift the robot to demonstrate which tokens are supported by the robot -- if the token moves with the robot, and does not fall off, then it is supported by the robot.
+\item Ownership of a square will be determined as follows:
+\begin{enumerate}
+  \item If there are one or more tokens on the central pedestal, the square will be deemed to have been captured by the robot associated with the highest token in the stack.
+  \item Otherwise, if one robot has more tokens in the square than any other (excluding those which might happen to fall across square boundaries, which count towards neither square), that robot is deemed to have captured the square.
+  \item Otherwise, the square is deemed unclaimed.
+\end{enumerate}
 
 \item At the end of a game, league points will be awarded as follows.
       The team with the \emph{most} game points will be awarded 4 points towards the competition league.
@@ -62,15 +61,15 @@
 \item Robots will be started by teams leaning into the arena to press the start button on their robot\footnote{A wireless match-starting solution may be provided by Student Robotics} when instructed to do so.
 
 \item There must be no team members in the arena during the 1 minute before a match is scheduled to start.
-      Robots and buckets must be installed and oriented before this deadline.
+      Robots must be installed and oriented before this deadline.
       During this minute there must be no interaction with the robot.
       Teams that do not meet this rule will forfeit the match.
 
-\item The buckets must not be knocked over.
-      The judge may disqualify a team from a match should their robot knock a bucket over.
+\item The pedestals must not be knocked over.
+      The judge may disqualify a team from a match should their robot knock a pedestal over.
 
 \item A match may be terminated prematurely if all teams participating in that match state to the judge that they are happy for the game to end.
 
-\item A token will be considered to be in a bucket if the token is fully supported by the bucket, and no part of the token is in contact with a robot, or any other part of the arena.
+\item A token will be considered to be on a pedestal if the token is fully supported by the pedestal, and no part of the token is in contact with a robot, or any other part of the arena.
 
 \end{enumerate}
