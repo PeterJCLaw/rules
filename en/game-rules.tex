@@ -26,8 +26,22 @@
       Game points will be awarded as follows:
 \begin{enumerate}
   \item \textbf{1 point} will be awarded for initial movement outside the starting zone, defined as when the back of the robot passes over the boundary.
-  \item For each row of squares, \textbf{1 point} will be awarded if one square is captured, \textbf{3 points} will be awarded if two squares are captured, and \textbf{6 points} will be awarded if all squares are captured.
-  \item For each column of squares, \textbf{1 point} will be awarded if one square is captured, \textbf{3 points} will be awarded if two squares are captured, and \textbf{6 points} will be awarded if all squares are captured.
+  \item \textbf{1 point} will be awarded for the first square captured in any given row or column.
+  \item \textbf{3 points} will be awarded for the second square captured in any given row or column.
+  \item \textbf{6 points} will be awarded for the third square captured in any given row or column.
+  \item Each square counts only once towards the final score computation.
+  \item Where there is ambiguity as to how squares are considered, the ordering giving the highest score is used.
+        \footnote{Consider, for example, the case where the cells NE, E, NW, and W are
+                  captured. This has ambiguity -- for instance, if we consider NE and
+                  W first, they are worth one point each, with E and NW then giving $3$
+                  points each for being in the same columns as the first two, for a total
+                  of $3+3+1+1 = 8$ points. However, if we consider NE and E first, we get $1$
+                  and $3$ points respectively since they are in the same column, and then NW
+                  and W are both in the same rows as the first two thus give $3$ points each,
+                  for a total of $3+3+3+1 = 10$ points. The total score for capturing N, E,
+                  NW and W is therefore $10$ points, because the score is awarded based on
+                  the best order of consideration.}
+  \item The precise algorithm for the computation of the score is given in \autoref{sec:scoring}.
 \end{enumerate}
 
 \item Ownership of a square will be determined as follows:
