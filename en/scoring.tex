@@ -1,0 +1,41 @@
+\section{Scoring}
+\label{sec:scoring}
+
+The score of any particular configuration of captured squares is given
+by taking the permutation of captured squares which gives the maximum
+value for the following procedure.
+
+Given the ordered list $L$ of captured squares, the score is defined
+inductively:
+
+\begin{itemize}
+  \item If $L$ is the empty list, the score is $0$.
+
+  \item If $L$ is a non-empty list, we define $H$ as its first element, and
+  $T$ as its `tail', that is, every element from the second onwards, if any.
+
+  \item If $T$ contains two squares in the same row as $H$, the score is $6$
+  plus the score for the list $T$.
+
+  \item Otherwise, if $T$ contains two squares in the same column as $H$,
+  the score is $6$ plus the score for the list $T$.
+
+  \item Otherwise, if $T$ contains one square in the same row as $H$, the
+  score is $3$ plus the score for the list $T$.
+
+  \item Otherwise, if $T$ contains one square in the same column as $H$,
+  the score is $3$ plus the score for the list $T$.
+
+  \item Otherwise, the score is $1$ plus the score for the list $T$.
+\end{itemize}
+
+In addition to the above procedure, $1$ point is added for initial movement
+of the robot.
+
+This scoring system has the following properties:
+\begin{itemize}
+  \item Invariance under rotation by 90 degrees.
+  \item Invariance under reflection in either diagonal axis.
+  \item Invariance under permutation of rows and columns.
+\end{itemize}
+
