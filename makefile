@@ -2,7 +2,7 @@ all: en/rulebook.pdf
 
 TARGETS :=
 CLEAN :=
-FILES := rulebook.tex game-rules.tex regs.tex specs.tex kit-return.tex awards.tex scoring.tex
+FILES := rulebook.tex game-rules.tex regs.tex specs.tex kit-return.tex awards.tex
 include images/include.mk
 include */include.mk
 
