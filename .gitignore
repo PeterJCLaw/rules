@@ -2,4 +2,6 @@
 *.dvi
 *.log
 *.out
+*.fff
+*.ttt
 rulebook.pdf

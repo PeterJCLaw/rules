@@ -41,9 +41,10 @@ Unless specified otherwise, all markers described in this document are oriented 
 
 \begin{figure}
   \centering
-  \includegraphics{./images/robot-marker.pdf}
+  \includegraphics[width=\textwidth]{./images/robot-marker.pdf}
   \caption{An example robot badge.
- The blue areas shown are the human-compatible areas.}
+           The blue areas shown are the human-compatible areas.
+	   All dimensions are in millimetres.}
   \label{fig:example-badge}
 \end{figure}
 
@@ -61,14 +62,30 @@ Unless specified otherwise, all markers described in this document are oriented 
       Clear justification must be provided by the team with such a request.}
       The orientation of the badge mounts is unimportant, but teams are encouraged to position them horizontally as shown in figure~\ref{fig:example-badge}.
 
-  \begin{figure}
-    \centering
-    \includegraphics{./images/badge-mounting.pdf}
-    \caption{The dimensions of the required robot badge mountings.
- The shaded areas are hook-type Velcro.
- All dimensions are in millimetres.}
-    \label{fig:badge-mounting}
-  \end{figure}
+\item The mapping between a given robot and its robot badge is as follows:
+
+\begin{center}
+  \begin{tabular}{cc}
+    \toprule
+    \textbf{Zone} & \textbf{Marker Number} \\
+    \midrule
+    0 (NW) & 28 \\
+    1 (NE) & 29 \\
+    2 (SE) & 30 \\
+    3 (SW) & 31 \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{./images/badge-mounting.pdf}
+  \caption{The dimensions of the required robot badge mountings.
+           The shaded areas are hook-type Velcro.
+           All dimensions are in millimetres.}
+  \label{fig:badge-mounting}
+\end{figure}
+
 \end{enumerate}
 
 \subsection{Arena}
@@ -79,36 +96,41 @@ Unless specified otherwise, all markers described in this document are oriented 
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\textwidth]{./images/arena.pdf}
+  \includegraphics[width=\textwidth]{./images/arena.pdf}
   \caption{\label{fig:arena-dim}A bird's-eye view of the arena.}
 \end{figure}
 
-\item The floor of the arena is carpeted.
+\item The floor of the arena is carpeted with blue carpet tiles.
       The carpet tiles used in the arena are from B\&Q, with EAN 5014957151543.
 
 \item The arena walls are $600\pm30mm$ high, the interior surfaces of which are white plastic-coated hardboard.
 
 \item The arena features nine \textit{squares}.
-      These areas are delineated by lines marked on the arena floor.
-      The naming of these squares is shown in figure~\ref{fig:arena-zones}.
+      These areas are delineated by lines marked on the arena floor with $25mm$ wide paper-based masking tape.
+      The naming of these squares is shown in figure~\ref{fig:arena-dim}.
 
-  \begin{figure}
-    \centering
-    \includegraphics{./images/arena-markers.pdf}
-    \caption{The positions and numbering of the markers positioned on the arena wall.}
-    \label{fig:arena-zones}
-  \end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{./images/sidewall.pdf}
+  \caption{Seven $250mm$ wide markers are spaced evenly along each $8m$ arena wall.
+           The markers are placed $50mm$ above the floor.
+	   All dimensions are in millimetres.}
+  \label{fig:arena-wall}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\textwidth]{./images/arena-markers.pdf}
+  \caption{Twenty eight arena wall markers are positioned around the perimeter of the arena with the marker codes incrementing in an anti-clockwise fashion from the northern end of the west wall.
+           The zones are counted from the north west corner in a clockwise fashion.}
+  \label{fig:arena-zones}
+\end{figure}
 
 \item Each wall of the arena features seven $250mm$ libkoki markers.
       Figure~\ref{fig:arena-wall} shows the positioning of these markers, whilst figure~\ref{fig:arena-zones} shows the numbering of these markers.
 
-  \begin{figure}
-    \centering
-    \includegraphics[width=\textwidth]{./images/sidewall.pdf}
-    \caption{Seven $250mm$ wide markers are spaced evenly along each $8m$ arena wall.
-             The markers are placed $50mm$ above the floor.}
-    \label{fig:arena-wall}
-  \end{figure}
+\item Each robot will be assigned a zone number at the start of every match to indicate its starting position.
+      The mapping of these zone numbers in the arena is shown in figure~\ref{fig:arena-zones}.
 
 \item Student Robotics reserves the right to have up to three match officials in the arena during games.
 
@@ -124,6 +146,26 @@ Unless specified otherwise, all markers described in this document are oriented 
 
 \item Each pedestal features a $200mm$ marker in the centre of each vertical side.
 
+\item The mapping between pedestal position and marker is as follows:
+
+\begin{center}
+  \begin{tabular}{cc}
+    \toprule
+    \textbf{Position} & \textbf{Marker Number} \\
+    \midrule
+    NW & 32 \\
+    N  & 33 \\
+    NE & 34 \\
+    W  & 35 \\
+    C  & 36 \\
+    E  & 37 \\
+    SW & 38 \\
+    S  & 39 \\
+    SE & 40 \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
 \end{enumerate}
 
 \subsection{Tokens}
@@ -132,8 +174,38 @@ Unless specified otherwise, all markers described in this document are oriented 
 \item Tokens are cubic corrugated cardboard boxes with side $305 \pm 15 mm$.
       \emph{Each team's kit contains two of these.}
 
-\item Each token is associated with its own libkoki marker number.
-      Each token is labelled with six identical $200mm$ libkoki markers -- one on each face.
+\item Each token is associated with its own libkoki marker number and is labelled with six identical $200mm$ markers -- one on each face.
+
+\item Tokens will be styled to match the human-compatible area of the robot badges on their associated robot, allowing spectators to follow game play.
+      See section~\ref{sec:robot-badges}.
+
+\item The mapping between a given robot and its tokens is as follows:
+
+\begin{center}
+  \begin{tabular}{cc}
+    \toprule
+    \textbf{Zone} & \textbf{Marker Numbers} \\
+    \midrule
+    0 (NW) & 41 -- 46 \\
+    1 (NE) & 47 -- 52 \\
+    2 (SE) & 53 -- 58 \\
+    3 (SW) & 58 -- 63 \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+\item The tokens belonging to a given robot will initially be positioned to the left of the robot as shown in figure~\ref{fig:token-position}.
+      Teams have the option to place any one of their six tokens in/on their robot before the start of the match.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{./images/token-position.pdf}
+  \caption{Six $305 \pm 15mm$ wide tokens are spaced evenly $300 \pm 20mm$ to the left of the robot, along the arena wall.
+           The tokens are placed $100 \pm 20mm$ away from each other and the edge of the arena.
+           All dimensions are in millimetres.}
+  \label{fig:token-position}
+\end{figure}
+
 \end{enumerate}
 
 \clearpage

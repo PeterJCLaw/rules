@@ -5,17 +5,24 @@
 \item The game, called \textbf{A Strange Game}, will be played in the arena defined in section~\ref{sub:arena}.
       The objective of this game is to achieve as many points as possible by placing your tokens on squares and pedestals to capture them.
 
-\item Before a match starts, the teams participating in that match will be given some time to set their robot up in the arena.
-      During this time, they:
-\begin{enumerate}
-  \item Must place their robot in the starting zone that they are assigned.
+\item Before a match begins, participating teams must:
+\begin {enumerate}
+  \item Present their robot in the staging area, adjacent to the arena, at least 2 minutes before the scheduled start time.
+        The staging area will be clearly marked on the day.
+
+  \item Attach four robot badges.
+        These badges will be provided by Student Robotics officials in the staging area.
+        Section~\ref{sec:robot-badges} provides more information about these badges, as well as their dimensions and mounting requirements.
+
+  \item Place their robot in the starting zone that they are assigned.
         The robot must be placed such that it is entirely within this starting zone, with no parts overhanging its boundary.
 
-  \item Must ensure their robot has four robot badges attached it.
-        These will be provided by Student Robotics officials at the beginning of the set-up time.
-        Section~\ref{sec:robot-badges} provides more information about these badges, as well as their dimensions and mounting requirements.
+  \item Place a single token in/on their robot if they so wish.
+
+  \item Vacate the arena 40 seconds before the scheduled start time.
+        During the 40 second period prior to the start of the match there must be no interaction with the robot.
 \end{enumerate}
-      Once all robots been arranged, 6 tokens per robot will be placed adjacent to their respective starting zones.
+  Teams that fail to comply with this rule may forfeit the match, at the discretion of the judge.
 
 \item A match lasts 180 seconds.
 
@@ -26,30 +33,16 @@
       Game points will be awarded as follows:
 \begin{enumerate}
   \item \textbf{1 point} will be awarded for initial movement outside the starting zone, defined as when the back of the robot passes over the boundary.
-  \item \textbf{1 point} will be awarded for the first square captured in any given row or column.
-  \item \textbf{3 points} will be awarded for the second square captured in any given row or column.
-  \item \textbf{6 points} will be awarded for the third square captured in any given row or column.
-  \item Each square counts only once towards the final score computation.
-  \item Where there is ambiguity as to how squares are considered, the ordering giving the highest score is used.
-        \footnote{Consider, for example, the case where the cells NE, E, NW, and W are
-                  captured. This has ambiguity -- for instance, if we consider NE and
-                  W first, they are worth one point each, with E and NW then giving $3$
-                  points each for being in the same columns as the first two, for a total
-                  of $3+3+1+1 = 8$ points. However, if we consider NE and E first, we get $1$
-                  and $3$ points respectively since they are in the same column, and then NW
-                  and W are both in the same rows as the first two thus give $3$ points each,
-                  for a total of $3+3+3+1 = 10$ points. The total score for capturing N, E,
-                  NW and W is therefore $10$ points, because the score is awarded based on
-                  the best order of consideration.}
-  \item The precise algorithm for the computation of the score is given in \autoref{sec:scoring}.
+  \item For each row of squares, \textbf{1 point} will be awarded if one square is captured, \textbf{3 points} will be awarded if two squares are captured, and \textbf{6 points} will be awarded if all squares are captured.
+  \item For each column of squares, \textbf{1 point} will be awarded if one square is captured, \textbf{3 points} will be awarded if two squares are captured, and \textbf{6 points} will be awarded if all squares are captured.
 \end{enumerate}
 
 \item Ownership of a square will be determined as follows:
 \begin{enumerate}
   \item If there are one or more tokens on the central pedestal, the square will be deemed to have been captured by the robot associated with the highest token in the stack.
-  \item Otherwise, if one robot has more tokens in the square than any other (excluding those which might happen to fall across square boundaries, which count towards neither square), that robot is deemed to have captured the square.
+  \item Otherwise, if one robot has more tokens in the square than any other, that robot is deemed to have captured the square.
   \item Otherwise, the square is deemed unclaimed.
-  \item A token is deemed to be in a square if it has three or more corners touching the floor within that square, including being on the dividing line.
+  \item A token is deemed to be in a square if the majority of the token is within the inner edge of the line delineating the square. The judges decision is final.
 \end{enumerate}
 
 \item At the end of a game, league points will be awarded as follows.
@@ -74,10 +67,6 @@
 
 \item Robots will be started by teams leaning into the arena to press the start button on their robot\footnote{A wireless match-starting solution may be provided by Student Robotics.} when instructed to do so.
 
-\item There must be no team members in the arena during the 1 minute before a match is scheduled to start.
-      Robots must be installed and oriented before this deadline.
-      During this minute there must be no interaction with the robot.
-      Teams that do not meet this rule will forfeit the match.
 
 \item A match may be terminated prematurely if all teams participating in that match state to the judge that they are happy for the game to end.
 
