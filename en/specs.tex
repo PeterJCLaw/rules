@@ -7,7 +7,7 @@
 
 \subsection{Markers}
 \label{sub:markers}
-The arena, tokens, pedestals, and robots involved in the game are labelled with \textit{libkoki} markers.
+The arena, tokens, slots, and robots involved in the game are labelled with \textit{libkoki} markers.
 Each marker pattern encodes a number.
 Each marker number is associated with a particular feature within the arena, and also has an associated size.
 The marker numbers and sizes are as follows:
@@ -17,10 +17,12 @@ The marker numbers and sizes are as follows:
     \toprule
     \textbf{Item} & \textbf{Marker Numbers} & \textbf{Marker Size (mm)} \\
     \midrule
-    Arena boundary & 0 -- 27 & 250 \\
+    Arena boundary & {} 0 -- 27 & 250 \\
     Robots & 28 -- 31 & 100 \\
-    Pedestals & 32 -- 40 & 200 \\
-    Tokens & 41 -- 64 & 200 \\
+    Slots & 32 -- 39 & 160 \\
+    Token Top & 40 -- 43 & 160 \\
+    Token Bottom & 44 -- 47 & 160 \\
+    Token Side & 48 -- 51 & 160 \\
     \bottomrule
   \end{tabular}
 \end{center}
