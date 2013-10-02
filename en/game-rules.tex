@@ -31,18 +31,20 @@
 \item At the end of a match, each team's ``\textbf{game points}'' will be calculated.
       These are used to rank teams before competition league points are awarded.
       Game points will be awarded as follows:
-\begin{enumerate}
-  \item \textbf{1 point} will be awarded for initial movement outside the starting zone, defined as when the back of the robot passes over the boundary.
-  \item For each row of squares, \textbf{1 point} will be awarded if one square is captured, \textbf{3 points} will be awarded if two squares are captured, and \textbf{6 points} will be awarded if all squares are captured.
-  \item For each column of squares, \textbf{1 point} will be awarded if one square is captured, \textbf{3 points} will be awarded if two squares are captured, and \textbf{6 points} will be awarded if all squares are captured.
-\end{enumerate}
 
-\item Ownership of a square will be determined as follows:
 \begin{enumerate}
-  \item If there are one or more tokens on the central pedestal, the square will be deemed to have been captured by the robot associated with the highest token in the stack.
-  \item Otherwise, if one robot has more tokens in the square than any other, that robot is deemed to have captured the square.
-  \item Otherwise, the square is deemed unclaimed.
-  \item A token is deemed to be in a square if the majority of the token is within the inner edge of the line delineating the square. The judges decision is final.
+  \item \textbf{1 point} will be awarded for owning a zone.
+    Ownership of a zone will be determined as follows:
+    \begin{enumerate}
+      \item If one robot has more tokens in the zone than any other, that robot is deemed to have captured the zone.
+      \item Otherwise, the zone is deemed unclaimed.
+      \item A token is deemed to be in a zone if the majority of the token is within the inner edge of the line delineating the zone. The judges decision is final.
+    \end{enumerate}
+
+  \item \textbf{1 point} will be awarded for placing a token in a slot.
+  \item \textbf{1 point} will be awarded for placing a token in an upright orientation.
+  \item After the above points have been summed, a bonus of \textbf{\textit{N} points} is given for placing tokens of the same colour in \textit{N} adjacent slots.
+        Two or more tokens are deemed to be in adjacent slots if they are on the same side of the dividing wall and are placed in neighbouring slots.
 \end{enumerate}
 
 \item At the end of a game, league points will be awarded as follows.
@@ -67,9 +69,6 @@
 
 \item Robots will be started by teams leaning into the arena to press the start button on their robot\footnote{A wireless match-starting solution may be provided by Student Robotics.} when instructed to do so.
 
-
 \item A match may be terminated prematurely if all teams participating in that match state to the judge that they are happy for the game to end.
-
-\item A token will be considered to be on a pedestal if the token is fully supported by the pedestal, and no part of the token is in contact with a robot, or any other part of the arena.
 
 \end{enumerate}
