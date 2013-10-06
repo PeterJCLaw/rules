@@ -558,10 +558,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="347.16479"
-     inkscape:cy="444.17216"
+     inkscape:cx="350.02193"
+     inkscape:cy="501.31502"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer1-4"
      showgrid="true"
      inkscape:window-width="1440"
      inkscape:window-height="852"
@@ -722,8 +722,9 @@
            id="rect3292"
            width="44.29134"
            height="44.29134"
-           x="108.29921"
-           y="221.40147" />
+           x="242.30663"
+           y="57.829708"
+           transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
         <g
            style="stroke-width:1.77165353000000003;stroke-miterlimit:4;stroke-dasharray:none"
            id="g3316"
@@ -796,12 +797,13 @@
          transform="matrix(0,-1,1,0,-112.49652,999.97186)"
          id="g3345">
         <rect
-           y="221.40147"
-           x="108.29921"
+           y="57.829708"
+           x="242.30663"
            height="44.29134"
            width="44.29134"
            id="rect3347"
-           style="fill:#800000;fill-opacity:1;stroke:none" />
+           style="fill:#800000;fill-opacity:1;stroke:none"
+           transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
         <g
            style="stroke-width:1.77165353000000003;stroke-miterlimit:4;stroke-dasharray:none"
            transform="translate(0,18)"
@@ -878,8 +880,9 @@
            id="rect3371"
            width="44.29134"
            height="44.29134"
-           x="108.29921"
-           y="221.40147" />
+           x="-102.12105"
+           y="242.30663"
+           transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
         <g
            style="stroke-width:1.77165353000000003;stroke-miterlimit:4;stroke-dasharray:none"
            id="g3373"
@@ -952,12 +955,13 @@
          transform="matrix(-1,0,0,-1,886.14962,1112.6007)"
          id="g3393">
         <rect
-           y="221.40147"
-           x="108.29921"
+           y="242.30663"
+           x="-102.12105"
            height="44.29134"
            width="44.29134"
            id="rect3395"
-           style="fill:#800000;fill-opacity:1;stroke:none" />
+           style="fill:#800000;fill-opacity:1;stroke:none"
+           transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
         <g
            style="stroke-width:1.77165353000000003;stroke-miterlimit:4;stroke-dasharray:none"
            transform="translate(0,18)"

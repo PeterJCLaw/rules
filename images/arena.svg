@@ -306,8 +306,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98450219"
-     inkscape:cx="512.55287"
-     inkscape:cy="426.32679"
+     inkscape:cx="514.58435"
+     inkscape:cy="588.84547"
      inkscape:document-units="mm"
      inkscape:current-layer="g11384"
      showgrid="true"
@@ -469,8 +469,9 @@
              id="use11195"
              width="44.29134"
              height="44.29134"
-             x="886.96851"
-             y="344.8551" />
+             x="873.13293"
+             y="-398.40665"
+             transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
           <text
              xml:space="preserve"
              style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -648,12 +649,13 @@
        id="g3332"
        style="stroke-width:1.77165354;stroke-miterlimit:4;stroke-dasharray:none">
       <rect
-         y="221.40147"
-         x="108.29921"
+         y="57.829708"
+         x="242.30663"
          height="44.29134"
          width="44.29134"
          id="rect3292"
-         style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:1.77165353999999997;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="fill:#800000;fill-opacity:1;stroke:none"
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
       <g
          transform="translate(0,18)"
          id="g3316"
@@ -726,12 +728,13 @@
        transform="matrix(0,-1,1,0,-112.49652,999.97186)"
        style="stroke-width:1.77165354;stroke-miterlimit:4;stroke-dasharray:none">
       <rect
-         style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:1.77165353999999997;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#800000;fill-opacity:1;stroke:none"
          id="rect3347"
          width="44.29134"
          height="44.29134"
-         x="108.29921"
-         y="221.40147" />
+         x="242.30663"
+         y="57.829708"
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
       <g
          id="g3349"
          transform="translate(0,18)"
@@ -804,12 +807,13 @@
        id="g3369"
        style="stroke-width:1.77165354;stroke-miterlimit:4;stroke-dasharray:none">
       <rect
-         y="221.40147"
-         x="108.29921"
+         y="242.30663"
+         x="-102.12105"
          height="44.29134"
          width="44.29134"
          id="rect3371"
-         style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:1.77165353999999997;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="fill:#800000;fill-opacity:1;stroke:none"
+         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
       <g
          transform="translate(0,18)"
          id="g3373"
@@ -882,12 +886,13 @@
        transform="matrix(-1,0,0,-1,886.14962,1112.6007)"
        style="stroke-width:1.77165354;stroke-miterlimit:4;stroke-dasharray:none">
       <rect
-         style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:1.77165353999999997;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#800000;fill-opacity:1;stroke:none"
          id="rect3395"
          width="44.29134"
          height="44.29134"
-         x="108.29921"
-         y="221.40147" />
+         x="242.30663"
+         y="57.829708"
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
       <g
          id="g3397"
          transform="translate(0,18)"
