@@ -351,16 +351,16 @@
                x="1000"
                y="528.6637"
                id="tspan5936"
-               style="font-size:32px">Wall</tspan></text>
+               style="font-size:32px">Barrier</tspan></text>
         </g>
       </g>
       <rect
-         y="240.595"
-         x="896.83069"
-         height="284.74756"
-         width="220.10287"
+         y="240.66045"
+         x="896.89612"
+         height="284.61667"
+         width="249.97197"
          id="rect5997"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="fill:none;stroke:#000000;stroke-width:2.13089943;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <path
        inkscape:connector-curvature="0"
