@@ -291,8 +291,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0275422"
-     inkscape:cx="1193.1126"
+     inkscape:zoom="5.8126566"
+     inkscape:cx="1378.8618"
      inkscape:cy="116.31401"
      inkscape:document-units="mm"
      inkscape:current-layer="g5590"
@@ -1039,14 +1039,14 @@
       <path
          inkscape:connector-curvature="0"
          id="path4170"
-         d="m 124.01573,793.70076 70.86614,0"
+         d="m 128.76008,798.56676 70.86614,0"
          style="fill:none;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.3149606, 5.3149606;stroke-dashoffset:0"
          sodipodi:nodetypes="cc" />
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
          id="path4174"
-         d="m 177.16533,804.36936 0,-10.6686 0,-88.58268"
+         d="m 177.16533,804.36936 0,-7.12528 0,-92.126"
          style="fill:none;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lend);marker-mid:url(#Arrow1Lstart)" />
       <text
          transform="matrix(0,-1,1,0,0,0)"
@@ -1070,7 +1070,7 @@
          inkscape:connector-curvature="0"
          id="path4998"
          d="m 708.66142,927.14384 0,-157.44334"
-         style="fill:none;stroke:#000000;stroke-width:1.60576546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.81729647, 4.81729647;stroke-dashoffset:0" />
+         style="fill:none;stroke:#000000;stroke-width:1.77165354;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.31496063,5.31496063;stroke-dashoffset:0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.3149606, 5.3149606;stroke-dashoffset:0"
          d="m 2125.9843,928.34643 0,-70.86614"
