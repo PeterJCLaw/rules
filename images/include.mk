@@ -1,5 +1,5 @@
 images_targets := $(addprefix images/,arena.pdf \
-		net-1.pdf net-2.pdf net-3.pdf \
+		token-nets.pdf \
 		sidewall.pdf arena-markers.pdf \
 		robot-marker.pdf badge-mounting.pdf)
 TARGETS += $(images_targets)
