@@ -7,7 +7,7 @@
 
 \subsection{Markers}
 \label{sub:markers}
-The arena, flags and robots involved in the game are labelled with \textit{libkoki} markers.
+The arena, tokens and robots involved in the game are labelled with \textit{libkoki} markers.
 Each marker pattern encodes a number.
 Each marker number is associated with a particular feature within the arena, and also has an associated size.
 The marker numbers and sizes are as follows:
@@ -19,12 +19,17 @@ The marker numbers and sizes are as follows:
     \midrule
     Arena boundary & {} 0 -- 27 & 250 \\
     Robots & 28 -- 31 & 100 \\
-    Flags\footnotemark & 32 -- 61 & 250 \\
+    Token tops & 32 -- 40 & 250 \\
+    Token bottoms & 41 -- 49 & 250 \\
+    Token sides & 50 -- 61 & 250 \\
     \bottomrule
   \end{tabular}
 \end{center}
 
-\footnotetext{The range of available flag marker numbers is intentionally greater than the number of flags required in the arena (see section~\ref{sub:Flags}).  This makes replacing damaged flags at the competition quicker.}
+% TODO: do we want each token to be unique identifiable?
+%       If so we need at least 54 unique markers, which is doable, plus some for spares (and this footnote).
+%       If not then we can drop this footnote and simplify the later rules table mapping marker numbers to tokens.
+\footnotetext{The range of available token marker numbers is intentionally greater than the number required in the arena (see section~\ref{sub:Tokens}).  This makes replacing damaged tokens at the competition quicker.}
 
 Two sets of marker codes will be used: one for development purpose, and one for the competition itself.
 The competition set is only to be used inside the Student Robotics arena at the Student Robotics competition.
@@ -134,49 +139,61 @@ Unless specified otherwise, all markers described in this document are oriented 
 \end{enumerate}
 
 
-\subsection{Scoring Zones \& Barriers}
+\subsection{Scoring Zones}
 \label{sub:Zones}
 
 \begin{enumerate}
-\item There are four zones in the arena, each in front of one of the corners.
+\item There are four zones in the arena, one in each of the corners.
       The arrangement and dimensions of these zones can be seen in figure~\ref{fig:arena-dim}.
 
-\item Part of the boundary between adjacent zones will be formed by a barrier.
-      The barriers will be $100 \pm 20mm$ high, $400 \pm 20mm$ wide and $1500 \pm 20mm$ long.
-      The locations of the barriers can be seen in figure~\ref{fig:arena-dim}.
-
-\item Where the boundary of a scoring zone is not formed by either a barrier or the arena wall
-      it will be marked by $25mm$ paper-based masking tape.
+\item Where the boundary of a scoring zone is not formed by the arena wall it will be marked by $25mm$ tape.
 \end{enumerate}
 
-\subsection{Flags}
-\label{sub:Flags}
+\subsection{Tokens}
+\label{sub:Tokens}
 \begin{enumerate}
-\item Flags are wooden cubes with a side length of $250 \pm 10 mm$.
+\item Tokens are cubic cardboard boxes with a side length of $250 \pm 10 mm$.
 
-\item The overall weight of each flag will be $2 \pm 0.2 kg$.
+\item Each token will be assigned a unique combination of $200mm$ libkoki markers.
 
-\item Flags will be mounted on 4 ball casters, one in each corner of the bottom face.
-      The centre of each caster will be positioned $35 \pm 10 mm$ inward from both adjacent edges.
-      The lower edge of each vertical face will have a ground clearance of $10 \pm 5 mm$.
+\item Token side markers will be:
+    \begin{enumerate}
+    \item Oriented such that the top left corner of each marker (identified by a small grey dot) is affixed to the top left of a token's side face.
 
-\item Each flag will be assigned a unique $250mm$ libkoki marker.
-      This marker will be displayed on all four vertical faces of a given flag.
+    \item Assigned to a team in one of the four corners.
+          The lowest numbered side marker will always correspond to corner 0, the second lowest to corner 1, the third to corner 2 and the highest to corner 3.
 
-\item Flag markers are oriented such that the top left corner of each marker (identified by a small grey dot) is affixed to the top left of a flag's side face.
+    \item Arranged in one of three nets, ensuring that the pairs of opposing sides of the tokens are spread evenly over all pairwise combinations.
+    \end{enumerate}
 
-\item The top face of each flag may be adorned with a human-identifiable object to help with match commentary.
-      Any such addition
-      \begin{enumerate}
-            \item will not impede access to any of the four vertical faces of a flag,
-            \item will contribute to a flag's overall weight,
-            \item will be no larger than a cube with side length $150mm$,
-            \item will be placed in the centre of the top face, and
-            \item should not be relied upon for mechanical strength.
-      \end{enumerate}
+\item There will be 9 tokens in the arena, 3 of each net.
+      Their general starting positions can be seen in figure~\ref{fig:arena-dim}.
+      The starting position of each net are not defined.
 
-\item There will be 5 flags in the arena.
-      Their starting positions can be seen in figure~\ref{fig:arena-dim}.
+\item Most tokens will start with their top facing upwards.
+      % TODO: What's the point of doing this -- surely all it means is that everyone starts with more points, which doesn't achieve anything?
+      The four nearest the corner zones will instead have the face corresponding to the nearest corner facing upwards.
+
+\item The assignment of marker numbers to nets is as follows:
+\begin{center}
+  \begin{tabular}{cccc}
+    \toprule
+    \textbf{Net} & \textbf{Top Marker} & \textbf{Bottom Marker} & \textbf{Side Markers} \\
+    \midrule
+    1 & 32 & 41 & 50 -- 53 \\
+    1 & 33 & 42 & 54 -- 57 \\
+    1 & 34 & 43 & 58 -- 61 \\
+    2 & 35 & 44 & 62 -- 65 \\
+    2 & 36 & 45 & 66 -- 69 \\
+    2 & 37 & 46 & 70 -- 73 \\
+    3 & 38 & 47 & 74 -- 77 \\
+    3 & 39 & 48 & 78 -- 81 \\
+    3 & 40 & 49 & 82 -- 85 \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+\item The sides of the token will be adorned in similar human-compatible markings as the robot badges are.
 
 \end{enumerate}
 

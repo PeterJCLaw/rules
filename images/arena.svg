@@ -596,38 +596,38 @@
        y="0"
        x="0"
        transform="translate(-495.3503,184.42967)" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use4448"
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none"
        id="use4456"
-       transform="translate(164.09455,0)"
-       width="1200"
-       height="900" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use4450"
+       width="25"
+       height="25"
+       x="601.59448"
+       y="-450.76767"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ff00ff;fill-opacity:1;stroke:none"
        id="use4458"
-       transform="translate(164.09455,0)"
-       width="1200"
-       height="900" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use4448"
+       width="25"
+       height="25"
+       x="601.59448"
+       y="-778.95667"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
        id="use4460"
-       transform="translate(-164.09442,0)"
-       width="1200"
-       height="900" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use4450"
+       width="25"
+       height="25"
+       x="273.40552"
+       y="-450.76767"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none"
        id="use4462"
-       transform="translate(-164.09442,0)"
-       width="1200"
-       height="900" />
+       width="25"
+       height="25"
+       x="273.40552"
+       y="-778.95667"
+       transform="scale(1,-1)" />
     <path
        sodipodi:nodetypes="cc"
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 2;stroke-dashoffset:0;marker-start:none"
