@@ -1,4 +1,4 @@
-all: en/rulebook.pdf
+all: en/rulebook.pdf en/rulebook.png
 
 TARGETS :=
 CLEAN :=
@@ -7,5 +7,5 @@ include images/include.mk
 include */include.mk
 
 clean:
-	rm -rf *.aux *.pdf *.dvi *.log
+	rm -rf *.aux *.pdf *.dvi *.log *.png
 	-rm -rf $(CLEAN)
