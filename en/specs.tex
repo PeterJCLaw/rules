@@ -19,12 +19,14 @@ The marker numbers and sizes are as follows:
     \midrule
     Arena boundary & {} 0 -- 27 & 250 \\
     Robots & 28 -- 31 & 100 \\
-    Tokens & 32 -- 49 & 200 \\
+    A tokens & 32 -- 35 & 200 \\
+    B tokens & 36 -- 39 & 200 \\
+    C token & 40 & 200 \\
     \bottomrule
   \end{tabular}
 \end{center}
 
-Two sets of marker codes will be used: one for development purpose, and one for the competition itself.
+Two sets of marker codes will be used: one for development purposes, and one for the competition itself.
 The competition set is only to be used inside the Student Robotics arena at the Student Robotics competition.
 This is so that people carrying markers past the arena do not confuse robots.
 The competition codes are 100 above the development codes.
@@ -146,55 +148,13 @@ Unless specified otherwise, all markers described in this document are oriented 
 \subsection{Tokens}
 \label{sub:Tokens}
 \begin{enumerate}
-\item Tokens are cubic cardboard boxes with a side length of $250 \pm 10 mm$.
+\item Tokens are cubic cardboard boxes with a side length of \textbf{TODO: approx 250mm}.
 
-\item Each token will be assigned a unique combination of $200mm$ libkoki markers.
+\item There will be 9 tokens in the arena: 4 A-tokens, 4 B-tokens and 1 C-token.  These will be arranged as shown in figure~\ref{fig:arena-dim} at the start of a match.
 
-\item Token side markers will be:
-    \begin{enumerate}
-    \item Oriented such that the top left corner of each marker (identified by a small grey dot) is affixed to the top left of a token's side face.
+\item Each token will have a different libkoki marker on from the other tokens in the arena.
 
-    \item Assigned to a team in one of the four corners.
-          The lowest numbered side marker will always correspond to corner 0, the second lowest to corner 1, the third to corner 2 and the highest to corner 3.
-
-    \item Arranged in one of three nets, ensuring that the pairs of opposing sides of the tokens are spread evenly over all pairwise combinations.
-          The arrangements are shown in figure~\ref{fig:token-nets}.
-    \end{enumerate}
-
-\begin{figure}
-  \centering
-  \includegraphics[width=\textwidth]{./images/token-nets.pdf}
-  \caption{Tokens' sides are arranged into one of three nets.
-           The arrangements of each of the nets is shown as viewed from \textit{above} a constructed token.
-           The darker grey dots show the approximate position of the equivalent dot in the border of the top-face marker.}
-  \label{fig:token-nets}
-\end{figure}
-
-\item The markers on the top and bottom faces of each token will be orientated such that their 'top' edges match the location of the side marker allocated to corner 0.
-      This ensures that the position of all the markers on a given token can be determined by viewing any single face.
-      The position of the marker dots are shown in figure~\ref{fig:token-nets}.
-
-\item There will be 9 tokens in the arena, at least one of each net.
-      Their general starting positions can be seen in figure~\ref{fig:arena-dim}.
-      The starting position of tokens of each net are not defined.
-
-\item Most tokens will start with their top facing upwards.
-      The four nearest the corner zones will instead have the face corresponding to the nearest corner facing upwards.
-
-\item The assignment of marker numbers to nets is as follows:
-\begin{center}
-  \begin{tabular}{cccc}
-    \toprule
-    \textbf{Net} & \textbf{Top Marker} & \textbf{Bottom Marker} & \textbf{Side Markers} \\
-    \midrule
-    A & 32 & 33 & 34 -- 37 \\
-    B & 38 & 39 & 40 -- 43 \\
-    C & 44 & 45 & 46 -- 49 \\
-    \bottomrule
-  \end{tabular}
-\end{center}
-
-\item The sides of the token will be adorned in similar human-compatible markings as the robot badges (see section~\ref{sub:robot-badges}).
+\item All six faces of a token will have the same marker on them.
 
 \end{enumerate}
 
