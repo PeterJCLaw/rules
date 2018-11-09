@@ -12,5 +12,5 @@ images/%.pdf: images/%.svg
 	inkscape -A $@ $?
 
 clean:
-	rm -rf *.aux *.pdf *.dvi *.log *.png
+	rm -rf *.aux *.pdf *.dvi *.log
 	-rm -rf $(CLEAN)
