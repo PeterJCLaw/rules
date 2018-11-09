@@ -12,3 +12,5 @@ images/%.pdf: images/%.svg
 
 clean:
 	rm -rf *.aux *.pdf *.dvi *.log
+
+.PHONY: all clean
