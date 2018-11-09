@@ -5,7 +5,7 @@ rulebook.pdf: rulebook.tex game-rules.tex regs.tex specs.tex kit-return.tex awar
 	pdflatex $<
 
 images/%.pdf: images/%.svg
-	inkscape --export-pdf=$@ $<
+	inkscape --export-pdf=$(CURDIR)/$@ $(CURDIR)/$<
 
 clean:
 	rm -rf *.aux *.pdf *.dvi *.log
