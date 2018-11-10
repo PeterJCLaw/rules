@@ -26,7 +26,7 @@
         stroke-width: 0.02;
       }
 
-      #inner-ring {
+      #volcano {
         fill: #ddd;
       }
 
@@ -116,7 +116,7 @@
     <g id="zone">
       <rect x="-0.6" y="-0.6" width="1.2" height="1.2" class="zone"/>
     </g>
-    <g id="inner-ring">
+    <g id="volcano">
       <path d="M-1.8 -1.8 v3.6 h3.6 v-3.6 h-3.6 l1.2 1.2 h1.2 v1.2 h-1.2 v-1.2"/>
     </g>
     <!-- arrow heads for dimensions -->
@@ -186,7 +186,7 @@
         <text x="0" y="-0.075" class="left-rotated">8000±200mm</text>
       </g>
       <!-- inner ring -->
-      <use xlink:href="#inner-ring" transform="translate(4 4)"/>
+      <use xlink:href="#volcano" transform="translate(4 4)"/>
       <g class="dimension" transform="translate(4 3.2)">
         <line x1="-0.6" y1="0" x2="0.6" y2="0"/>
         <text x="0" y="-0.075" class="above">1200±50mm</text>
@@ -205,9 +205,9 @@
       </g>
       <!-- zones -->
       <g transform="translate(4 4)">
-        <!-- pit -->
+        <!-- caldera -->
         <use xlink:href="#zone"/>
-        <!-- inner ring -->
+        <!-- base -->
         <use xlink:href="#zone" transform="translate(-1.2 -1.2)"/>
         <use xlink:href="#zone" transform="translate(-1.2 0)"/>
         <use xlink:href="#zone" transform="translate(-1.2 1.2)"/>
@@ -216,7 +216,7 @@
         <use xlink:href="#zone" transform="translate(1.2 0)"/>
         <use xlink:href="#zone" transform="translate(1.2 -1.2)"/>
         <use xlink:href="#zone" transform="translate(0 -1.2)"/>
-        <!-- outer ring -->
+        <!-- volcano -->
         <use xlink:href="#zone" transform="translate(0 -2.4)"/>
         <use xlink:href="#zone" transform="translate(1.2 -2.4)"/>
         <use xlink:href="#zone" transform="translate(2.4 -2.4)"/>
@@ -245,7 +245,7 @@
         <text x="0.5" y="0" class="legend-label">Token</text>
       </g>
       <g transform="translate(4 0)">
-        <use xlink:href="#inner-ring" transform="scale(0.139)"/>
+        <use xlink:href="#volcano" transform="scale(0.139)"/>
         <text x="0.5" y="0" class="legend-label">Raised platform</text>
       </g>
       <g transform="translate(4 0.75)">
