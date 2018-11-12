@@ -189,11 +189,11 @@
       <use xlink:href="#volcano" transform="translate(4 4)"/>
       <g class="dimension" transform="translate(4 3.2)">
         <line x1="-0.6" y1="0" x2="0.6" y2="0"/>
-        <text x="0" y="-0.075" class="above">1200±50mm</text>
+        <text x="0" y="-0.075" class="above">1175±50mm</text>
       </g>
       <g class="dimension" transform="translate(3.2 4)">
         <line x1="0" y1="-0.6" x2="0" y2="0.6"/>
-        <text x="0" y="-0.075" class="left-rotated">1200±50mm</text>
+        <text x="0" y="-0.075" class="left-rotated">1175±50mm</text>
       </g>
       <g class="dimension" transform="translate(4 2)">
         <line x1="-1.8" y1="0" x2="1.8" y2="0"/>
