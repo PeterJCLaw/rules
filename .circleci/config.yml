@@ -3,7 +3,6 @@ jobs:
     build:
         docker:
             - image: theorangeone/docker-pandoc
-        working_directory: ~/rules
         steps:
             - checkout
             - run: make
