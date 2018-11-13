@@ -2,7 +2,7 @@
 \label{game-rules}
 
 \begin{enumerate}
-\item The game, called \textbf{Easy as ABC}, will be played in the arena defined in section~\ref{sub:arena}.  The objective of this game is to collect A, B and C tokens in a combination that scores the most points, whilst preventing your opponents from scoring as high as you!
+\item The game, called \textbf{Caldera}, will be played in the arena defined in section~\ref{sub:arena}.  The objective of this game is to capture the most zones -- especially tricky, hard-to-reach ones -- and keep your opponents from doing the same.
 
 \item Before a match begins, participating teams must:
 \begin {enumerate}
@@ -17,9 +17,9 @@
   \item Vacate the arena 40 seconds before the scheduled start time.
         During the 40 second period prior to the start of the match there must be no interaction with the robot.
 \end{enumerate}
-  Teams that fail to comply with this rule may forfeit the match, at the discretion of the judge.
+  Teams that fail to comply with this rule--such as by arriving late--may forfeit the match, at the discretion of the judge.
 
-\item A match lasts 180 seconds.
+\item A match lasts 150 seconds.
 
 \item There will be a maximum of 4 robots in a match.
 
@@ -27,15 +27,21 @@
 
 \item A match may be terminated prematurely if all teams participating in that match state to the match officials that they are happy for the game to end.
 
-\item At the end of a match, each team's \textbf{game points} will be calculated.  These are used to rank teams before competition league points are awarded.  Game points will be awarded to each team as follows:
-  \begin{enumerate}
-  \item \textbf{1 point} will be awarded for each token which is within that team's allocated zone.
-  \item A further \textbf{1 point} will be awarded for every B-token present within that team's allocated zone, provided there is at least one A-token within that zone.
-  \item A further \textbf{2 points} will be awarded for every C-token present within that team's allocated zone, provided there is at least one A-token and at least one B-token within that zone.
-  \end{enumerate}
-  A token is considered to be in a zone if any part of that token is touching the arena floor within the scoring zone.
+\item There are 25 scoring zones in the arena, arranged in a $5\times5$ grid. The outer 16 are known as the ``base'', the inner 8 are known as the ``volcano'', and the most central zone is known as the ``caldera''. The volcano (and, notably, \emph{not} the caldera) is elevated from the floor by $50 mm \pm 5 mm$.
 
-  For example, if a zone contains two A-tokens, and one B-token then the associated team will score 4 points.  If a zone contains one A-token and one C-token, then the team would score 2 points.
+\item There are 40 tokens in the arena: 10 per team. These tokens are marked for the starting zone with which they are associated. These are initially placed in 5 stacks of 2 high, along the wall to the right of the robot's starting position, as defined in section~\ref{sub:arena}.
+
+\item A scoring zone is deemed ``captured'' by a team if and only if that team has the single\footnote{Were two teams to have the same number of tokens in a scoring zone, the zone would not be considered captured by any team.} most tokens ``in'' the zone at the end of the game.
+
+\item A token is considered to be `in' a zone if either:
+\begin{enumerate}
+  \item at least three vertices of the token are in contact with the floor area inside the zone. The floor area inside the zone is bounded by the edges of the raised volcano, and the inside edge of the coloured tape marking the zone.
+  \item the token is in contact only with other tokens which are `in' the zone. In the case where several such tokens are in mutual contact (and not in contact with anything else), all those tokens are `in' the zone.
+\end{enumerate}
+
+\item Captured zones in the base are worth \textbf{2 game points} each. Captured zones on the volcano are worth \textbf{7 game points} each. The caldera, if captured, is worth \textbf{30 game~points}.
+
+\item If, at the end of the game, a robot is ``in'' a zone, the value of that zone and the four zones immediately adjacent in the cardinal directions are tripled. This effect compounds with multiple robots, meaning that it is possible for the value of a zone to be increased 81-fold in one theoretical case.  % When a robot is 'in' a zone is explicitly undefined and will be made by a ruling at the competition
 
 \item At the end of a game, league points will be awarded as follows.
       The team with the \emph{most} game points will be awarded 8 points towards the competition league.
