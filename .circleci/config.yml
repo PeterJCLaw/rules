@@ -1,0 +1,12 @@
+version: 2
+jobs:
+    build:
+        docker:
+            - image: theorangeone/docker-pandoc
+        working_directory: ~/rules
+        steps:
+            - checkout
+            - run: make
+            - store_artifacts:
+                path: rulebook.pdf
+                destination: rulebook.pdf
