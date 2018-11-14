@@ -238,7 +238,7 @@
     <g id="legend" transform="translate(2.2 10.5)">
       <g transform="translate(0 0)">
         <use xlink:href="#start-zone-with-robot" transform="scale(0.5)"/>
-        <text x="0.5" y="0" class="legend-label">Robot starting zone</text>
+        <text x="0.5" y="0" class="legend-label">Robot starting area</text>
       </g>
       <g transform="translate(0 0.75)">
         <use xlink:href="#token"/>
