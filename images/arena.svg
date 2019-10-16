@@ -176,6 +176,22 @@
         <use xlink:href="#tokens-quarter" transform="rotate(180 0 0)"/>
         <use xlink:href="#tokens-quarter" transform="rotate(270 0 0)"/>
       </g>
+      <g class="dimension" transform="translate(4.95 4)">
+        <line x1="-0.35" y1="0" x2="0.35" y2="0"/>
+        <text x="0" y="-0.075" class="above">600±100mm</text>
+      </g>
+      <g class="dimension" transform="translate(4.9 3.7)">
+        <line x1="0" y1="-0.3" x2="0" y2="0.3"/>
+        <text x="0.05" y="0.03">600±100mm</text>
+      </g>
+      <g class="dimension" transform="translate(4.475 4.9)">
+        <line x1="-0.425" y1="0" x2="0.425" y2="0"/>
+        <text x="0" y="-0.075" class="above">900±100mm</text>
+      </g>
+      <g class="dimension" transform="translate(4.9 4.45)">
+        <line x1="0" y1="-0.425" x2="0" y2="0.425"/>
+        <text x="0.05" y="0.075">900±100mm</text>
+      </g>
       <!-- arena wall -->
       <rect width="8"
             height="8"
