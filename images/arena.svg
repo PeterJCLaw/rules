@@ -161,6 +161,14 @@
         <!-- 4ft by 4ft -->
         <rect x="-0.6096" y="-0.6096" width="1.2192" height="1.2192"/>
       </g>
+      <g class="dimension" transform="translate(4 3.3)">
+        <line x1="-0.6" y1="0" x2="0.6" y2="0"/>
+        <text x="0" y="-0.075" class="above">1200±50mm</text>
+      </g>
+      <g class="dimension" transform="translate(3.3 4)">
+        <line x1="0" y1="-0.6" x2="0" y2="0.6"/>
+        <text x="0" y="-0.075" class="left-rotated">1200±50mm</text>
+      </g>
       <!-- tokens -->
       <g transform="translate(4 4)">
         <use xlink:href="#tokens-quarter"/>
