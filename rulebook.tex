@@ -45,6 +45,7 @@
 
 \newcounter{rule}[section]
 \newcommand{\rcn}{\stepcounter{rule}\arabic{section}.\arabic{rule}}
+\newcommand{\rcnappendix}{\stepcounter{rule}\Alph{section}.\arabic{rule}}
 \renewcommand{\labelenumi}{\rcn}
 
 \input {game-rules}
@@ -66,6 +67,7 @@ From time to time Student Robotics may amend the rulebook.  When this happens, t
 
 \newpage
 \appendix
+\renewcommand{\labelenumi}{\rcnappendix}
 \appendixpage
 \addappheadtotoc
 \input {kit-return}
