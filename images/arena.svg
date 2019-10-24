@@ -157,6 +157,14 @@
         <line x1="0" y1="-0.5" x2="0" y2="0.5"/>
         <text x="0" y="-0.075" class="left-rotated">1000±50mm</text>
       </g>
+      <g class="dimension" transform="translate(-0.15 6.5)">
+        <line x1="0" y1="-1.5" x2="0" y2="1.5"/>
+        <text x="0" y="-0.075" class="left-rotated">3000±50mm</text>
+      </g>
+      <g class="dimension" transform="translate(1.5 8.35)">
+        <line x1="-1.5" y1="0" x2="1.5" y2="0"/>
+        <text x="0" y="-0.075" class="above">3000±50mm</text>
+      </g>
       <g class="platform" transform="translate(4 4)">
         <!-- 4ft by 4ft -->
         <rect x="-0.6096" y="-0.6096" width="1.2192" height="1.2192"/>
@@ -202,7 +210,7 @@
         <line x1="-4" y1="0" x2="4" y2="0"/>
         <text x="0" y="-0.075" class="above">8000±200mm</text>
       </g>
-      <g class="dimension" transform="translate(-0.35 4)">
+      <g class="dimension" transform="translate(-0.5 4)">
         <line x1="0" y1="-4" x2="0" y2="4"/>
         <text x="0" y="-0.075" class="left-rotated">8000±200mm</text>
       </g>
