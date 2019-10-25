@@ -1094,7 +1094,7 @@
            id="tspan5564"
            x="1364.3639"
            y="903.54327"
-           style="font-size:20px">8000±200</tspan></text>
+           style="font-size:20px">5750±200</tspan></text>
     </g>
     <g
        id="g5583-4"
@@ -1122,7 +1122,7 @@
            x="756.80951"
            y="903.54327"
            style="font-size:20px"
-           id="tspan9770">1000±5</tspan></text>
+           id="tspan9770">821±5</tspan></text>
     </g>
     <g
        transform="translate(-391.51986,-743.51735)"
@@ -1150,7 +1150,7 @@
            style="font-size:20px"
            y="903.54327"
            x="756.80951"
-           sodipodi:role="line">1000±5</tspan></text>
+           sodipodi:role="line">821±5</tspan></text>
     </g>
   </g>
 </svg>
