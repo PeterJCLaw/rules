@@ -3,7 +3,7 @@
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
      baseProfile="full"
-     width="1000" height="1200"
+     width="800" height="1000"
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
   <style type="text/css">
@@ -117,7 +117,7 @@
       <use xlink:href="#token-gold" transform="translate(0.9 0.9)"/>
       <use xlink:href="#token-silver" transform="translate(0 1.2) rotate(45 0 0)"/>
 
-      <path class="zone" d="M4 2 v2 h-2 z" transform="translate(-1,-1)"/>
+      <path class="zone" d="M2.875 0.37 v2.5 h-2.5 z"/>
     </g>
     <g id="start-area">
       <use xlink:href="#start-zone-with-robot" transform="translate(0.5 0.5)"/>
@@ -143,7 +143,7 @@
   <rect width="100%" height="100%" fill="white"/>
   <!-- transform for arena-space coordinates -->
   <g id="arena-space" transform="scale(100)">
-    <g id="arena" transform="translate(1 1)">
+    <g id="arena" transform="translate(1.1 1.1)">
       <!-- start areas -->
       <use xlink:href="#start-area"/>
       <use xlink:href="#start-area" transform="rotate(90 2.88 2.88)"/>
@@ -158,45 +158,45 @@
         <text x="0" y="-0.075" class="left-rotated">1000±50mm</text>
       </g>
       <g class="dimension" transform="translate(-0.15 4.25)">
-        <line x1="0" y1="-0.5" x2="0" y2="1.5"/>
+        <line x1="" y1="-1" x2="0" y2="1.5"/>
         <text x="-0.5" y="-0.075" class="left-rotated">2500±50mm</text>
       </g>
       <g class="dimension" transform="translate(1.5 6.05)">
-        <line x1="-1.5" y1="0" x2="0.5" y2="0"/>
+        <line x1="-1.5" y1="0" x2="1" y2="0"/>
         <text x="-0.5" y="-0.075" class="above">2500±50mm</text>
       </g>
-      <g class="platform" transform="translate(3 3)">
+      <g class="platform" transform="translate(2.875 2.875)">
         <!-- 4ft by 4ft -->
         <rect x="-0.6096" y="-0.6096" width="1.2192" height="1.2192"/>
       </g>
-      <g class="dimension" transform="translate(3 2.3)">
+      <g class="dimension" transform="translate(2.875 2.2)">
         <line x1="-0.6" y1="0" x2="0.6" y2="0"/>
         <text x="0" y="-0.075" class="above">1200±50mm</text>
       </g>
-      <g class="dimension" transform="translate(2.3 3)">
+      <g class="dimension" transform="translate(2.2 2.875)">
         <line x1="0" y1="-0.6" x2="0" y2="0.6"/>
         <text x="0" y="-0.075" class="left-rotated">1200±50mm</text>
       </g>
       <!-- tokens -->
-      <g transform="translate(3 3)">
+      <g transform="translate(2.875 2.875)">
         <use xlink:href="#tokens-quarter"/>
         <use xlink:href="#tokens-quarter" transform="rotate(90 0 0)"/>
         <use xlink:href="#tokens-quarter" transform="rotate(180 0 0)"/>
         <use xlink:href="#tokens-quarter" transform="rotate(270 0 0)"/>
       </g>
-      <g class="dimension" transform="translate(3.95 3)">
-        <line x1="-0.35" y1="0" x2="0.35" y2="0"/>
+      <g class="dimension" transform="translate(3.85 2.875)">
+        <line x1="-0.35" y1="0" x2="0.2" y2="0"/>
         <text x="0" y="-0.075" class="above">600±100mm</text>
       </g>
-      <g class="dimension" transform="translate(3.9 2.7)">
+      <g class="dimension" transform="translate(3.8 2.58)">
         <line x1="0" y1="-0.3" x2="0" y2="0.3"/>
         <text x="0.05" y="0.03">600±100mm</text>
       </g>
-      <g class="dimension" transform="translate(3.475 3.9)">
-        <line x1="-0.425" y1="0" x2="0.425" y2="0"/>
+      <g class="dimension" transform="translate(3.375 3.8)">
+        <line x1="-0.5" y1="0" x2="0.425" y2="0"/>
         <text x="0" y="-0.075" class="above">900±100mm</text>
       </g>
-      <g class="dimension" transform="translate(3.9 3.45)">
+      <g class="dimension" transform="translate(3.8 3.34)">
         <line x1="0" y1="-0.425" x2="0" y2="0.425"/>
         <text x="0.05" y="0.075">900±100mm</text>
       </g>
