@@ -193,12 +193,6 @@
          y="-0.5"
          x="-0.6" />
     </g>
-    <g
-       id="volcano">
-      <path
-         id="path215"
-         d="M-1.8 -1.8 v3.6 h3.6 v-3.6 h-3.6 l1.2 1.2 h1.2 v1.2 h-1.2 v-1.2" />
-    </g>
     <!-- arrow heads for dimensions -->
     <g
        transform="scale(0.05)"
