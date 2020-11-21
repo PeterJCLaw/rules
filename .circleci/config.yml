@@ -2,10 +2,11 @@ version: 2
 jobs:
     build:
         docker:
-            - image: theorangeone/docker-pandoc
+            - image: node
         steps:
             - checkout
-            - run: make
+            - run: npm install -g inliner
+            - run: 'inliner rules.html > rulebook.html'
             - store_artifacts:
-                path: rulebook.pdf
-                destination: rulebook.pdf
+                path: rulebook.html
+                destination: rulebook.html
