@@ -124,20 +124,20 @@
           x="0"
           y="0"
           class="arena-wall"/>
-    <g class="arena-labels" transform="translate(0 0.3)">
-      <text x="0.8" y="3.2">OX</text> <!-- Oxmouth -->
-      <text x="0.7" y="2">BG</text> <!-- Badgerness -->
-      <text x="2" y="2.7">TS</text> <!-- Tall Ship -->
-      <text x="3.2" y="3.3">VB</text> <!-- Chipping Variable -->
-      <text x="2.7" y="1.4">EY</text> <!-- Eye Trumpeton -->
-      <text x="1.6" y="0.7">PN</text> <!-- Pinkton -->
-      <text x="7.2" y="3.2">BN</text> <!-- Banananess -->
-      <text x="7.3" y="2">HV</text> <!-- Hivekirk -->
-      <text x="6" y="2.7">SW</text> <!-- Switchstow -->
-      <text x="4.8" y="3.3">SZ</text> <!-- Scarzingford -->
-      <text x="5.3" y="1.4">PO</text> <!-- Ponyhurst -->
-      <text x="6.4" y="0.7">YL</text> <!-- Yelloware -->
-      <text x="4" y="2">BE</text> <!-- Beeston -->
+    <g transform="translate(0 0.3)">
+      <text class="arena-labels" x="0.8" y="3.2">OX</text> <!-- Oxmouth -->
+      <text class="arena-labels" x="0.7" y="2">BG</text> <!-- Badgerness -->
+      <text class="arena-labels" x="2" y="2.7">TS</text> <!-- Tall Ship -->
+      <text class="arena-labels" x="3.2" y="3.3">VB</text> <!-- Chipping Variable -->
+      <text class="arena-labels" x="2.7" y="1.4">EY</text> <!-- Eye Trumpeton -->
+      <text class="arena-labels" x="1.6" y="0.7">PN</text> <!-- Pinkton -->
+      <text class="arena-labels" x="7.2" y="3.2">BN</text> <!-- Banananess -->
+      <text class="arena-labels" x="7.3" y="2">HV</text> <!-- Hivekirk -->
+      <text class="arena-labels" x="6" y="2.7">SW</text> <!-- Switchstow -->
+      <text class="arena-labels" x="4.8" y="3.3">SZ</text> <!-- Scarzingford -->
+      <text class="arena-labels" x="5.3" y="1.4">PO</text> <!-- Ponyhurst -->
+      <text class="arena-labels" x="6.4" y="0.7">YL</text> <!-- Yelloware -->
+      <text class="arena-labels" x="4" y="2">BE</text> <!-- Beeston -->
     </g>
   </g>
 </svg>
