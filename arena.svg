@@ -3,7 +3,7 @@
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
      baseProfile="full"
-     width="820" height="420"
+     width="1025" height="525"
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
   <style type="text/css">
@@ -73,15 +73,15 @@
 
       .arena-labels {
         font-family: Courier;
-        font-size: 0.13pt;
+        font-size: 0.16pt;
         text-anchor: middle;
       }
     ]]>
   </style>
   <!-- common patterns -->
   <defs>
-    <rect width="0.15" height="0.3"
-          x="-0.075" y="-0.15"
+    <rect width="0.33" height="0.35"
+          x="-0.165" y="-0.175"
           id="robot"/>
     <circle id="tower" cx="0" cy="0" r="0.075" class="tower"/>
     <g id="territory">
@@ -89,22 +89,22 @@
       <use xlink:href="#tower"/>
     </g>
     <g id="side-zone">
-      <g transform="translate(0.25 0.25) rotate(-60)">
+      <g transform="translate(0.5 0.5) rotate(-60)">
         <use xlink:href="#robot"/>
       </g>
       <!-- boundary -->
       <!-- <line x1="0" y1="4" x2="4" y2="4" class="zone-boundary"/> -->
       <path class="zone-boundary"
-            d="M 0 0.5 h 0.5 v -0.5"/>
-      <use xlink:href="#territory" transform="translate(0.8 3.2)"/>
-      <use xlink:href="#territory" transform="translate(0.7 2)"/>
-      <use xlink:href="#territory" transform="translate(2 2.7)"/>
-      <use xlink:href="#territory" transform="translate(3.2 3.3)"/>
-      <use xlink:href="#territory" transform="translate(2.7 1.4)"/>
-      <use xlink:href="#territory" transform="translate(1.6 0.7)"/>
+            d="M 0 1 h 1 v -1"/>
+      <use xlink:href="#territory" transform="translate(0.9 4.2)"/> <!-- Oxmouth -->
+      <use xlink:href="#territory" transform="translate(0.9 2.6)"/> <!-- Badgerness -->
+      <use xlink:href="#territory" transform="translate(2.35 3.4)"/> <!-- Tall Ship -->
+      <use xlink:href="#territory" transform="translate(3.9 4.2)"/> <!-- Chipping Variable -->
+      <use xlink:href="#territory" transform="translate(3.5 1.75)"/> <!-- Eye Trumpeton -->
+      <use xlink:href="#territory" transform="translate(2 1)"/> <!-- Pinkton -->
       <!--<path class="platform-stage-b" d="M3.225 0 v2.325 l0.175 0.1 v-2 z"/>-->
-      <path class="platform" d="M0 0.8 L3.4 2.4 l0 0.25 L0 1.05"/>
-      <path class="platform" d="M1.8 0 L4 1.3 V0"/>
+      <path class="platform" d="M0 0.95 L4.25 3.15 l0 0.25 L0 1.15"/>
+      <path class="platform" d="M2 0 L5 1.5 V0"/>
     </g>
   </defs>
   <!-- white background -->
@@ -115,29 +115,31 @@
     <!-- zones -->
     <use xlink:href="#side-zone"/>
     <!--<use xlink:href="#side-zone" transform="rotate(180 4 2)"/>-->
-    <use xlink:href="#side-zone" transform="translate(8 0) scale(-1 1)"/>
+    <use xlink:href="#side-zone" transform="translate(10 0) scale(-1 1)"/>
     <!-- central territory -->
-    <use xlink:href="#territory" transform="translate(4 2)"/>
+    <use xlink:href="#territory" transform="translate(5 2.5)"/>
     <!-- arena wall -->
-    <rect width="8"
-          height="4"
+    <rect width="10"
+          height="5"
           x="0"
           y="0"
           class="arena-wall"/>
     <g transform="translate(0 0.3)">
-      <text class="arena-labels" x="0.8" y="3.2">OX</text> <!-- Oxmouth -->
-      <text class="arena-labels" x="0.7" y="2">BG</text> <!-- Badgerness -->
-      <text class="arena-labels" x="2" y="2.7">TS</text> <!-- Tall Ship -->
-      <text class="arena-labels" x="3.2" y="3.3">VB</text> <!-- Chipping Variable -->
-      <text class="arena-labels" x="2.7" y="1.4">EY</text> <!-- Eye Trumpeton -->
-      <text class="arena-labels" x="1.6" y="0.7">PN</text> <!-- Pinkton -->
-      <text class="arena-labels" x="7.2" y="3.2">BN</text> <!-- Banananess -->
-      <text class="arena-labels" x="7.3" y="2">HV</text> <!-- Hivekirk -->
-      <text class="arena-labels" x="6" y="2.7">SW</text> <!-- Switchstow -->
-      <text class="arena-labels" x="4.8" y="3.3">SZ</text> <!-- Scarzingford -->
-      <text class="arena-labels" x="5.3" y="1.4">PO</text> <!-- Ponyhurst -->
-      <text class="arena-labels" x="6.4" y="0.7">YL</text> <!-- Yelloware -->
-      <text class="arena-labels" x="4" y="2">BE</text> <!-- Beeston -->
+      <text class="arena-labels" x="0.9" y="4.2">OX</text> <!-- Oxmouth -->
+      <text class="arena-labels" x="0.9" y="2.6">BG</text> <!-- Badgerness -->
+      <text class="arena-labels" x="2.35" y="3.4">TS</text> <!-- Tall Ship -->
+      <text class="arena-labels" x="3.9" y="4.2">VB</text> <!-- Chipping Variable -->
+      <text class="arena-labels" x="3.5" y="1.75">EY</text> <!-- Eye Trumpeton -->
+      <text class="arena-labels" x="2" y="1">PN</text> <!-- Pinkton -->
+      
+      <text class="arena-labels" x="9.1" y="4.2">BN</text> <!-- Banananess -->
+      <text class="arena-labels" x="9.1" y="2.6">HV</text> <!-- Hivekirk -->
+      <text class="arena-labels" x="7.65" y="3.4">SW</text> <!-- Switchstow -->
+      <text class="arena-labels" x="6.1" y="4.2">SZ</text> <!-- Scarzingford -->
+      <text class="arena-labels" x="6.5" y="1.75">PO</text> <!-- Ponyhurst -->
+      <text class="arena-labels" x="8" y="1">YL</text> <!-- Yelloware -->
+      
+      <text class="arena-labels" x="5" y="2.5">BE</text> <!-- Beeston -->
     </g>
   </g>
 </svg>
