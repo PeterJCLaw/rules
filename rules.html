@@ -13,7 +13,7 @@
     <header>
       <div class="fixed-width">
         <h1>
-          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module Ⅰ</a>
+          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module ⅠⅠ</a>
         </h1>
       </div>
     </header>
@@ -45,12 +45,19 @@
             Territories start the game <strong>unowned</strong>. They may be
             <strong>captured</strong> and thereby belong to one robot.
           <li>
+            A territory can only be captured by a robot if it is linked to their
+            starting zone or a territory already owned by that robot.
+          <li>
+            If a territory owned by a robot is no longer connected to any other owned territories, it becomes unowned.
+          <li>
             Robots are awarded points at the end of the match for the maximum
             extent of their territory at any one time. Each owned territory at
             the maximum extent is worth <strong>2</strong> points.
           <li>
             The arena is a rectangle of the design specified in
             <a href="#specifications">the specifications section</a>.
+          <li>
+            Moveable walls start the match raised and at <strong>???</strong> seconds into the match descend so robots are able to drive over them.
           <li>
             In the centre of each territory is a <strong>tower</strong>.
           <li>
@@ -89,7 +96,7 @@
     <section>
       <div class="fixed-width">
         <h2><a class="anchor" id="specifications"></a>Specifications</h2>
-        <img src="arena.svg" alt="">
+        <img src="arena.svg" alt="" width="100%" height="auto">
         <ol>
           <li>
             The above figure represents, to scale, the design of the arena. The arena is
@@ -100,14 +107,19 @@
             denoted as being starting zone 0 is in the top left, the robot denoted as being
             starting zone 1 is in the top right.
           <li>
-            Grey regions indicate <strong>internal walls</strong> of the arena, which are
+            Dark grey regions indicate <strong>internal walls</strong> of the arena, which are
             impassable to robots.
+          <li>
+            Light grey regions indicate <strong>moveable internal walls</strong> of the arena, which are
+            impassable to robots only while raised.
           <li>
             The salmon-shaded regions indicate the <strong>territories</strong>.
           <li>
             The orange circles in the centre of the territories denote the
             <strong>towers</strong>. Underneath each tower in the figure is its
             <strong>station code</strong>.
+          <li>
+            The light blue regions indicate <strong>links</strong> between territories.
           <li>
             The canonical specification of all features of the arena is the simulator
             itself.
@@ -171,17 +183,13 @@
     <section>
       <div class="fixed-width">
         <h2><a class="anchor" id="revisions"></a>Revisions</h2>
-        <ol>
-          <li>
-            Explicitly calling out sport as being non-contact (enacted <time>2020-12-10</time>).
-            Resize arena diagram to match the arena in the simulator (enacted <time>2021-01-14</time>).
-        </ol>
+        <p>This document is the rules as originally enacted.</p>
       </div>
     </section>
     <footer class="site-footer">
       <div class="row fixed-width">
         <div class="column d-6-12">
-          <p>© Student Robotics 2020</p>
+          <p>© Student Robotics 2021</p>
           <p>Registered charity in England and Wales, number 1163168</p>
         </div>
         <div class="column text-right d-6-12">
