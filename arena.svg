@@ -103,7 +103,7 @@
       <use xlink:href="#territory" transform="translate(3.5 1.75)"/> <!-- Eye Trumpeton -->
       <use xlink:href="#territory" transform="translate(2 1)"/> <!-- Pinkton -->
       <!--<path class="platform-stage-b" d="M3.225 0 v2.325 l0.175 0.1 v-2 z"/>-->
-      <path class="platform" d="M0 0.95 L4.25 3.15 l0 0.25 L0 1.15"/>
+      <path class="platform" d="M0 0.92 L4.26 3.17 L4.26 3.45 L0 1.2"/>
       <path class="platform" d="M2 0 L5 1.5 V0"/>
     </g>
   </defs>
