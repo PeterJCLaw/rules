@@ -13,7 +13,7 @@
     <header>
       <div class="fixed-width">
         <h1>
-          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module ⅠⅠ</a>
+          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module Ⅱ</a>
         </h1>
       </div>
     </header>
@@ -45,19 +45,25 @@
             Territories start the game <strong>unowned</strong>. They may be
             <strong>captured</strong> and thereby belong to one robot.
           <li>
+            The arena contains an undirected connected graph with territories and starting zones as nodes and <strong>links</strong> as edges.
+          <li>
             A territory can only be captured by a robot if it is linked to their
             starting zone or a territory already owned by that robot.
           <li>
-            If a territory owned by a robot is no longer connected to any other owned territories, it becomes unowned.
+            Two territories are <strong>connected</strong> if they are linked and both owned by the same robot.
+          <li>
+            If a territory owned by a robot is no longer connected to any other
+            owned territories, it becomes unowned.
           <li>
             Robots are awarded points at the end of the match for the maximum
-            extent of their territory at any one time. Each owned territory at
+            extent of their territory at any one time. Each owned territory ats
             the maximum extent is worth <strong>2</strong> points.
           <li>
             The arena is a rectangle of the design specified in
             <a href="#specifications">the specifications section</a>.
           <li>
-            Moveable walls start the match raised and at <strong>???</strong> seconds into the match descend so robots are able to drive over them.
+            Moveable walls start the match raised and at <strong>???</strong>
+            seconds into the match descend so robots are able to drive over them.
           <li>
             In the centre of each territory is a <strong>tower</strong>.
           <li>
@@ -69,7 +75,7 @@
             of its radio to identify the signal strength and relative bearing to
             any tower.
           <li>
-            This is the <strong>first</strong> module of the game.
+            This is the <strong>second</strong> module of the game.
         </ol>
       </div>
     </section>

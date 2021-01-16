@@ -90,7 +90,7 @@
     ]]>
   </style>
   <!-- common patterns -->
-  <defs>      
+  <defs>
     <rect width="0.33" height="0.35"
           x="-0.165" y="-0.175"
           id="robot"/>
