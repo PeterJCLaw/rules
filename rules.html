@@ -45,7 +45,9 @@
             Territories start the game <strong>unowned</strong>. They may be
             <strong>captured</strong> and thereby belong to one robot.
           <li>
-            The arena contains an undirected graph with territories and starting zones as nodes and <strong>links</strong> as edges.
+            The territories and starting zones form a graph. Territories which are adjacent
+            (within the graph) to another territory or a zone are said to be <strong>linked</strong>
+            to that territory or zone.
           <li>
             A territory can only be captured by a robot if it is linked to their
             starting zone or a territory already owned by that robot.
