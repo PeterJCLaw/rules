@@ -13,7 +13,7 @@
     <header>
       <div class="fixed-width">
         <h1>
-          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module Ⅰ</a>
+          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module Ⅱ</a>
         </h1>
       </div>
     </header>
@@ -45,12 +45,31 @@
             Territories start the game <strong>unowned</strong>. They may be
             <strong>captured</strong> and thereby belong to one robot.
           <li>
+            The territories and starting zones form a network as shown in <a href="#specifications">the specifications section</a>. Territories which are adjacent
+            (within the network) to another territory or a zone are said to be <strong>linked</strong>
+            to that territory or zone.
+          <li>
+            A territory can only be captured by a robot if it is linked to their
+            starting zone or a territory already owned by that robot.
+          <li>
+            Two territories are <strong>connected</strong> if they are linked and 
+            both owned by the same robot.
+          <li>
+            If a territory owned by a robot is no longer connected, either directly or
+            through other territories, to that robot’s zone, it becomes unowned.
+          <li>
             Robots are awarded points at the end of the match for the maximum
             extent of their territory at any one time. Each owned territory at
             the maximum extent is worth <strong>2</strong> points.
           <li>
             The arena is a rectangle of the design specified in
             <a href="#specifications">the specifications section</a>.
+          <li>
+            Two of the internal walls in the arena are moveable. At the start of the
+            match these walls are raised. At <strong>60</strong> seconds into the
+            match these start to descend, it takes <strong>1</strong> second for the
+            walls to fully descend. Once fully descended robots are able to
+            drive over them.
           <li>
             In the centre of each territory is a <strong>tower</strong>.
           <li>
@@ -62,7 +81,7 @@
             of its radio to identify the signal strength and relative bearing to
             any tower.
           <li>
-            This is the <strong>first</strong> module of the game.
+            This is the <strong>second</strong> module of the game.
         </ol>
       </div>
     </section>
@@ -100,14 +119,19 @@
             denoted as being starting zone 0 is in the top left, the robot denoted as being
             starting zone 1 is in the top right.
           <li>
-            Grey regions indicate <strong>internal walls</strong> of the arena, which are
+            Dark grey regions indicate <strong>internal walls</strong> of the arena, which are
             impassable to robots.
+          <li>
+            Light grey regions indicate <strong>moveable internal walls</strong> of the arena, which are
+            impassable to robots only while raised.
           <li>
             The salmon-shaded regions indicate the <strong>territories</strong>.
           <li>
             The orange circles in the centre of the territories denote the
             <strong>towers</strong>. Underneath each tower in the figure is its
             <strong>station code</strong>.
+          <li>
+            The light blue regions indicate <strong>links</strong> between territories.
           <li>
             The canonical specification of all features of the arena is the simulator
             itself.
@@ -176,13 +200,15 @@
             Explicitly calling out sport as being non-contact (enacted <time>2020-12-10</time>).
           <li>
             Resize arena diagram to match the arena in the simulator (enacted <time>2021-01-16</time>).
+          <li>
+            Update rules for module 2 (enacted <time>2021-01-16</time>).
         </ol>
       </div>
     </section>
     <footer class="site-footer">
       <div class="row fixed-width">
         <div class="column d-6-12">
-          <p>© Student Robotics 2020</p>
+          <p>© Student Robotics 2021</p>
           <p>Registered charity in England and Wales, number 1163168</p>
         </div>
         <div class="column text-right d-6-12">
