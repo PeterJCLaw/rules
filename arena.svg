@@ -129,7 +129,7 @@
       
       <path class="platform" d="M4.65 1.32 L4.37 1.17 L3.98 3.02 L4.26 3.17 Z"/>
       <path class="platform" d="M2 0 L5 1.5 V0"/>
-      <path class="moveable-platform" d="M1 1.42 L4.26 3.17 L4.21 3.42 L1 1.7 Z"/>
+      <path class="moveable-platform" d="M0.7 1.26 L4.26 3.17 L4.21 3.42 L0.7 1.54 Z"/>
       
     </g>
   </defs>
