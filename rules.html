@@ -13,7 +13,7 @@
     <header>
       <div class="fixed-width">
         <h1>
-          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module Ⅱ</a>
+          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module Ⅲ</a>
         </h1>
       </div>
     </header>
@@ -42,25 +42,35 @@
           <li>
             Each match lasts for <strong>120</strong> seconds.
           <li>
-            Territories start the game <strong>unowned</strong>. They may be
-            <strong>captured</strong> and thereby belong to one robot.
+            Territories start the game <strong>unclaimed</strong> and <strong>unlocked</strong>. They may be
+            <strong>claimed</strong> and thereby belong to one robot.
           <li>
-            The territories and starting zones form a network as shown in <a href="#specifications">the specifications section</a>. Territories which are adjacent
+            The territories and starting zones form a network as shown in <a href="#specifications">the
+            specifications section</a>. Territories which are adjacent
             (within the network) to another territory or a zone are said to be <strong>linked</strong>
             to that territory or zone.
           <li>
-            A territory can only be captured by a robot if it is linked to their
-            starting zone or a territory already owned by that robot.
+            A territory can only be claimed by a robot if it is 
+            unlocked and linked to their starting zone or 
+            a territory already owned by that robot. This increases the number of times the territory
+            has been claimed even if the claiming robot already owns the territory. 
           <li>
             Two territories are <strong>connected</strong> if they are linked and 
             both owned by the same robot.
           <li>
             If a territory owned by a robot is no longer connected, either directly or
-            through other territories, to that robot’s zone, it becomes unowned.
+            through other territories, to that robot’s zone, it becomes unclaimed. This does 
+            not increase the number of times the territory has been claimed.
           <li>
-            Robots are awarded points at the end of the match for the maximum
-            extent of their territory at any one time. Each owned territory at
-            the maximum extent is worth <strong>2</strong> points.
+            When a territory has been claimed <strong>n</strong> times, it becomes <strong>locked</strong>
+            and unowned.
+          <li>
+            Robots are awarded points at the end of the match for the number of 
+            territories currently held. Each owned territory is worth 
+            <strong>2</strong> points.
+          <li>
+            At the end of the match the robot wit the most points wins. In the event both robots have the
+            same number of points, the match is a tie.
           <li>
             The arena is a rectangle of the design specified in
             <a href="#specifications">the specifications section</a>.
@@ -79,9 +89,9 @@
             Each tower has a <strong>station code</strong>, which it continuously
             broadcasts; the robot can use the <strong>radar</strong> functionality
             of its radio to identify the signal strength and relative bearing to
-            any tower.
+            any tower.            
           <li>
-            This is the <strong>second</strong> module of the game.
+            This is the <strong>third</strong> module of the game.
         </ol>
       </div>
     </section>
@@ -114,6 +124,8 @@
             The above figure represents, to scale, the design of the arena. The arena is
             <strong>10m</strong> along its long axis, and <strong>5m</strong> along its
             short axis.
+          <li>
+            North faces towards the top of the figure.
           <li>
             The green boxes denote the <strong>robot start locations</strong>. The robot
             denoted as being starting zone 0 is in the top left, the robot denoted as being
@@ -202,6 +214,8 @@
             Resize arena diagram to match the arena in the simulator (enacted <time>2021-01-16</time>).
           <li>
             Update rules for module 2 (enacted <time>2021-01-16</time>).
+          <li>
+            Update rules for module 3 (enacted <time>2021-xx-xx</time>).
         </ol>
       </div>
     </section>
