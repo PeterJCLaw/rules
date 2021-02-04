@@ -3,7 +3,7 @@
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
      baseProfile="full"
-     width="1100" height="525"
+     width="1075" height="525"
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
   <style type="text/css">
@@ -141,10 +141,10 @@
   </defs>
   <!-- white background -->
   <rect width="1025" height="525" fill="white"/>
-  <g id="compass" transform="translate(1010 375)">
-    <svg width="75" height="250">
-      <text class="compass-labels" x="50%" y="30%" alignment-baseline="middle" text-anchor="middle">N</text>
-      <text class="compass-labels" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle">⤉</text>      
+  <g id="compass" transform="translate(1025 275)">
+    <svg width="50" height="250">
+      <text class="compass-labels" x="50%" y="70%" alignment-baseline="middle" text-anchor="middle">N</text>
+      <text class="compass-labels" x="50%" y="90%" alignment-baseline="middle" text-anchor="middle">⤉</text>      
     </svg>
   </g>
   <!-- transform for arena-space coordinates -->
