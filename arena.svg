@@ -3,7 +3,7 @@
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
      baseProfile="full"
-     width="1025" height="525"
+     width="1100" height="525"
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
   <style type="text/css">
@@ -82,6 +82,12 @@
         font-size: 0.16pt;
         text-anchor: middle;
       }
+      
+      .compass-labels {
+        font-family: Courier;
+        font-size: 40pt;
+        text-anchor: middle;
+      }
         
       .link {
         stroke: skyblue;
@@ -134,7 +140,13 @@
     </g>
   </defs>
   <!-- white background -->
-  <rect width="100%" height="100%" fill="white"/>
+  <rect width="1025" height="525" fill="white"/>
+  <g id="compass" transform="translate(1010 375)">
+    <svg width="75" height="250">
+      <text class="compass-labels" x="50%" y="30%" alignment-baseline="middle" text-anchor="middle">N</text>
+      <text class="compass-labels" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle">⤉</text>      
+    </svg>
+  </g>
   <!-- transform for arena-space coordinates -->
   <g id="arena"
      transform="translate(10 10) scale(100)">
