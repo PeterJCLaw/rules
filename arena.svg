@@ -155,7 +155,7 @@
     </g>
   </defs>
   <!-- white background -->
-  <rect width="1600" height="775" fill="white"/>
+  <rect width="1500" height="775" x="50" fill="white"/>
   <g id="compass" transform="translate(1550 500)">
     <svg width="50" height="250">
       <text class="compass-labels" x="50%" y="70%" alignment-baseline="middle" text-anchor="middle">N</text>
