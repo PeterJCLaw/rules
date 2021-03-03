@@ -71,6 +71,18 @@
           fill: #ecc;
       }
 
+      .gold-border {
+          stroke: #666;
+          stroke-width: 0.02;
+          fill: #e8c923;
+      }
+
+      .bronze-border {
+          stroke: #666;
+          stroke-width: 0.02;
+          fill: #bb8f4c;
+      }
+
       .tower {
           stroke: #000;
           fill: #ffbb55;
@@ -103,6 +115,9 @@
       <circle cx="0" cy="0" r="0.5" class="territory"/>
       <use xlink:href="#tower"/>
     </g>
+    <g id="border">
+      <circle cx="0" cy="0" r="0.6"/>
+    </g>
 
     <g id="side-zone">
       <g id="territory-links">
@@ -130,6 +145,7 @@
       <use xlink:href="#territory" transform="translate(-6.6 3)"/> <!-- OX -->
       <use xlink:href="#territory" transform="translate(-2.75 2.75)"/> <!-- TS -->
       <use xlink:href="#territory" transform="translate(-1.95 0.75)"/> <!-- VB -->
+      <use xlink:href="#border" class="bronze-border" transform="translate(-6.6 -3)"/>
       <use xlink:href="#territory" transform="translate(-6.6 -3)"/> <!-- T4 -->
 
       <path class="platform" d="M-0.5 -3.75 L-2.1 -2.2 L-5.5 -3.75 Z"/>
@@ -155,6 +171,10 @@
     <!-- central links -->
     <path class="link" d="M0 -1.5 L0 0"/> <!-- T1-T2 -->
     <path class="link" d="M0 0 L0 1.5"/> <!-- T2-BE -->
+    <!-- territory borders -->
+    <use xlink:href="#border" class="bronze-border" />
+    <use xlink:href="#border" class="bronze-border"  transform="translate(0 -3)"/>
+    <use xlink:href="#border" class="gold-border"  transform="translate(0 -1.5)"/>
     <!-- central territories -->
     <use xlink:href="#territory" transform="translate(0 -3)"/>
     <use xlink:href="#territory" transform="translate(0 -1.5)"/>
