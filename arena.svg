@@ -97,9 +97,7 @@
   </style>
   <!-- common patterns -->
   <defs>
-    <rect width="0.33" height="0.35"
-          x="-0.165" y="-0.175"
-          id="robot"/>
+    <rect width="0.33" height="0.35" x="-0.165" y="-0.175" id="robot"/>
     <circle id="tower" cx="0" cy="0" r="0.075" class="tower"/>
     <g id="territory">
       <circle cx="0" cy="0" r="0.5" class="territory"/>
@@ -123,9 +121,7 @@
         <use xlink:href="#robot"/>
       </g>
       <!-- boundary -->
-      <!-- <line x1="0" y1="4" x2="4" y2="4" class="zone-boundary"/> -->
-      <path class="zone-boundary"
-            d="M 0 1 h 1 v -1"/>
+      <path class="zone-boundary" d="M 0 1 h 1 v -1"/>
       <use xlink:href="#territory" transform="translate(0.9 4.2)"/> <!-- Oxmouth -->
       <use xlink:href="#territory" transform="translate(0.9 2.6)"/> <!-- Badgerness -->
       <use xlink:href="#territory" transform="translate(2.35 3.4)"/> <!-- Tall Ship -->
@@ -157,11 +153,7 @@
     <!-- central territory -->
     <use xlink:href="#territory" transform="translate(5 2.5)"/>
     <!-- arena wall -->
-    <rect width="10"
-          height="5"
-          x="0"
-          y="0"
-          class="arena-wall"/>
+    <rect width="10" height="5" x="0" y="0" class="arena-wall"/>
     <g transform="translate(0 0.3)">
       <text class="arena-labels" x="0.9" y="4.2">OX</text> <!-- Oxmouth -->
       <text class="arena-labels" x="0.9" y="2.6">BG</text> <!-- Badgerness -->
