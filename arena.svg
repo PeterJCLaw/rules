@@ -150,7 +150,7 @@
 
       <path class="platform" d="M-0.5 -3.75 L-2.1 -2.2 L-5.5 -3.75 Z"/>
       <path class="moveable-platform" d="
-        M-5.43 2.25 L-3.8 1 L-5.43 1
+        M-5.425 2.25 L-3.8 1 L-5.425 1
         V-2.75 H-5.575 V2.25 Z"/>
     </g>
   </defs>
