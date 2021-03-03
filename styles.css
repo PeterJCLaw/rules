@@ -1,0 +1,21 @@
+table {
+    margin: 0;
+    padding: 0;
+}
+
+table th, table td {
+    padding: 0.5em;
+}
+
+table thead {
+    color: #3270ed;
+}
+
+table th {
+    text-align: left;
+    border-bottom: 2px solid #3270ed;
+}
+
+code {
+    font-size: inherit;
+}
