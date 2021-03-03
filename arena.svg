@@ -20,7 +20,7 @@
           stroke: #555;
           stroke-width: .02;
       }
-      
+
       .moveable-platform {
           fill: #ddd;
           stroke: #888;
@@ -82,13 +82,13 @@
         font-size: 0.16pt;
         text-anchor: middle;
       }
-      
+
       .compass-labels {
         font-family: Courier;
         font-size: 40pt;
         text-anchor: middle;
       }
-        
+
       .link {
         stroke: skyblue;
         stroke-width: 0.15;
@@ -105,12 +105,12 @@
       <circle cx="0" cy="0" r="0.5" class="territory"/>
       <use xlink:href="#tower"/>
     </g>
-    
+
     <g id="side-zone">
       <g id="territory-links">
-        <path class="link" d="M0.5 0.5 L2 1"/> 
-        <path class="link" d="M0.5 0.5 L0.9 2.6"/> 
-        <path class="link" d="M0.5 0.5 L2.35 3.4"/>  
+        <path class="link" d="M0.5 0.5 L2 1"/>
+        <path class="link" d="M0.5 0.5 L0.9 2.6"/>
+        <path class="link" d="M0.5 0.5 L2.35 3.4"/>
         <path class="link" d="M2 1 L3.5 1.75"/>
         <path class="link" d="M3.5 1.75 L5 2.5"/>
         <path class="link" d="M0.9 2.6 L0.9 4.2"/>
@@ -132,11 +132,11 @@
       <use xlink:href="#territory" transform="translate(3.9 4.2)"/> <!-- Chipping Variable -->
       <use xlink:href="#territory" transform="translate(3.5 1.75)"/> <!-- Eye Trumpeton -->
       <use xlink:href="#territory" transform="translate(2 1)"/> <!-- Pinkton -->
-      
+
       <path class="platform" d="M4.65 1.32 L4.37 1.17 L3.98 3.02 L4.26 3.17 Z"/>
       <path class="platform" d="M2 0 L5 1.5 V0"/>
       <path class="moveable-platform" d="M0.7 1.26 L4.26 3.17 L4.21 3.42 L0.7 1.54 Z"/>
-      
+
     </g>
   </defs>
   <!-- white background -->
@@ -144,7 +144,7 @@
   <g id="compass" transform="translate(1025 275)">
     <svg width="50" height="250">
       <text class="compass-labels" x="50%" y="70%" alignment-baseline="middle" text-anchor="middle">N</text>
-      <text class="compass-labels" x="50%" y="90%" alignment-baseline="middle" text-anchor="middle">⤉</text>      
+      <text class="compass-labels" x="50%" y="90%" alignment-baseline="middle" text-anchor="middle">⤉</text>
     </svg>
   </g>
   <!-- transform for arena-space coordinates -->
@@ -169,17 +169,16 @@
       <text class="arena-labels" x="3.9" y="4.2">VB</text> <!-- Chipping Variable -->
       <text class="arena-labels" x="3.5" y="1.75">EY</text> <!-- Eye Trumpeton -->
       <text class="arena-labels" x="2" y="1">PN</text> <!-- Pinkton -->
-      
+
       <text class="arena-labels" x="9.1" y="4.2">BN</text> <!-- Banananess -->
       <text class="arena-labels" x="9.1" y="2.6">HV</text> <!-- Hivekirk -->
       <text class="arena-labels" x="7.65" y="3.4">SW</text> <!-- Switchstow -->
       <text class="arena-labels" x="6.1" y="4.2">SZ</text> <!-- Scarzingford -->
       <text class="arena-labels" x="6.5" y="1.75">PO</text> <!-- Ponyhurst -->
       <text class="arena-labels" x="8" y="1">YL</text> <!-- Yelloware -->
-      
+
       <text class="arena-labels" x="5" y="2.5">BE</text> <!-- Beeston -->
     </g>
-    
+
   </g>
 </svg>
-
