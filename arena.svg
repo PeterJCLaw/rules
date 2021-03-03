@@ -132,6 +132,10 @@
       <use xlink:href="#territory" transform="translate(-1.95 0.75)"/> <!-- VB -->
       <use xlink:href="#territory" transform="translate(-6.6 -3)"/> <!-- T4 -->
 
+      <path class="platform" d="M-0.5 -3.75 L-2.1 -2.2 L-5.5 -3.75 Z"/>
+      <path class="moveable-platform" d="
+        M-5.43 2.25 L-3.8 1 L-5.43 1
+        V-2.75 H-5.575 V2.25 Z"/>
     </g>
   </defs>
   <!-- white background -->
@@ -159,6 +163,9 @@
     <use xlink:href="#territory" transform="translate(0 3)"/>
     <!-- arena wall -->
     <rect width="15" height="7.5" x="-7.5" y="-3.75" class="arena-wall"/>
+    <!-- central wall -->
+    <path class="platform" d="M-3.5 -0.075 H3.5 V0.075 H-3.5 Z"/>
+    <use xlink:href="#tower"/>
     <g transform="translate(0 0.3)">
       <text class="arena-labels" x="-4.2" y="-1.8">PN</text> <!-- Pinkton -->
       <text class="arena-labels" x="-1.95" y="-0.75">EY</text> <!-- Eye Trumpeton -->
