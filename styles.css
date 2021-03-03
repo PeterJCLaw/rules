@@ -16,6 +16,10 @@ table th {
     border-bottom: 2px solid #3270ed;
 }
 
+table tr:nth-child(2n) {
+    background-color: #f5f3f4;
+}
+
 code {
     font-size: inherit;
 }
