@@ -155,7 +155,7 @@
     </g>
   </defs>
   <!-- white background -->
-  <rect width="1500" height="775" x="50" fill="white"/>
+  <rect width="1500" height="750" x="50" y="10" fill="white"/>
   <g id="compass" transform="translate(1550 625)">
     <text class="compass-labels" x="25" y="50" alignment-baseline="middle" text-anchor="middle">N</text>
     <text class="compass-labels" x="25" y="100" alignment-baseline="middle" text-anchor="middle">⤉</text>
