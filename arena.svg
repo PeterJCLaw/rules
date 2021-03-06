@@ -185,27 +185,27 @@
     <path class="platform" d="M-3.5 -0.075 H3.5 V0.075 H-3.5 Z"/>
     <use xlink:href="#tower"/>
     <g transform="translate(0 0.3)">
-      <text class="arena-labels" x="-4.2" y="-1.8">PN</text> <!-- Pinkton -->
-      <text class="arena-labels" x="-1.95" y="-0.75">EY</text> <!-- Eye Trumpeton -->
-      <text class="arena-labels" x="-4.2" y="0">BG</text> <!-- Badgerness -->
-      <text class="arena-labels" x="-6.6" y="3">OX</text> <!-- Oxmouth -->
-      <text class="arena-labels" x="-2.75" y="2.75">TS</text> <!-- Tall Ship -->
-      <text class="arena-labels" x="-1.95" y="0.75">VB</text> <!-- Chipping Variable -->
-      <text class="arena-labels" x="-6.6" y="-3">TH</text> <!-- Tudor Hammer -->
+      <text class="arena-labels" x="-4.2" y="-1.8">PN</text>
+      <text class="arena-labels" x="-1.95" y="-0.75">EY</text>
+      <text class="arena-labels" x="-4.2" y="0">BG</text>
+      <text class="arena-labels" x="-6.6" y="3">OX</text>
+      <text class="arena-labels" x="-2.75" y="2.75">TS</text>
+      <text class="arena-labels" x="-1.95" y="0.75">VB</text>
+      <text class="arena-labels" x="-6.6" y="-3">TH</text>
 
-      <text class="arena-labels" x="4.2" y="-1.8">YL</text> <!-- Yelloware -->
-      <text class="arena-labels" x="1.95" y="-0.75">PO</text> <!-- Ponyhurst -->
-      <text class="arena-labels" x="4.2" y="0">HV</text> <!-- Hivekirk -->
-      <text class="arena-labels" x="6.6" y="3">BN</text> <!-- Banananess -->
-      <text class="arena-labels" x="2.75" y="2.75">SW</text> <!-- Switchstow -->
-      <text class="arena-labels" x="1.95" y="0.75">SZ</text> <!-- Scarzingford -->
-      <text class="arena-labels" x="6.6" y="-3">SF</text> <!-- Scarborough Fire -->
+      <text class="arena-labels" x="4.2" y="-1.8">YL</text>
+      <text class="arena-labels" x="1.95" y="-0.75">PO</text>
+      <text class="arena-labels" x="4.2" y="0">HV</text>
+      <text class="arena-labels" x="6.6" y="3">BN</text>
+      <text class="arena-labels" x="2.75" y="2.75">SW</text>
+      <text class="arena-labels" x="1.95" y="0.75">SZ</text>
+      <text class="arena-labels" x="6.6" y="-3">SF</text>
 
-      <text class="arena-labels" x="0" y="-3">FL</text> <!-- Flailsbury -->
-      <text class="arena-labels" x="0" y="-1.5">YT</text> <!-- Yamlot -->
-      <text class="arena-labels" x="0" y="0">HA</text> <!-- Hattersly -->
-      <text class="arena-labels" x="0" y="1.5">BE</text> <!-- Beeston -->
-      <text class="arena-labels" x="0" y="3">PL</text> <!-- Port Lucent -->
+      <text class="arena-labels" x="0" y="-3">FL</text>
+      <text class="arena-labels" x="0" y="-1.5">YT</text>
+      <text class="arena-labels" x="0" y="0">HA</text>
+      <text class="arena-labels" x="0" y="1.5">BE</text>
+      <text class="arena-labels" x="0" y="3">PL</text>
     </g>
 
   </g>
