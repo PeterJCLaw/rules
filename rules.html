@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.studentrobotics.org/style/css/main.css">
     <link rel="shortcut icon" href="https://www.studentrobotics.org/style/images/favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <header>
@@ -27,6 +28,7 @@
           <li><a href="#comp-structure">Competition Structure</a></li>
           <li><a href="#awards">Awards</a></li>
           <li><a href="#revisions">Revisions</a></li>
+          <li><a href="#station-names">Station Names</a></li>
         </ol>
       </div>
     </section>
@@ -90,7 +92,8 @@
             Each tower has a <strong>station code</strong>, which it continuously
             broadcasts; the robot can use the <strong>radar</strong> functionality
             of its radio to identify the signal strength and relative bearing to
-            any tower.
+            any tower. Station names are defined in <a href="#station-names">the
+            station names section</a>.
           <li>
             This is the <strong>third</strong> module of the game.
         </ol>
@@ -126,9 +129,8 @@
             <strong>10m</strong> along its long axis, and <strong>5m</strong> along its
             short axis.
           <li>
-            The green boxes denote the <strong>robot start locations</strong>. The robot
-            denoted as being starting zone 0 is in the top left, the robot denoted as being
-            starting zone 1 is in the top right.
+            The green boxes denote the <strong>robot start locations</strong>.
+            Starting zone 0 is in the top left, starting zone 1 is in the top right.
           <li>
             Dark grey regions indicate <strong>internal walls</strong> of the arena, which are
             impassable to robots.
@@ -215,7 +217,36 @@
             Update rules for module 2 (enacted <time>2021-01-16</time>).
           <li>
             Update rules for module 3 (enacted <time>2021-02-06</time>).
+          <li>
+            Define the full names of stations and clarify the starting zones (enacted <time>2021-03-06</time>).
         </ol>
+      </div>
+    </section>
+    <section>
+      <div class="fixed-width">
+        <h2><a class="anchor" id="station-names"></a>Station Names</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Station Code</th>
+              <th>Station Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><code>BE</code></td><td>Beeston</td></tr>
+            <tr><td><code>BG</code></td><td>Badgerness</td></tr>
+            <tr><td><code>BN</code></td><td>Banananess</td></tr>
+            <tr><td><code>HV</code></td><td>Hivekirk</td></tr>
+            <tr><td><code>OX</code></td><td>Oxmouth</td></tr>
+            <tr><td><code>PN</code></td><td>Pinkton</td></tr>
+            <tr><td><code>PO</code></td><td>Ponyhurst</td></tr>
+            <tr><td><code>SW</code></td><td>Switchstow</td></tr>
+            <tr><td><code>SZ</code></td><td>Scarzingford</td></tr>
+            <tr><td><code>TS</code></td><td>Tall Ship</td></tr>
+            <tr><td><code>VB</code></td><td>Chipping Variable</td></tr>
+            <tr><td><code>YL</code></td><td>Yelloware</td></tr>
+          </tbody>
+        </table>
       </div>
     </section>
     <footer class="site-footer">
