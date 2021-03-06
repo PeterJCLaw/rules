@@ -97,7 +97,7 @@
 
       .compass-labels {
         font-family: Courier;
-        font-size: 40pt;
+        font-size: 42pt;
         text-anchor: middle;
       }
 
@@ -146,7 +146,7 @@
       <use xlink:href="#territory" transform="translate(-2.75 2.75)"/> <!-- TS -->
       <use xlink:href="#territory" transform="translate(-1.95 0.75)"/> <!-- VB -->
       <use xlink:href="#border" class="bronze-border" transform="translate(-6.6 -3)"/>
-      <use xlink:href="#territory" transform="translate(-6.6 -3)"/> <!-- T4 -->
+      <use xlink:href="#territory" transform="translate(-6.6 -3)"/> <!-- TH -->
 
       <path class="platform" d="M-0.5 -3.75 L-2.1 -2.2 L-5.5 -3.75 Z"/>
       <path class="moveable-platform" d="
@@ -155,12 +155,10 @@
     </g>
   </defs>
   <!-- white background -->
-  <rect width="1600" height="775" fill="white"/>
-  <g id="compass" transform="translate(1550 500)">
-    <svg width="50" height="250">
-      <text class="compass-labels" x="50%" y="70%" alignment-baseline="middle" text-anchor="middle">N</text>
-      <text class="compass-labels" x="50%" y="90%" alignment-baseline="middle" text-anchor="middle">⤉</text>
-    </svg>
+  <rect width="1500" height="750" x="50" y="10" fill="white"/>
+  <g id="compass" transform="translate(1550 625)">
+    <text class="compass-labels" x="25" y="50" alignment-baseline="middle" text-anchor="middle">N</text>
+    <text class="compass-labels" x="25" y="100" alignment-baseline="middle" text-anchor="middle">⤉</text>
   </g>
   <!-- transform for arena-space coordinates -->
   <g id="arena"
@@ -169,8 +167,8 @@
     <use xlink:href="#side-zone"/>
     <use xlink:href="#side-zone" transform="scale(-1 1)"/>
     <!-- central links -->
-    <path class="link" d="M0 -1.5 L0 0"/> <!-- T1-T2 -->
-    <path class="link" d="M0 0 L0 1.5"/> <!-- T2-BE -->
+    <path class="link" d="M0 -1.5 L0 0"/> <!-- YL-HA -->
+    <path class="link" d="M0 0 L0 1.5"/> <!-- HA-BE -->
     <!-- territory borders -->
     <use xlink:href="#border" class="bronze-border" />
     <use xlink:href="#border" class="bronze-border"  transform="translate(0 -3)"/>
@@ -187,27 +185,27 @@
     <path class="platform" d="M-3.5 -0.075 H3.5 V0.075 H-3.5 Z"/>
     <use xlink:href="#tower"/>
     <g transform="translate(0 0.3)">
-      <text class="arena-labels" x="-4.2" y="-1.8">PN</text> <!-- Pinkton -->
-      <text class="arena-labels" x="-1.95" y="-0.75">EY</text> <!-- Eye Trumpeton -->
-      <text class="arena-labels" x="-4.2" y="0">BG</text> <!-- Badgerness -->
-      <text class="arena-labels" x="-6.6" y="3">OX</text> <!-- Oxmouth -->
-      <text class="arena-labels" x="-2.75" y="2.75">TS</text> <!-- Tall Ship -->
-      <text class="arena-labels" x="-1.95" y="0.75">VB</text> <!-- Chipping Variable -->
-      <text class="arena-labels" x="-6.6" y="-3">T4</text> <!--  -->
+      <text class="arena-labels" x="-4.2" y="-1.8">PN</text>
+      <text class="arena-labels" x="-1.95" y="-0.75">EY</text>
+      <text class="arena-labels" x="-4.2" y="0">BG</text>
+      <text class="arena-labels" x="-6.6" y="3">OX</text>
+      <text class="arena-labels" x="-2.75" y="2.75">TS</text>
+      <text class="arena-labels" x="-1.95" y="0.75">VB</text>
+      <text class="arena-labels" x="-6.6" y="-3">TH</text>
 
-      <text class="arena-labels" x="4.2" y="-1.8">YL</text> <!-- Yelloware -->
-      <text class="arena-labels" x="1.95" y="-0.75">PO</text> <!-- Ponyhurst -->
-      <text class="arena-labels" x="4.2" y="0">HV</text> <!-- Hivekirk -->
-      <text class="arena-labels" x="6.6" y="3">BN</text> <!-- Banananess -->
-      <text class="arena-labels" x="2.75" y="2.75">SW</text> <!-- Switchstow -->
-      <text class="arena-labels" x="1.95" y="0.75">SZ</text> <!-- Scarzingford -->
-      <text class="arena-labels" x="6.6" y="-3">T5</text> <!--  -->
+      <text class="arena-labels" x="4.2" y="-1.8">YL</text>
+      <text class="arena-labels" x="1.95" y="-0.75">PO</text>
+      <text class="arena-labels" x="4.2" y="0">HV</text>
+      <text class="arena-labels" x="6.6" y="3">BN</text>
+      <text class="arena-labels" x="2.75" y="2.75">SW</text>
+      <text class="arena-labels" x="1.95" y="0.75">SZ</text>
+      <text class="arena-labels" x="6.6" y="-3">SF</text>
 
-      <text class="arena-labels" x="0" y="-3">T0</text> <!--  -->
-      <text class="arena-labels" x="0" y="-1.5">T1</text> <!--  -->
-      <text class="arena-labels" x="0" y="0">T2</text> <!--  -->
-      <text class="arena-labels" x="0" y="1.5">BE</text> <!-- Beeston -->
-      <text class="arena-labels" x="0" y="3">T3</text> <!--  -->
+      <text class="arena-labels" x="0" y="-3">FL</text>
+      <text class="arena-labels" x="0" y="-1.5">YT</text>
+      <text class="arena-labels" x="0" y="0">HA</text>
+      <text class="arena-labels" x="0" y="1.5">BE</text>
+      <text class="arena-labels" x="0" y="3">PL</text>
     </g>
 
   </g>
