@@ -14,7 +14,7 @@
     <header>
       <div class="fixed-width">
         <h1>
-          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module Ⅲ</a>
+          <a class="anchor" id="top"></a><a href="#top">Radars of the Lost Ark, Module Ⅳ</a>
         </h1>
       </div>
     </header>
@@ -44,7 +44,7 @@
           <li>
             Each match lasts for <strong>120</strong> seconds.
           <li>
-            Territories start the game <strong>unclaimed</strong> and <strong>unlocked</strong>. They may be
+            Territories start the game <strong>unclaimed</strong>. They may be
             <strong>claimed</strong> and thereby belong to one robot.
           <li>
             The territories and starting zones form a network as shown in <a href="#specifications">the specifications section</a>. Territories which are adjacent
@@ -52,25 +52,30 @@
             to that territory or zone.
           <li>
             A territory can only be claimed by a robot if it is
-            unlocked and linked to their starting zone or
+            linked to their starting zone or
             a territory already owned by that robot.
           <li>
-            The fourth time a territory is claimed, instead of becoming owned by the claimant
-            it becomes <strong>locked</strong> and unowned.
-          <li>
-            The number of times a territory has been claimed increases even if the claiming robot already
-            owns the territory.
+            When a claim completes, if the territory was already owned by the claimant, the territory becomes <strong>unclaimed</strong>.
           <li>
             Two territories are <strong>connected</strong> if they are linked and
             both owned by the same robot.
           <li>
             If a territory owned by a robot is no longer connected, either directly or
-            through other territories, to that robot’s zone, it becomes unclaimed. This does
-            not increase the number of times the territory has been claimed.
+            through other territories, to that robot’s zone, it becomes unclaimed.
           <li>
             Robots are awarded points at the end of the match for the number of
-            territories currently held. Each owned territory is worth
-            <strong>2</strong> points.
+            territories currently held:
+            <ul>
+              <li>
+                Plain territories are worth <strong>2</strong> points each,
+              </li>
+              <li>
+                bronze territories <strong>4</strong> points each and
+              </li>
+              <li>
+                gold territories <strong>8</strong> points each.
+              </li>
+            </ul>
           <li>
             At the end of the match the robot with the most points wins. In the event both robots have the
             same number of points, the match is a tie.
@@ -95,7 +100,7 @@
             any tower. Station names are defined in <a href="#station-names">the
             station names section</a>.
           <li>
-            This is the <strong>third</strong> module of the game.
+            This is the <strong>fourth</strong> module of the game.
         </ol>
       </div>
     </section>
@@ -126,11 +131,11 @@
         <ol>
           <li>
             The above figure represents, to scale, the design of the arena. The arena is
-            <strong>10m</strong> along its long axis, and <strong>5m</strong> along its
+            <strong>15m</strong> along its long axis, and <strong>7.5m</strong> along its
             short axis.
           <li>
             The green boxes denote the <strong>robot start locations</strong>.
-            Starting zone 0 is in the top left, starting zone 1 is in the top right.
+            Starting zone 0 is on the left, starting zone 1 is on the right.
           <li>
             Dark grey regions indicate <strong>internal walls</strong> of the arena, which are
             impassable to robots.
@@ -139,6 +144,7 @@
             impassable to robots only while raised.
           <li>
             The salmon-shaded regions indicate the <strong>territories</strong>.
+            Those with the gold or bronze coloured rings are worth more points.
           <li>
             The orange circles in the centre of the territories denote the
             <strong>towers</strong>. Underneath each tower in the figure is its
@@ -219,6 +225,8 @@
             Update rules for module 3 (enacted <time>2021-02-06</time>).
           <li>
             Define the full names of stations and clarify the starting zones (enacted <time>2021-03-06</time>).
+          <li>
+            Update rules for module 4 (enacted <time>2021-03-20</time>).
         </ol>
       </div>
     </section>
@@ -236,15 +244,22 @@
             <tr><td><code>BE</code></td><td>Beeston</td></tr>
             <tr><td><code>BG</code></td><td>Badgerness</td></tr>
             <tr><td><code>BN</code></td><td>Banananess</td></tr>
+            <tr><td><code>EY</code></td><td>Eye Trumpeton</td></tr>
+            <tr><td><code>FL</code></td><td>Flailsbury</td></tr>
+            <tr><td><code>HA</code></td><td>Hattersly</td></tr>
             <tr><td><code>HV</code></td><td>Hivekirk</td></tr>
             <tr><td><code>OX</code></td><td>Oxmouth</td></tr>
+            <tr><td><code>PL</code></td><td>Port Lucent</td></tr>
             <tr><td><code>PN</code></td><td>Pinkton</td></tr>
             <tr><td><code>PO</code></td><td>Ponyhurst</td></tr>
+            <tr><td><code>SF</code></td><td>Scarborough Fire</td></tr>
             <tr><td><code>SW</code></td><td>Switchstow</td></tr>
             <tr><td><code>SZ</code></td><td>Scarzingford</td></tr>
+            <tr><td><code>TH</code></td><td>Tudor Hammer</td></tr>
             <tr><td><code>TS</code></td><td>Tall Ship</td></tr>
             <tr><td><code>VB</code></td><td>Chipping Variable</td></tr>
             <tr><td><code>YL</code></td><td>Yelloware</td></tr>
+            <tr><td><code>YT</code></td><td>Yamlot</td></tr>
           </tbody>
         </table>
       </div>
