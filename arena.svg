@@ -51,6 +51,9 @@
         stroke-width: 0.02;
         fill: #ffd;
       }
+      /*.dimension {
+         display: none;
+      }*/
       .dimension line {
         stroke: #666;
         stroke-width: 0.005;
