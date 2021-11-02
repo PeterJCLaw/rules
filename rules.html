@@ -73,8 +73,7 @@
           <li>
             Robots start inside their scoring zone.
           <li>
-            At the end of the match the robot with the most points wins. In the event both robots have the
-            same number of points, the match is a tie.
+            At the end of the match the robot with the most points wins.
           <li>
             The arena is a square of the design specified in
             <a href="#specifications">the specifications section</a>.
@@ -229,13 +228,16 @@
             The competition is structured in two phases: the <strong>league</strong>
             and the <strong>knockout</strong>.
           <li>
-            At the end of each game played within a league,
-            <strong>league points</strong> are awarded. The team whose robot
-            won the match are awarded <strong>4</strong> league points, and the
-            team which lost the match are awarded <strong>2</strong> league points.
-            In the event of a tie, both teams are awarded <strong>3</strong> league points.
-            If for any reason a team is disqualified from a match, they will not
-            receive the league points.
+            At the end of a game, league points will be awarded as follows. The team with the most
+            game points will be awarded 8 points towards the competition league. The team with the
+            second most will be awarded 6. The team with the third most will be awarded 4 points,
+            and the team with the fewest game points will be awarded 2 points. Teams whose robot
+            was not entered into the round, or who were disqualified from the round, will be awarded
+            no points.
+          <li>
+            Tied robots will be awarded the average of the points that their combined positions would
+            be awarded. Thus, three robots tied for first place would receive 6 points each (since this
+            is (8 + 6 + 4)/3).
           <li>
             At the end of the leagues, positions in the leagues are used to seed a
             knockout. This will be used to determine the final 1<sup>st</sup>,
@@ -244,8 +246,9 @@
             The knockout will consist of play-in matches to identify the top 16
             teams followed by four rounds of single-elimination matches.
           <li>
-            Third place will be decided by a play-off between the teams which
-            place second in their semi-final matches.
+            In the event of a tie in a knockout match, the team that ranked highest in the league will
+            go through. If there is a tie in the final, then a rematch will be played. The number of
+            league and knockout matches will be announced on the morning of the competition.
         </ol>
       </div>
     </section>
