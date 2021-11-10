@@ -98,8 +98,8 @@
   <!-- common patterns -->
   <defs
      id="defs227">
-    <circle id="can" cx="0" cy="0" r="0.0375" stroke="green" stroke-width="0.015" fill="grey" />
-    <circle id="can-upside-down" cx="0" cy="0" r="0.0375" stroke="red" stroke-width="0.015" fill="grey" />
+    <circle id="can" cx="0" cy="0" r="0.0305" stroke="green" stroke-width="0.015" fill="grey" />
+    <circle id="can-upside-down" cx="0" cy="0" r="0.0305" stroke="red" stroke-width="0.015" fill="grey" />
     <rect
        id="robot"
        y="-0.25"
@@ -129,10 +129,10 @@
       id="raised-cans-quarter"
       >
       <use
-        transform="translate(0.3 0.557)"
+        transform="translate(0.3 0.566)"
         xlink:href="#can" />
       <use
-        transform="translate(0.557 0.3)"
+        transform="translate(0.566 0.3)"
         xlink:href="#can" />
     </g>
     <g
@@ -140,10 +140,10 @@
       >
       <!-- Inner ring -->
       <use
-        transform="translate(0.385 1)"
+        transform="translate(0.4 1)"
         xlink:href="#can-upside-down" />
       <use
-        transform="translate(-0.385 1)"
+        transform="translate(-0.4 1)"
         xlink:href="#can-upside-down" />
       <!-- Middle (ish) -->
       <use
@@ -155,7 +155,7 @@
         xlink:href="#can-upside-down" />
       <!-- Arena wall can -->
       <use
-        transform="translate(0 2.822)"
+        transform="translate(0 2.827)"
         xlink:href="#can-upside-down" />
     </g>
    <path
@@ -441,7 +441,7 @@
       </g>
       <g
          id="g293"
-         transform="translate(3.675 2.490)"
+         transform="translate(3.675 2.480)"
          class="dimension">
         <line
            id="line289"
@@ -461,13 +461,13 @@
       </g>
       <g
          id="g299"
-         transform="translate(3.875 2.683)"
+         transform="translate(3.875 2.673)"
          class="dimension">
         <line
            id="line295"
-           y2="0.192"
+           y2="0.2"
            x2="0"
-           y1="-0.192"
+           y1="-0.2"
            x1="0" />
         <text
            id="text297"
@@ -475,7 +475,7 @@
            x="0.05">
           <tspan
              id="tspan376"
-             style="font-size:0.135px">385±40mm</tspan>
+             style="font-size:0.135px">400±40mm</tspan>
         </text>
       </g>
       <g
