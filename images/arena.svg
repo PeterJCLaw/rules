@@ -98,8 +98,8 @@
   <!-- common patterns -->
   <defs
      id="defs227">
-    <circle id="can" cx="0" cy="0" r="0.0305" stroke="green" stroke-width="0.015" fill="grey" />
-    <circle id="can-upside-down" cx="0" cy="0" r="0.0305" stroke="red" stroke-width="0.015" fill="grey" />
+    <circle id="can" cx="0" cy="0" r="0.0305" stroke="blue" stroke-width="0.015" fill="grey" />
+    <circle id="can-upside-down" cx="0" cy="0" r="0.0305" stroke="orange" stroke-width="0.015" fill="grey" />
     <rect
        id="robot"
        y="-0.25"
