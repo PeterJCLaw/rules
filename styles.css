@@ -1,6 +1,7 @@
 table {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 table th, table td {
@@ -22,4 +23,16 @@ table tr:nth-child(2n) {
 
 code {
     font-size: 16px;
+}
+li {
+    margin-top: 0.2em;
+}
+li li {
+    margin-top: 0.1em;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
