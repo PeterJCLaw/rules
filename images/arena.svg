@@ -500,21 +500,37 @@
       </g>
       <g
          id="g311"
-         transform="translate(4.127 4.938)"
+         transform="translate(4.125,3.8)"
          class="dimension">
         <line
            id="line307"
-           y2="0.812"
+           y2="0.325"
            x2="0"
-           y1="-0.812"
+           y1="-0.325"
            x1="0" />
         <text
            id="text309"
-           y="-0.1"
-           x="-0.8">
-          <tspan
+           y="-0.007"
+           x="0.007"><tspan
              id="tspan380"
-             style="font-size:0.135px">1600±40mm</tspan>
+             style="font-size:0.135px">650±40mm</tspan>
+        </text>
+      </g>
+      <g
+         transform="translate(3.8,3.475)"
+         class="dimension">
+        <line
+           id="line307"
+           y2="0"
+           x2="-0.325"
+           y1="0"
+           x1="0.325" />
+        <text
+           id="text309"
+           y="-0.025"
+           x="-0.230"><tspan
+             id="tspan380"
+             style="font-size:0.135px">650±40mm</tspan>
         </text>
       </g>
       <g
