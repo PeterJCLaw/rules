@@ -529,6 +529,7 @@
          transform="translate(3.8,3.475)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line307"
            y2="0"
            x2="-0.325"
