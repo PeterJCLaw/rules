@@ -269,6 +269,7 @@
          transform="translate(5.25 6)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line239"
            y2="0"
            x2="0.5"
@@ -312,6 +313,7 @@
          transform="translate(-0.15 4.25)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line251"
            y2="1.5"
            x2="0"
@@ -334,6 +336,7 @@
          transform="translate(1.5 6.05)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line257"
            y2="0"
            x2="1"
@@ -365,6 +368,7 @@
          transform="translate(2.875 2.2)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line267"
            y2="0"
            x2="0.6"
@@ -385,6 +389,7 @@
          transform="translate(2.2 2.875)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line273"
            y2="0.6"
            x2="0"
@@ -444,6 +449,7 @@
          transform="translate(3.675 2.480)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line289"
            y2="0"
            x2="0.2"
@@ -464,6 +470,7 @@
          transform="translate(3.875 2.673)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line295"
            y2="0.2"
            x2="0"
@@ -483,6 +490,7 @@
          transform="translate(3.325 3.432)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line301"
            y2="0"
            x2="0.15"
@@ -503,6 +511,7 @@
          transform="translate(4.125,3.8)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line307"
            y2="0.325"
            x2="0"
@@ -520,6 +529,7 @@
          transform="translate(3.8,3.475)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line307"
            y2="0"
            x2="-0.325"
@@ -538,6 +548,7 @@
          transform="translate(2.875 1.707)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line307"
            y2="0.569"
            x2="0"
@@ -565,6 +576,7 @@
          transform="translate(4 -0.35)"
          class="dimension">
         <line
+           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
            id="line315"
            y2="0"
            x2="1.75"
