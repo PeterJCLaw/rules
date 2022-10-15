@@ -18,7 +18,7 @@
           <a href="https://www.studentrobotics.org/">
             <img width="333" src="https://studentrobotics.org/style/assets/logo-text-white.svg">
           </a>
-          <a href="#top">This Way Up</a>
+          <a href="#top">Stealing Game TODO</a>
         </h1>
       </div>
     </header>
@@ -40,7 +40,7 @@
         <h2><a class="anchor" id="game-rules"></a>Game Rules</h2>
         <ol>
           <li>
-            The objective of the game, called <strong>This Way Up</strong>, is to capture the most correctly-oriented cans.
+            The objective of the game, called <strong>Stealing Game TODO</strong>, is to capture tokens from your opponents.
           <li>
             Before a match begins, participating teams must:
             <ul>
@@ -54,26 +54,25 @@
           <li>
             The game is played between <strong>four</strong> robots.
           <li>
-            Each match lasts for <strong>150</strong> seconds.
+            Each match lasts for <strong>180</strong> seconds.
           <li>
             Robots will be started by, or at the direction of, match officials.
           <li>
-            There are 28 cans in the arena at the start of each match.
+            There are 20 Bronze tokens, 12 Silver tokens and 4 Gold tokens in the arena at the start of the match.
           <li>
-            Cans on the arena floor start upside-down. Cans on the raised platform start in the correct orientation.
-          <li>
-            Each can in a teams' scoring zone is worth:
+            Tokens in a scoring zone are worth:
             <ul>
-              <li>0 game points if it is on its rolling edge,
-              <li>1 game point if it is upside down,
-              <li>3 game points if it is the correct way up.
+              <li>Bronze tokens: 3 points,
+              <li>Silver tokens: 12 points,
+              <li>Gold tokens: 30 points.
             </ul>
           <li>
-            A can is "in" a scoring zone if either:
-            <ul>
-              <li>any part of it is in contact with the wall or floor in the zone,
-              <li>the can is in contact only with other cans which are in the zone.
-            </ul>
+            The value of tokens in a robot are divided by 3.
+          <li>
+            A token is "in" a scoring zone if any of the vertical projection of the token onto the arena floor is within the zone.
+          <li>
+            A token is "in" a robot if TODO.
+            Tokens in robots are not in any scoring zone.
           <li>
             There is a bonus point available for a robot fully leaving its scoring zone for the first time in a game.
           <li>
@@ -117,7 +116,7 @@
           <li>
             Robots must pass an inspection by a Student Robotics Inspector before competing in a match. This inspector will check that the robot complies with the rules and regulations of this game, and is safe to compete. <strong>Robots that have not passed inspection will not be permitted to compete</strong>.
           <li>
-            Robots must not intentionally damage anything – including cans, the raised platform, the arena or other robots. At the discretion of the judge, teams who deliberately engage in collisions or take insufficient precautions against collisions may be penalised, including disqualification from rounds and deduction of league points.
+            Robots must not intentionally damage anything – including tokens, the central plinth, the arena or other robots. At the discretion of the judge, teams who deliberately engage in collisions or take insufficient precautions against collisions may be penalised, including disqualification from rounds and deduction of league points.
           <li>
             All kit provided by Student Robotics remains the property of Student Robotics.
           <li>
@@ -162,6 +161,11 @@
               <td>0 - 27</td>
               <td>200</td>
             </tr>
+            <tr>
+              <td>Token marker</td>
+              <td>28 - 100</td>
+              <td>100</td>
+            </tr>
           </tbody>
         </table>
         <p>
@@ -188,26 +192,28 @@
           <li>
             Each wall of the arena features seven 200mm AprilTag markers.
           <li>
-            Each robot will be assigned a corner at the start of every match to indicate its starting area. Corner starting areas are 1000 ±20mm square and will be marked by tape.
+            Each robot will be assigned a corner at the start of every match to indicate its scoring zone.
+          <li>
+            Starting areas are 1000 ±20mm squares within their respective scoring zones and will be marked by tape.
           <li>
             The green boxes denote the robot start locations. Robots may start facing any direction.
           <li>
-            In the centre of the arena is a raised platform of height 180 ±20mm with a side length of 1200 ±100mm.
+            In the centre of the arena is a square plinth with cruciform arms extending from the center of each side.
+            The plinth is 75 ±10mm high.
+            The square center of the plinth has side length 600 ±30mm.
+            The arms of the plinth are 2000 ±50mm long and 50 ±5mm wide.
           <li>
-            The sides of the raised platform will be solid.
-          <li>
-            Cans which start on the raised platform will be flush with the edge.
-          <li>
-            Along each edge of the arena is a can, which is touching the edge of the arena.
+            The top and sides of the plinth will be solid.
           <li>
             Student Robotics reserves the right to have match officials in the arena during games.
         </ol>
         <h3><a class="anchor" id="scoring-zone-specification"></a>Scoring Zones</h3>
         <ol>
           <li>
-            The four scoring zones form right-angled triangles, with the right angle described by the corner of the arena and the short sides of length 2500mm ±50mm.
+            The arena is equally divided in to four square scoring zones, each with side length 2875mm ±50mm.
           <li>
-            Edges of scoring zones will be marked by 48mm coloured tape. The tape will be placed along the inside of the edge of the zone, including it in the zone for scoring purposes.
+            The boundary between scoring zones will be marked by 48mm coloured tape.
+            For scoring purposes the tape is considered "in" both zones that it separates.
         </ol>
         <h3><a class="anchor" id="flag-specification"></a>Robot flags</h3>
         <img src="images/robot-flag.svg" alt="Robot flag" width="40%" height="auto">
@@ -221,20 +227,23 @@
           <li>
             The mounting cylinder must be permanently affixed to the main chassis of a robot, and vertical when the robot is in its typical stopped position.
         </ol>
-        <h3><a class="anchor" id="cans-specification"></a>Cans</h3>
+        <h3><a class="anchor" id="tokens-specification"></a>Tokens</h3>
         <ol>
           <li>
-            Cans are cylindrical metallic containers weighing 350g ±20g. (These cans are labelled 300g in supermarkets, we recommend an own-brand 300g carrots in water can)
+            Tokens are "single wall" cuboid cardboard boxes.
+            Bronze and Silver tokens have side length of 110 ±10mm.
+            Gold tokens have side length of 250 ±10mm.
           <li>
-            Cans are 67mm ±3mm in diameter with a height of 100mm ±5mm.
+            Silver tokens are weighted such that their mass is 300 ±20g more than Bronze tokens.
+            The center of mass of Silver tokens will not match their center of volume.
           <li>
-            Cans have a top and bottom rim, have ribbed sides and are without a ring-pull.
+            TODO: specify the mass of Bronze tokens?
+            TODO: specify the relative mass of Gold tokens?
           <li>
-            Cans will be arranged as shown in the <a href="#arena-specification">arena specification</a>.
+            Tokens will be arranged as shown in the <a href="#arena-specification">arena specification</a>.
           <li>
-            Cans are electrically conductive and ferromagnetic.
-          <li>
-            The bottom end of the can is signified by a strip of non-conductive material with a height of 25mm ±2mm around the rolling edge.
+            Tokens will have a 100mm AprilTag marker in the center of each face.
+            The value of this marker will be the same for all tokens in the arena.
         </ol>
       </div>
     </section>
@@ -314,9 +323,9 @@
       <div class="fixed-width">
         <h2><a class="anchor" id="revisions"></a>Revisions</h2>
         <p>From time to time Student Robotics may amend the rulebook. When this happens, this document will be updated.</p>
-        <ol>
-          <li>Update can weight to include the metal itself (enacted 2022-02-04)</li>
-          <li>Correct the location of the can outside a starting zone (enacted 2022-02-23)</li>
+        <ol style="display: none;">
+          <li>
+            ...
         </ol>
       </div>
     </section>
