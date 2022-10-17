@@ -114,7 +114,7 @@
       .legend-label {
         font-size: 0.2px;
         text-anchor: start;
-        dominant-baseline: middle;
+        dominant-baseline: central;
       }
     ]]></style>
   <!-- common patterns -->
