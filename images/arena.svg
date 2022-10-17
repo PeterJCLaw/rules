@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="2"
-     inkscape:cx="459.75"
-     inkscape:cy="311"
+     inkscape:zoom="1"
+     inkscape:cx="285.5"
+     inkscape:cy="892"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
@@ -261,6 +261,13 @@
   <g
      transform="scale(100)"
      id="arena-space">
+    <rect
+       id="rect455"
+       height="10"
+       width="8"
+       y="0"
+       x="0"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:7.45354" />
     <line
        style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
        id="line239"
@@ -377,45 +384,29 @@
        class="legend-label"
        y="9.5"
        x="1.7">Silver token</text>
-    <rect
-       id="rect340"
-       height="0.5"
-       width="0.5"
-       y="7.75"
-       x="4.9499998"
-       class="platform"
-       style="fill:#000000;fill-opacity:1" />
     <text
        id="text342"
        class="legend-label"
        y="8"
        x="5.6999998">Plinth</text>
-    <g
-       id="g350"
-       transform="translate(5.2,8.75)">
-      <use
-         id="use346"
-         transform="scale(0.417)"
-         xlink:href="#zone" />
-      <text
-         id="text348"
-         class="legend-label"
-         y="0"
-         x="0.5">Scoring zone</text>
-    </g>
+    <text
+       id="text348"
+       class="legend-label"
+       y="8.75"
+       x="5.6999998">Scoring zone</text>
     <path
        style="fill:#000000;stroke-width:0.02066;stroke-dasharray:none;fill-opacity:0"
        d="M 1.9959347,1.8935791 H 3.7871582"
        id="path5707" />
     <line
-       style="stroke:#000000;stroke-width:0.02;stroke-dasharray:0.06,0.02;stroke-dashoffset:0;stroke-opacity:1"
+       style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.06, 0.02;stroke-dashoffset:0;stroke-opacity:1"
        id="line8713"
        y2="6.8400002"
        x2="3.9650002"
        y1="1.0899999"
        x1="3.9650002" />
     <line
-       style="stroke:#000000;stroke-width:0.02;stroke-dasharray:0.06,0.02;stroke-dashoffset:0;stroke-opacity:1"
+       style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.06, 0.02;stroke-dashoffset:0;stroke-opacity:1"
        id="line9535"
        y2="3.9649999"
        x2="6.8400002"
@@ -1041,5 +1032,63 @@
        x2="4.2400002"
        y1="2.8"
        x1="3.6900003" />
+    <g
+       id="g1136"
+       transform="translate(0.14768887,0.05666237)">
+      <line
+         style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.0599999, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+         id="line1122"
+         y2="8.4551086"
+         x2="5.3023109"
+         y1="8.4551086"
+         x1="4.8023109" />
+      <line
+         style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.0599999, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+         id="line1124"
+         y2="8.9339104"
+         x2="5.3023109"
+         y1="8.9339104"
+         x1="4.8023109" />
+      <line
+         style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.0599999, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+         id="line1128"
+         y2="8.9439106"
+         x2="4.8123112"
+         y1="8.4439106"
+         x1="4.8123112" />
+      <line
+         style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.0599999, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+         id="line1130"
+         y2="8.9451084"
+         x2="5.2923107"
+         y1="8.4451084"
+         x1="5.2923107" />
+    </g>
+    <g
+       id="g1145"
+       transform="translate(0.06834975,0.05798865)">
+      <rect
+         id="rect340"
+         height="0.1833"
+         width="0.1833"
+         y="7.8299999"
+         x="5.04"
+         class="platform"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.3666" />
+      <rect
+         id="rect1138"
+         height="0.025"
+         width="0.66667002"
+         y="7.9091501"
+         x="4.798315"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.107583" />
+      <rect
+         id="rect1140"
+         height="0.66667002"
+         width="0.025"
+         y="7.588315"
+         x="5.1191502"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.107583" />
+    </g>
   </g>
 </svg>
