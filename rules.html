@@ -30,6 +30,7 @@
           <li><a href="#regulations">Regulations</a></li>
           <li><a href="#specifications">Specifications</a></li>
           <li><a href="#comp-structure">Competition Structure</a></li>
+          <li><a href="#challenges">Challenges</a></li>
           <li><a href="#awards">Awards</a></li>
           <li><a href="#revisions">Revisions</a></li>
         </ol>
@@ -266,10 +267,49 @@
     <section>
       <div class="fixed-width">
         <h2><a class="anchor" id="comp-structure"></a>Competition Structure</h2>
+        <p>
+          The competition is structured in four phases:
+            the <strong>challenges</strong>,
+            the <strong>virtual league</strong>,
+            the <strong>main league</strong>
+            and the <strong>knockout</strong>.
+        </p>
+        <h3><a class="anchor" id="challenges-summary"></a>Challenges</h3>
         <ol>
           <li>
-            The competition is structured in two phases: the <strong>league</strong>
-            and the <strong>knockout</strong>.
+            There are three challenges which teams may optionally complete during the competition year in order to earn additional league points.
+            The challenges may be approached in any order.
+          <li>
+            Teams which complete one of the challenges by 8pm GMT on January 7<sup>th</sup> 2023 will earn 8 league points.
+          <li>
+            Teams which complete a different challenge by 8pm GMT on February 4<sup>th</sup> 2023 will earn a separate 8 league points.
+          <li>
+            Submissions for each challenge should be made as a video on the web
+            (e.g: on YouTube, Instagram, etc.) and linking this video in the
+            Student Robotics Discord, tagged with <code>@Challenges</code>.
+          <li>
+            The challenges are specified in the <a href="#challenges">challenges section</a>.
+        </ol>
+        <h3><a class="anchor" id="virtual-league"></a>Virtual League</h3>
+        <ol>
+          <li>
+            There will be a livestreamed virtual league one month before the in-person competition.
+          <li>
+            The virtual league will use the <a href="https://studentrobotics.org/docs/simulator/">Webots based simulator</a>.
+          <li>
+            During the virtual league, each robot will have four match appearances.
+          <li>
+            The livestream will be on a Saturday afternoon.
+            The date will be confirmed when the date of the competition is confirmed.
+          <li>
+            Code submissions will close at 8pm GMT on the Friday before the virtual league.
+          <li>
+            The matches played during the virtual league constitute the first matches of the league. As such, you will be awarded league points as outlined below.
+        </ol>
+        <h3><a class="anchor" id="matches"></a>Matches</h3>
+        <ol>
+          <li>
+            The main league and the knockout will be played at the in-person competition event.
           <li>
             At the end of a game, league points will be awarded as follows. The team with the most
             game points will be awarded 8 points towards the competition league. The team with the
@@ -288,6 +328,76 @@
           <li>
             In the event of a tie in a knockout match, the team that ranked highest in the league will
             go through.
+        </ol>
+      </div>
+    </section>
+    <section>
+      <div class="fixed-width">
+        <h2><a class="anchor" id="challenges"></a>Challenges</h2>
+        <p>
+          Throughout these challenges a "robot" need not be fully constructed,
+          nor is it limited by the size limits which would apply in the
+          competition arena. Robots may use whatever sensing mechanisms they
+          like, as long as those mechanisms would be permitted in the
+          competition arena.
+        </p>
+        <p>
+          However robots must be <strong>safe</strong> (as specified in the
+          <a href="#regulations">regulations</a>) when completing these challenges.
+        </p>
+        <h4><a class="anchor" id="movement-challenge"></a>Movement Challenge</h4>
+        <ol>
+          <li>
+            Autonomously complete 3 continuous circuits of a triangular path,
+            returning to its starting position to within 300mm.
+          <li>
+            The path must be a isosceles right-angled triangle with shorter side length 1500 ±200mm.
+          <li>
+            The direction of travel around the triangle and orientation of the robot are inconsequential.
+        </ol>
+        <h4><a class="anchor" id="sensor-challenge"></a>Sensor Challenge</h4>
+        <ol>
+          <li>
+            Autonomously differentiate between any two of the three token types.
+          <li>
+            Indicate, using the LEDs on the Brain Board, they have detected:
+            <ul>
+              <li>the less valuable token by illuminating LED A and
+              <li>the more valuable token by illuminating LED C.
+            </ul>
+          <li>
+            The tokens may be placed manually into or onto the robot if desired.
+        </ol>
+        <h4><a class="anchor" id="vision-challenge"></a>Vision Challenge</h4>
+        <ol>
+          <li>
+            Demonstrate, using the LEDs on the Brain Board, awareness of its position relative to three arena wall markers.
+          <li>
+            Facing the wall at a point 1m out from the wall and directly in
+            front of the middle of the three markers, turn on the spot
+            illuminating LEDs to indicate the orientation of the robot:
+            <ul>
+              <li>LED A in blue when more than 30° left from square on,
+              <li>LED B in blue in the middle (60° arc) and
+              <li>LED C in blue when more than 30° right from square on.
+            </ul>
+          <li>
+            Facing the wall at a point 1m out from the wall and directly in
+            front of the middle of the three markers, move left and right
+            illuminating LEDs to indicate the position of the robot relative
+            to a line through the middle marker and orthogonal to the wall:
+            <ul>
+              <li>LED A in red when more than 200mm left of the line
+              <li>LED B in blue within 200mm of the line
+              <li>LED C in red when more than 200mm right of the line
+            </ul>
+          <li>
+            The robot may move autonomously or may be moved manually to complete this challenge.
+            <br>
+            <strong>Note:</strong> if moving the robot manually then the
+            Ruggeduino, Motor and Servo Boards must be disconnected from the
+            Power Board as well as any mechanical components secured for the
+            duration of the demonstration.
         </ol>
       </div>
     </section>
@@ -317,18 +427,10 @@
           for the competition is <tt>#srobo2023</tt>. Teams are reminded not to post
           private information about their members or others.
         </p>
-        <h4>First Robot Movement</h4>
+        <h4>Challenges</h4>
         <p>
-          The first rookie team to demonstrate a moving robot to the community will be awarded an edible prize at the final competition.
+          The first team to complete all three challenges will receive an edible prize at the final competition.
         </p>
-        <ul>
-          <li>
-            The robot movement must be controlled by software running on the Student Robotics kit.
-          <li>
-            The robot must move 2 metres, pause for 2 seconds, turn 180° (±20°), return to its starting area (±0.5m), and come to a halt without interference.
-          <li>
-            This must be demonstrated by a video on the web (e.g. on YouTube, Instagram, etc.) and linking to this video in the <code>#teams-on-the-web</code> channel on the Student Robotics Discord channel.
-        </ul>
         <h4>Robot and Team Image</h4>
         <p>
           The team that presents their robot and themselves in what is judged to be the most outstanding way will receive an edible prize at the final competition.
