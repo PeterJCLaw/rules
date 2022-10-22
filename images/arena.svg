@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg354"
    height="1000"
    width="800"
-   version="1.1">
+   version="1.1"
+   sodipodi:docname="2023 arena diagram.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview158"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="285.5"
+     inkscape:cy="892"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="arena-space" />
   <metadata
      id="metadata358">
     <rdf:RDF>
@@ -18,7 +41,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,20 +114,34 @@
       .legend-label {
         font-size: 0.2px;
         text-anchor: start;
-        dominant-baseline: middle;
+        dominant-baseline: central;
       }
     ]]></style>
   <!-- common patterns -->
   <defs
      id="defs227">
-    <circle id="can" cx="0" cy="0" r="0.0305" stroke="blue" stroke-width="0.015" fill="grey" />
-    <circle id="can-upside-down" cx="0" cy="0" r="0.0305" stroke="orange" stroke-width="0.015" fill="grey" />
+    <circle
+       id="can"
+       cx="0"
+       cy="0"
+       r="0.0305"
+       stroke="blue"
+       stroke-width="0.015"
+       fill="grey" />
+    <circle
+       id="can-upside-down"
+       cx="0"
+       cy="0"
+       r="0.0305"
+       stroke="orange"
+       stroke-width="0.015"
+       fill="grey" />
     <rect
        id="robot"
-       y="-0.25"
-       x="-0.175"
-       height="0.5"
-       width="0.35" />
+       y="-0.2"
+       x="-0.2"
+       height="0.4"
+       width="0.4" />
     <g
        id="start-zone">
       <rect
@@ -122,46 +158,51 @@
          xlink:href="#start-zone" />
       <use
          id="use195"
-         transform="rotate(135)"
+         transform="rotate(90)"
          xlink:href="#robot" />
     </g>
     <g
-      id="raised-cans-quarter"
-      >
+       id="raised-cans-quarter">
       <use
-        transform="translate(0.3 0.566)"
-        xlink:href="#can" />
+         transform="translate(0.3 0.566)"
+         xlink:href="#can"
+         id="use12" />
       <use
-        transform="translate(0.566 0.3)"
-        xlink:href="#can" />
+         transform="translate(0.566 0.3)"
+         xlink:href="#can"
+         id="use14" />
     </g>
     <g
-      id="cans-quarter"
-      >
+       id="cans-quarter">
       <!-- Inner ring -->
       <use
-        transform="translate(0.4 1)"
-        xlink:href="#can-upside-down" />
+         transform="translate(0.4 1)"
+         xlink:href="#can-upside-down"
+         id="use17" />
       <use
-        transform="translate(-0.4 1)"
-        xlink:href="#can-upside-down" />
+         transform="translate(-0.4 1)"
+         xlink:href="#can-upside-down"
+         id="use19" />
       <!-- Middle (ish) -->
       <use
-        transform="translate(0 1.737)"
-        xlink:href="#can-upside-down" />
+         transform="translate(0 1.737)"
+         xlink:href="#can-upside-down"
+         id="use21" />
       <!-- In front of starting zone -->
       <use
-        transform="translate(1.252 1.252)"
-        xlink:href="#can-upside-down" />
+         transform="translate(1.252 1.252)"
+         xlink:href="#can-upside-down"
+         id="use23" />
       <!-- Arena wall can -->
       <use
-        transform="translate(0 2.827)"
-        xlink:href="#can-upside-down" />
+         transform="translate(0 2.827)"
+         xlink:href="#can-upside-down"
+         id="use25" />
     </g>
-   <path
-      id="zone-boundary"
-      d="M2.875 0.37 v2.5 h-2.5 z"
-      class="zone" />
+    <path
+       id="zone-boundary"
+       d="M2.875 0.37 v2.5 h-2.5 z"
+       class="zone" />
     <g
        id="start-area">
       <use
@@ -198,7 +239,7 @@
        id="dimension-arrow-head-start">
       <use
          id="use221"
-         transform="translate(0 1)"
+         transform="translate(0,1)"
          xlink:href="#dimension-arrow-head" />
     </marker>
     <marker
@@ -211,482 +252,843 @@
        id="dimension-arrow-head-end">
       <use
          id="use224"
-         transform="translate(1 1) scale(-1 1)"
+         transform="matrix(-1,0,0,1,1,1)"
          xlink:href="#dimension-arrow-head" />
     </marker>
   </defs>
   <!-- white background -->
-  <rect
-     id="rect229"
-     fill="white"
-     height="100%"
-     width="100%" />
   <!-- transform for arena-space coordinates -->
   <g
      transform="scale(100)"
      id="arena-space">
+    <rect
+       id="rect455"
+       height="10"
+       width="8"
+       y="0"
+       x="0"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:7.45354" />
+    <line
+       style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line239"
+       y2="4.1149998"
+       x2="6.840035"
+       y1="4.1149998"
+       x1="5.840035" />
+    <text
+       id="text241"
+       class="above"
+       y="4.2884455"
+       x="5.9106126"
+       style="font-size:0.126667px">1000±50mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line245"
+       y2="3.9749999"
+       x2="6.9899998"
+       y1="2.9749997"
+       x1="6.9899998" />
+    <text
+       transform="rotate(90)"
+       style="font-size:0.126667px;text-anchor:middle;fill:#000000;fill-opacity:1"
+       id="text247"
+       class="left-rotated"
+       y="-7.06984"
+       x="3.4510815">1000±50mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.0053619;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line251"
+       y2="3.9749999"
+       x2="0.94"
+       y1="1.0999999"
+       x1="0.94" />
+    <text
+       style="font-size:0.126667px;text-anchor:middle;fill:#000000;fill-opacity:1"
+       transform="rotate(-90)"
+       id="text253"
+       class="left-rotated"
+       y="0.86747634"
+       x="-2.6218009">2875±100mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.0053619;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line257"
+       y2="0.94"
+       x2="3.9649651"
+       y1="0.94"
+       x1="1.0899653" />
+    <text
+       id="text259"
+       class="above"
+       y="0.89101386"
+       x="2.1085296"
+       style="font-size:0.126667px">2875±100mm</text>
+    <text
+       id="text291"
+       class="above"
+       y="0.85228342"
+       x="6.2420974"
+       style="font-size:0.126667px">350±40mm</text>
+    <rect
+       id="rect313"
+       class="arena-wall"
+       y="1.0999653"
+       x="1.0999653"
+       height="5.7300692"
+       width="5.7300696" />
+    <line
+       style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line315"
+       y2="0.58999997"
+       x2="6.8499999"
+       y1="0.58999997"
+       x1="1.1" />
+    <text
+       id="text317"
+       class="above"
+       y="0.51293689"
+       x="3.5711625"><tspan
+         id="tspan384"
+         style="font-size:0.135px">5750±200mm</tspan></text>
+    <line
+       style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line321"
+       y2="6.8499999"
+       x2="0.58999997"
+       y1="1.1"
+       x1="0.58999997" />
+    <text
+       transform="rotate(-90)"
+       style="font-size:0.175px;text-anchor:middle;fill:#000000;fill-opacity:1"
+       id="text323"
+       class="left-rotated"
+       y="0.48110175"
+       x="-4.0332808"><tspan
+         id="tspan362"
+         style="font-size:0.135px;fill:#000000;fill-opacity:1">5750±200mm</tspan></text>
+    <use
+       id="use328"
+       transform="matrix(0.5,0,0,0.5,1.2,8)"
+       xlink:href="#start-zone-with-robot" />
+    <text
+       id="text330"
+       class="legend-label"
+       y="8"
+       x="1.7">Robot starting area</text>
+    <text
+       id="text336"
+       class="legend-label"
+       y="8.75"
+       x="1.7">Bronze token</text>
+    <text
+       id="text145"
+       class="legend-label"
+       y="9.5"
+       x="1.7">Silver token</text>
+    <text
+       id="text342"
+       class="legend-label"
+       y="8"
+       x="5.6999998">Plinth</text>
+    <text
+       id="text348"
+       class="legend-label"
+       y="8.75"
+       x="5.6999998">Scoring zone</text>
+    <path
+       style="fill:#000000;stroke-width:0.02066;stroke-dasharray:none;fill-opacity:0"
+       d="M 1.9959347,1.8935791 H 3.7871582"
+       id="path5707" />
+    <line
+       style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.06, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+       id="line8713"
+       y2="6.8400002"
+       x2="3.9650002"
+       y1="1.0899999"
+       x1="3.9650002" />
+    <line
+       style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.06, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+       id="line9535"
+       y2="3.9649999"
+       x2="6.8400002"
+       y1="3.9649999"
+       x1="1.0900004" />
+    <text
+       id="text27456"
+       class="above"
+       y="1.3299429"
+       x="7.0438833"
+       style="font-size:0.126667px">350±40mm</text>
+    <text
+       id="text27464"
+       class="above"
+       y="1.9896418"
+       x="5.9021492"
+       style="font-size:0.126667px">1060±40mm</text>
+    <text
+       id="text27472"
+       class="above"
+       y="2.4879105"
+       x="6.0429983"
+       style="font-size:0.126667px">550±40mm</text>
+    <text
+       id="text27478"
+       class="above"
+       y="1.3981801"
+       x="5.5068688"
+       style="font-size:0.126667px">550±40mm</text>
+    <rect
+       id="rect27835"
+       height="0.55000001"
+       width="0.55000001"
+       y="3.6899998"
+       x="3.6900001"
+       style="fill:#000000;fill-opacity:1;stroke-width:0.458333" />
+    <rect
+       id="rect27837"
+       height="0.050000001"
+       width="2"
+       y="3.9399998"
+       x="2.9650002"
+       style="fill:#000000;fill-opacity:1;stroke-width:0.263523" />
+    <rect
+       id="rect27839"
+       height="2"
+       width="0.050000001"
+       y="2.9649999"
+       x="3.9400001"
+       style="fill:#000000;fill-opacity:1;stroke-width:0.263523" />
     <g
-       transform="translate(1.1 1.1)"
-       id="arena">
-      <!-- scoring zones -->
-      <g
-         id="scoring-zones"
-         transform="translate(2.875 2.875)">
-        <use
-           id="scoring-zone-0"
-           transform="rotate(180 0 0)"
-           xlink:href="#zone-boundary" />
-        <use
-           id="scoring-zone-2"
-           xlink:href="#zone-boundary" />
-        <use
-           id="scoring-zone-3"
-           transform="rotate(90 0 0)"
-           xlink:href="#zone-boundary" />
-        <use
-           id="scoring-zone-1"
-           transform="rotate(270 0 0)"
-           xlink:href="#zone-boundary" />
-      </g>
-      <!-- start areas -->
-      <use
-         id="use231"
-         xlink:href="#start-area" />
-      <use
-         id="use233"
-         transform="rotate(90 2.88 2.88)"
-         xlink:href="#start-area" />
-      <use
-         id="use235"
-         transform="rotate(180 2.88 2.88)"
-         xlink:href="#start-area" />
-      <use
-         id="use237"
-         transform="rotate(270 2.88 2.88)"
-         xlink:href="#start-area" />
-      <g
-         id="g243"
-         transform="translate(5.25 6)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line239"
-           y2="0"
-           x2="0.5"
-           y1="0"
-           x1="-0.5" />
-        <text
-           id="text241"
-           class="above"
-           y="-0.075"
-           x="0">
-          <tspan
-             id="tspan368"
-             style="font-size:0.135px">1000±50mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g249"
-         transform="translate(6 5.25)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line245"
-           y2="0.5"
-           x2="-0.16"
-           y1="-0.5"
-           x1="-0.16" />
-        <text
-           transform="rotate(90)"
-           style="font-size:0.175px;text-anchor:middle;fill:#666666"
-           id="text247"
-           class="left-rotated"
-           y="0.085714117"
-           x="-0.0073718224">
-          <tspan
-             id="tspan370"
-             style="font-size:0.13500001px">1000±50mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g255"
-         transform="translate(-0.15 4.25)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line251"
-           y2="1.5"
-           x2="0"
-           y1="-1"
-           x1="0" />
-        <text
-           style="font-size:0.175px;text-anchor:middle;fill:#666666"
-           transform="rotate(-90)"
-           id="text253"
-           class="left-rotated"
-           y="-0.057066593"
-           x="-0.12069947">
-          <tspan
-             id="tspan364"
-             style="font-size:0.135px">2500±50mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g261"
-         transform="translate(1.5 6.05)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line257"
-           y2="0"
-           x2="1"
-           y1="0"
-           x1="-1.5" />
-        <text
-           id="text259"
-           class="above"
-           y="-0.075"
-           x="-0.5">
-          <tspan
-             id="tspan366"
-             style="font-size:0.135px">2500±50mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g265"
-         transform="translate(2.875 2.875)"
-         class="platform">
-        <rect
-           id="rect263"
-           height="1.2"
-           width="1.2"
-           y="-0.6"
-           x="-0.6" />
-      </g>
-      <g
-         id="g271"
-         transform="translate(2.875 2.2)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line267"
-           y2="0"
-           x2="0.6"
-           y1="0"
-           x1="-0.6" />
-        <text
-           id="text269"
-           class="above"
-           y="-0.075"
-           x="0">
-          <tspan
-             id="tspan372"
-             style="font-size:0.135px">1200±100mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g277"
-         transform="translate(2.2 2.875)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line273"
-           y2="0.6"
-           x2="0"
-           y1="-0.6"
-           x1="0" />
-        <text
-           style="font-size:0.175px;text-anchor:middle;fill:#666666"
-           transform="rotate(-90)"
-           id="text275"
-           class="left-rotated"
-           y="-0.092067875"
-           x="0.014301743">
-          <tspan
-             id="tspan374"
-             style="font-size:0.135px">1200±100mm</tspan>
-        </text>
-      </g>
-      <!-- cans -->
-      <g
-        transform="translate(2.875 2.875)">
-        <use
-          id="use283"
-          transform="rotate(180 0 0)"
-          xlink:href="#raised-cans-quarter" />
-        <use
-          id="use283"
-          xlink:href="#raised-cans-quarter" />
-        <use
-          id="use283"
-          transform="rotate(90 0 0)"
-          xlink:href="#raised-cans-quarter" />
-        <use
-          id="use283"
-          transform="rotate(270 0 0)"
-          xlink:href="#raised-cans-quarter" />
-      </g>
-      <g
-        transform="translate(2.875 2.875)">
-        <use
-          id="use283"
-          transform="rotate(180 0 0)"
-          xlink:href="#cans-quarter" />
-        <use
-          id="use283"
-          xlink:href="#cans-quarter" />
-        <use
-          id="use283"
-          transform="rotate(90 0 0)"
-          xlink:href="#cans-quarter" />
-        <use
-          id="use283"
-          transform="rotate(270 0 0)"
-          xlink:href="#cans-quarter" />
-      </g>
-      <g
-         id="g293"
-         transform="translate(3.675 2.480)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line289"
-           y2="0"
-           x2="0.2"
-           y1="0"
-           x1="-0.2" />
-        <text
-           id="text291"
-           class="above"
-           y="-0.075"
-           x="0">
-          <tspan
-             id="tspan378"
-             style="font-size:0.135px">400±40mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g299"
-         transform="translate(3.875 2.673)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line295"
-           y2="0.2"
-           x2="0"
-           y1="-0.2"
-           x1="0" />
-        <text
-           id="text297"
-           y="0.0192"
-           x="0.05">
-          <tspan
-             id="tspan376"
-             style="font-size:0.135px">400±40mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g305"
-         transform="translate(3.325 3.432)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line301"
-           y2="0"
-           x2="0.15"
-           y1="0"
-           x1="-0.15" />
-        <text
-           id="text303"
-           class="above"
-           y="0.15"
-           x="0">
-          <tspan
-             id="tspan382"
-             style="font-size:0.135px">300±40mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g311"
-         transform="translate(4.125,3.8)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line307"
-           y2="0.325"
-           x2="0"
-           y1="-0.325"
-           x1="0" />
-        <text
-           id="text309"
-           y="-0.007"
-           x="0.007"><tspan
-             id="tspan380"
-             style="font-size:0.135px">650±40mm</tspan>
-        </text>
-      </g>
-      <g
-         transform="translate(3.8,3.475)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line307"
-           y2="0"
-           x2="-0.325"
-           y1="0"
-           x1="0.325" />
-        <text
-           id="text309"
-           y="-0.025"
-           x="-0.230"><tspan
-             id="tspan380"
-             style="font-size:0.135px">650±40mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g311"
-         transform="translate(2.875 1.707)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line307"
-           y2="0.569"
-           x2="0"
-           y1="-0.569"
-           x1="0" />
-        <text
-           id="text309"
-           y="0"
-           x="-0.8">
-          <tspan
-             id="tspan380"
-             style="font-size:0.135px">1140±40mm</tspan>
-        </text>
-      </g>
-      <!-- arena wall -->
+       id="g39273">
       <rect
-         id="rect313"
-         class="arena-wall"
-         y="0"
-         x="0"
-         height="5.75"
-         width="5.75" />
-      <g
-         id="g319"
-         transform="translate(4 -0.35)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line315"
-           y2="0"
-           x2="1.75"
-           y1="0"
-           x1="-4" />
-        <text
-           id="text317"
-           class="above"
-           y="-0.075"
-           x="-1">
-          <tspan
-             id="tspan384"
-             style="font-size:0.135px">5750±200mm</tspan>
-        </text>
-      </g>
-      <g
-         id="g325"
-         transform="translate(-3.54,4)"
-         class="dimension">
-        <line
-           style="stroke:#666666;stroke-width:0.005;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
-           id="line321"
-           y2="1.75"
-           x2="3.0599978"
-           y1="-4"
-           x1="3.0599978" />
-        <text
-           transform="rotate(-90)"
-           style="font-size:0.175px;text-anchor:middle;fill:#666666"
-           id="text323"
-           class="left-rotated"
-           y="2.9040425"
-           x="1.0581893">
-          <tspan
-             id="tspan362"
-             style="font-size:0.135px">5750±200mm</tspan>
-        </text>
-      </g>
+         id="rect10795"
+         height="0.11"
+         width="0.11"
+         y="1.385"
+         x="6.4349999"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect13047"
+         height="0.11"
+         width="0.11"
+         y="1.585"
+         x="5.7249999"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect14556"
+         height="0.11"
+         width="0.11"
+         y="2.095"
+         x="6.2350001"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect14558"
+         height="0.11"
+         width="0.11"
+         y="2.8099999"
+         x="6.4349999"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect16810"
+         height="0.11"
+         width="0.11"
+         y="1.385"
+         x="5.0100002"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect20562"
+         height="0.11"
+         width="0.11"
+         y="1.6849999"
+         x="4.71"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect21314"
+         height="0.11"
+         width="0.11"
+         y="2.3599999"
+         x="5.46"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect21316"
+         height="0.11"
+         width="0.11"
+         y="2.9100001"
+         x="4.9099998"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect27841"
+         height="0.25"
+         width="0.25"
+         y="3.4399998"
+         x="3.99"
+         style="fill:#ffd700;fill-opacity:1;stroke-width:0.208334" />
+    </g>
+    <use
+       id="use28741"
+       transform="matrix(0,0.98019512,-0.98039215,0,4.9451962,5.8500374)"
+       xlink:href="#start-area" />
+    <use
+       id="use28745"
+       transform="matrix(0,0.98019512,-0.98039215,0,3.9651962,1.0997673)"
+       xlink:href="#start-area" />
+    <g
+       id="g39293"
+       transform="rotate(90,3.9650001,3.9649997)">
+      <rect
+         id="rect39275"
+         height="0.11"
+         width="0.11"
+         y="1.385"
+         x="6.4349999"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39277"
+         height="0.11"
+         width="0.11"
+         y="1.585"
+         x="5.7249999"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39279"
+         height="0.11"
+         width="0.11"
+         y="2.095"
+         x="6.2350001"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39281"
+         height="0.11"
+         width="0.11"
+         y="2.8099999"
+         x="6.4349999"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39283"
+         height="0.11"
+         width="0.11"
+         y="1.385"
+         x="5.0100002"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39285"
+         height="0.11"
+         width="0.11"
+         y="1.6849999"
+         x="4.71"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39287"
+         height="0.11"
+         width="0.11"
+         y="2.3599999"
+         x="5.46"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39289"
+         height="0.11"
+         width="0.11"
+         y="2.9100001"
+         x="4.9099998"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39291"
+         height="0.25"
+         width="0.25"
+         y="3.4399998"
+         x="3.9900002"
+         style="fill:#ffd700;fill-opacity:1;stroke-width:0.208334" />
+    </g>
+    <rect
+       id="rect39799"
+       height="0.11"
+       width="0.11"
+       y="-6.5449996"
+       x="-1.4950005"
+       style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667"
+       transform="scale(-1)" />
+    <rect
+       id="rect39801"
+       height="0.11"
+       width="0.11"
+       y="-6.3449998"
+       x="-2.2050004"
+       style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667"
+       transform="scale(-1)" />
+    <rect
+       id="rect39803"
+       height="0.11"
+       width="0.11"
+       y="-5.8349996"
+       x="-1.6950003"
+       style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667"
+       transform="scale(-1)" />
+    <rect
+       id="rect39805"
+       height="0.11"
+       width="0.11"
+       y="-5.1199999"
+       x="-1.4950005"
+       style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667"
+       transform="scale(-1)" />
+    <rect
+       id="rect39807"
+       height="0.11"
+       width="0.11"
+       y="-6.5449996"
+       x="-2.9200001"
+       style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667"
+       transform="scale(-1)" />
+    <rect
+       id="rect39809"
+       height="0.11"
+       width="0.11"
+       y="-6.2449999"
+       x="-3.2200003"
+       style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667"
+       transform="scale(-1)" />
+    <rect
+       id="rect39811"
+       height="0.11"
+       width="0.11"
+       y="-5.5699997"
+       x="-2.4700003"
+       style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667"
+       transform="scale(-1)" />
+    <rect
+       id="rect39813"
+       height="0.11"
+       width="0.11"
+       y="-5.0199995"
+       x="-3.0200005"
+       style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667"
+       transform="scale(-1)" />
+    <rect
+       id="rect39815"
+       height="0.25"
+       width="0.25"
+       y="-4.4899998"
+       x="-3.9400001"
+       style="fill:#ffd700;fill-opacity:1;stroke-width:0.208334"
+       transform="scale(-1)" />
+    <rect
+       id="rect43579"
+       height="0.25"
+       width="0.25"
+       y="-8.8550777"
+       x="-1.325"
+       style="fill:#cd7f32;fill-opacity:1;stroke-width:0.208334"
+       transform="scale(-1)" />
+    <g
+       id="g39837"
+       transform="rotate(-90,3.9650001,3.9649999)">
+      <rect
+         id="rect39819"
+         height="0.11"
+         width="0.11"
+         y="1.385"
+         x="6.4349999"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39821"
+         height="0.11"
+         width="0.11"
+         y="1.585"
+         x="5.7249999"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39823"
+         height="0.11"
+         width="0.11"
+         y="2.095"
+         x="6.2350001"
+         style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39825"
+         height="0.11"
+         width="0.11"
+         y="2.8099999"
+         x="6.4349999"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39827"
+         height="0.11"
+         width="0.11"
+         y="1.385"
+         x="5.0100002"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39829"
+         height="0.11"
+         width="0.11"
+         y="1.6849999"
+         x="4.71"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39831"
+         height="0.11"
+         width="0.11"
+         y="2.3599999"
+         x="5.46"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39833"
+         height="0.11"
+         width="0.11"
+         y="2.9100001"
+         x="4.9099998"
+         style="fill:#cd7f32;fill-opacity:1;stroke-width:0.0916667" />
+      <rect
+         id="rect39835"
+         height="0.25"
+         width="0.25"
+         y="3.4399998"
+         x="3.9900002"
+         style="fill:#ffd700;fill-opacity:1;stroke-width:0.208334" />
+    </g>
+    <use
+       id="use39839"
+       transform="matrix(-0.98019512,0,0,-0.98039215,6.830233,3.965196)"
+       xlink:href="#start-area" />
+    <use
+       id="use39841"
+       transform="matrix(-0.98019512,0,0,-0.98039215,2.0799624,4.945196)"
+       xlink:href="#start-area" />
+    <text
+       id="text43493"
+       class="above"
+       y="5.2872806"
+       x="-2.0591526"
+       transform="rotate(-90)"
+       style="font-size:0.126667px">1060±40mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.00467707;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line289"
+       y2="0.94"
+       x2="6.840035"
+       y1="0.94"
+       x1="6.4900351" />
+    <line
+       style="stroke:#666666;stroke-width:0.00467707;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line27452"
+       y2="1.4655541"
+       x2="6.9899998"
+       y1="1.1155542"
+       x1="6.9899998" />
+    <line
+       style="stroke:#666666;stroke-width:0.00469929;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line27458"
+       y2="1.8414325"
+       x2="6.840035"
+       y1="1.8414325"
+       x1="5.780035" />
+    <line
+       style="stroke:#666666;stroke-width:0.00813941;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line27460"
+       y2="2.149965"
+       x2="5.3850002"
+       y1="1.0899653"
+       x1="5.3850002" />
+    <line
+       style="stroke:#666666;stroke-width:0.00338502;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line27468"
+       y2="2.3276217"
+       x2="6.840035"
+       y1="2.3276217"
+       x1="6.2900348" />
+    <line
+       style="stroke:#666666;stroke-width:0.00586302;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line27474"
+       y2="1.6399653"
+       x2="6.2849998"
+       y1="1.0899653"
+       x1="6.2849998" />
+    <line
+       style="stroke:#666666;stroke-width:0.00456435;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43495"
+       y2="5.1149998"
+       x2="3.9750001"
+       y1="5.1149998"
+       x1="2.9750001" />
+    <text
+       id="text43501"
+       class="above"
+       y="5.0573936"
+       x="3.0520139"
+       style="font-size:0.126667px">1000±40mm</text>
+    <text
+       id="text43505"
+       class="above"
+       y="2.7451684"
+       x="-4.8586321"
+       transform="rotate(-90)"
+       style="font-size:0.126667px">1000±40mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.00568257;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43507"
+       y2="5.665"
+       x2="3.9750001"
+       y1="5.665"
+       x1="2.425" />
+    <line
+       style="stroke:#666666;stroke-width:0.0098425;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43509"
+       y2="5.5050001"
+       x2="2.2650001"
+       y1="3.9549999"
+       x1="2.2650001" />
+    <text
+       id="text43513"
+       class="above"
+       y="5.6118202"
+       x="2.8728914"
+       style="font-size:0.126667px">1550±40mm</text>
+    <text
+       id="text43517"
+       class="above"
+       y="2.4422121"
+       x="-5.2215919"
+       transform="rotate(-90)"
+       style="font-size:0.126667px">1550±40mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.00408247;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43519"
+       y2="5.9976559"
+       x2="3.9750001"
+       y1="5.9976559"
+       x1="3.1750002" />
+    <line
+       style="stroke:#666666;stroke-width:0.00637377;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43521"
+       y2="6.8141756"
+       x2="3.0150001"
+       y1="6.1641755"
+       x1="3.0150001" />
+    <text
+       id="text43525"
+       class="above"
+       y="5.9218278"
+       x="3.094662"
+       style="font-size:0.126667px">800±40mm</text>
+    <text
+       id="text43529"
+       class="above"
+       y="6.5692024"
+       x="3.0720139"
+       style="font-size:0.126667px">650±40mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.00467707;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43531"
+       y2="6.8400345"
+       x2="2.7"
+       y1="6.4900346"
+       x1="2.7" />
+    <text
+       id="text43535"
+       class="above"
+       y="6.7121434"
+       x="1.7896278"
+       style="font-size:0.126667px">350±40mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.00478712;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43537"
+       y2="6.9899998"
+       x2="3.9650002"
+       y1="6.9899998"
+       x1="2.865" />
+    <text
+       id="text43541"
+       class="above"
+       y="7.1642141"
+       x="2.9837768"
+       style="font-size:0.126667px">1100±40mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.00270031;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43543"
+       y2="5.2514739"
+       x2="1.4399654"
+       y1="5.2514739"
+       x1="1.0899653" />
+    <text
+       id="text43547"
+       class="above"
+       y="5.4412274"
+       x="1.1413753"
+       style="font-size:0.126667px">350±40mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.00829156;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43549"
+       y2="5.0549998"
+       x2="0.94"
+       y1="3.9549999"
+       x1="0.94" />
+    <text
+       style="font-size:0.126667px;text-anchor:middle;fill:#000000;fill-opacity:1"
+       transform="rotate(-90)"
+       id="text43553"
+       class="left-rotated"
+       y="0.86744338"
+       x="-4.4983206">1100±40mm</text>
+    <rect
+       id="rect43604"
+       height="0.25"
+       width="0.25"
+       y="-9.6050777"
+       x="-1.325"
+       style="fill:#c0c0c0;fill-opacity:1;stroke-width:0.208334"
+       transform="scale(-1)" />
+    <rect
+       id="rect43610"
+       height="0.25"
+       width="0.25"
+       y="-9.6050777"
+       x="-5.3249998"
+       style="fill:#ffd700;fill-opacity:1;stroke-width:0.208334"
+       transform="scale(-1)" />
+    <text
+       id="text43612"
+       class="legend-label"
+       y="9.5"
+       x="5.7083006">Gold token</text>
+    <line
+       style="stroke:#666666;stroke-width:0.00790569;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line43618"
+       y2="4.9549999"
+       x2="2.8150001"
+       y1="3.9549999"
+       x1="2.8150001" />
+    <line
+       style="stroke:#666666;stroke-width:0.005;stroke-dasharray:0.005,0.01;stroke-dashoffset:0"
+       id="line43817"
+       y2="2.1520691"
+       x2="6.2350001"
+       y1="2.1520691"
+       x1="5.3850002" />
+    <line
+       style="stroke:#666666;stroke-width:0.005;stroke-dasharray:0.005,0.00999998;stroke-dashoffset:0"
+       id="line45367"
+       y2="1.6414962"
+       x2="6.2849998"
+       y1="1.6414962"
+       x1="5.835" />
+    <line
+       style="stroke:#666666;stroke-width:0.005;stroke-dasharray:0.005, 0.01;stroke-dashoffset:0"
+       id="line45401"
+       y2="6.9899998"
+       x2="2.8675001"
+       y1="6.5449996"
+       x1="2.8675001" />
+    <line
+       style="stroke:#666666;stroke-width:0.0111803;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line45649"
+       y2="4.9650002"
+       x2="4.6500001"
+       y1="2.9649999"
+       x1="4.6500001" />
+    <line
+       style="stroke:#666666;stroke-width:0.005;stroke-dasharray:0.005,0.01000006;stroke-dashoffset:0"
+       id="line45957"
+       y2="3.6899998"
+       x2="3.6935356"
+       y1="2.7999997"
+       x1="3.6935356" />
+    <text
+       id="text46713"
+       class="above"
+       y="2.7448454"
+       x="4.0478721"
+       style="font-size:0.126667px">600±50mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.005;stroke-dasharray:0.005,0.00999994;stroke-dashoffset:0"
+       id="line47595"
+       y2="2.9627557"
+       x2="4.6500006"
+       y1="2.9627557"
+       x1="3.9649999" />
+    <text
+       id="text47601"
+       class="above"
+       y="-4.7392769"
+       x="4.0666094"
+       transform="rotate(90)"
+       style="font-size:0.126667px">2000±50mm</text>
+    <line
+       style="stroke:#666666;stroke-width:0.005;stroke-dasharray:0.005,0.01000006;stroke-dashoffset:0"
+       id="line47607"
+       y2="3.6899998"
+       x2="4.2364645"
+       y1="2.7999997"
+       x1="4.2364645" />
+    <line
+       style="stroke:#666666;stroke-width:0.005;stroke-dasharray:0.005, 0.00999994;stroke-dashoffset:0"
+       id="line47629"
+       y2="4.96276"
+       x2="4.6500006"
+       y1="4.96276"
+       x1="3.9649999" />
+    <line
+       style="stroke:#666666;stroke-width:0.00338501;marker-start:url(#dimension-arrow-head-start);marker-end:url(#dimension-arrow-head-end)"
+       id="line45653"
+       y2="2.8"
+       x2="4.2400002"
+       y1="2.8"
+       x1="3.6900003" />
+    <g
+       id="g1136"
+       transform="translate(0.14768887,0.05666237)">
+      <line
+         style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.0599999, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+         id="line1122"
+         y2="8.4551086"
+         x2="5.3023109"
+         y1="8.4551086"
+         x1="4.8023109" />
+      <line
+         style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.0599999, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+         id="line1124"
+         y2="8.9339104"
+         x2="5.3023109"
+         y1="8.9339104"
+         x1="4.8023109" />
+      <line
+         style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.0599999, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+         id="line1128"
+         y2="8.9439106"
+         x2="4.8123112"
+         y1="8.4439106"
+         x1="4.8123112" />
+      <line
+         style="stroke:#969696;stroke-width:0.02;stroke-dasharray:0.0599999, 0.02;stroke-dashoffset:0;stroke-opacity:1"
+         id="line1130"
+         y2="8.9451084"
+         x2="5.2923107"
+         y1="8.4451084"
+         x1="5.2923107" />
     </g>
     <g
-       transform="translate(1.2 8)"
-       id="legend">
-      <g
-         id="g332"
-         transform="translate(0 0)">
-        <use
-           id="use328"
-           transform="scale(0.5)"
-           xlink:href="#start-zone-with-robot" />
-        <text
-           id="text330"
-           class="legend-label"
-           y="0"
-           x="0.5">Robot starting area</text>
-      </g>
-      <g
-         id="g338"
-         transform="translate(0 0.75)">
-        <use
-           id="use334"
-           transform="scale(3)"
-           xlink:href="#can" />
-        <text
-           id="text336"
-           class="legend-label"
-           y="0"
-           x="0.5">Can (Correct orientation)</text>
-      </g>
-      <g
-         id="g338"
-         transform="translate(0 1.5)">
-        <use
-           id="use334"
-           transform="scale(3)"
-           xlink:href="#can-upside-down" />
-        <text
-           id="text336"
-           class="legend-label"
-           y="0"
-           x="0.5">Can (Upside-down)</text>
-      </g>
-      <g
-         id="g344"
-         transform="translate(4 0)">
-        <rect
-           id="rect340"
-           height="0.5"
-           width="0.5"
-           y="-0.25"
-           x="-0.25"
-           class="platform" />
-        <text
-           id="text342"
-           class="legend-label"
-           y="0"
-           x="0.5">Raised platform</text>
-      </g>
-      <g
-         id="g350"
-         transform="translate(4 0.75)">
-        <use
-           id="use346"
-           transform="scale(0.417)"
-           xlink:href="#zone" />
-        <text
-           id="text348"
-           class="legend-label"
-           y="0"
-           x="0.5">Scoring zone</text>
-      </g>
+       id="g1145"
+       transform="translate(0.06834975,0.05798865)">
+      <rect
+         id="rect340"
+         height="0.1833"
+         width="0.1833"
+         y="7.8299999"
+         x="5.04"
+         class="platform"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.3666" />
+      <rect
+         id="rect1138"
+         height="0.025"
+         width="0.66667002"
+         y="7.9091501"
+         x="4.798315"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.107583" />
+      <rect
+         id="rect1140"
+         height="0.66667002"
+         width="0.025"
+         y="7.588315"
+         x="5.1191502"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.107583" />
     </g>
   </g>
 </svg>
