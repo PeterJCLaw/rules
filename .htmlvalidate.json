@@ -4,6 +4,7 @@
   ],
 
   "rules": {
-    "no-implicit-close": "off"
+    "no-implicit-close": "off",
+    "wcag/h30": "off"
   }
 }
