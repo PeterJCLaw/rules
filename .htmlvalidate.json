@@ -1,0 +1,10 @@
+{
+  "extends": [
+      "html-validate:recommended"
+  ],
+
+  "rules": {
+    "no-implicit-close": "off",
+    "wcag/h30": "off"
+  }
+}

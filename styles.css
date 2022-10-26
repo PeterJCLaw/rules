@@ -45,3 +45,7 @@ img {
 #header img {
     margin: 0;
 }
+
+span.monospace {
+    font-family: monospace;
+}

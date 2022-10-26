@@ -5,8 +5,9 @@ jobs:
             - image: node
         steps:
             - checkout
-            - run: npm install -g inliner
-            - run: 'inliner rules.html > rulebook.html'
+            - run: npm install
+            - run: npm run validate
+            - run: npm run build
             - store_artifacts:
                 path: rulebook.html
                 destination: rulebook.html

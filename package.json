@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "inliner rules.html > rulebook.html",
+    "validate": "npm run spell-check && npm run html-validate",
+    "html-validate": "html-validate rules.html",
+    "spell-check": "cspell"
+  },
+  "dependencies": {
+    "cspell": "5.18.5",
+    "html-validate": "^7.7.1",
+    "inliner": "^1.13.1"
+  }
+}
